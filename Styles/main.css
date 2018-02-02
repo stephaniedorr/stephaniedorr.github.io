@@ -1,6 +1,5 @@
 
 
-/*--------------General Styling ----------*/
 
 
 
@@ -8,45 +7,39 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-family: raleway;
-  font-style: regular;
-  font-size: 48px;
-  letter-spacing: 0.78;
-}
-
-h2 {
-  font-family: raleway;
-  font-style: regular;
-  font-size: 36px;
-  letter-spacing: 0.58;
-}
 
 
 /* -----------Navigation Bar -------------*/
 #nav-section {
+  display: flex;
   overflow: hidden;
   background-color: white;
-  position: fixed; 
-  top: 0; 
+  position: fixed;
+  top: 0;
   width: 100%; 
-  height:210px;
-  z-index: 99;
+  height:130px;
+}
+
+#logo {
+  flex: 1;
 }
 
 #logo img {
   width: 65px;
   height: 65px;
-  margin-left: 20px;
   margin-top: 30px;
+  margin-left:60px;
+}
+
+#empty {
+  flex: 1;
 }
 
 #navbar-links {
+  flex: 1;
   list-style-type: none;
-  float: right;
-  margin-top: 30px;
+  padding-top: 30px;
 }
-
 
 #navbar-links > ul > li > a {
   font-family: raleway;
@@ -56,10 +49,9 @@ h2 {
   font-size: 24px;
 }
 
-#navbar-links > ul > li {
+#navbar-links ul > li {
   display: inline-block;
-  padding: 0px 30px 0 10px;
-  z-index: 99;
+  padding-left: 20px;
 }
 
 
@@ -67,53 +59,110 @@ h2 {
 
 #introduce-myself {
   margin-top: 140px;
-  margin-left: 120px;
+  margin-left: 60px;
   margin-bottom: 60px;
   text-align: left;
 }
 
 #introduce-myself h1 {
   font-family: raleway;
-  font-style: regular;
+  font-weight: 400;
   font-size: 48px;
-  margin-left: 130px;
+  margin-left: 210px;
   letter-spacing: 0.78px;
 }
 
 #introduce-myself h2 {
   font-family: raleway;
-  font-style: regular;
+  font-weight: 300;
   font-size: 36px;
-  line-height: 42px;
-  margin-left: 130px;
+  line-height: 45px;
+  margin-left: 210px;
   letter-spacing: 0.58px;
 }
 
-/* -----------Pet Port Hero Section ----------*/
+/* -----------Pet Port Hero Section  (using flexbox)----------*/
+/* NEED HELP WITH THE SPACING HERE */
 
 
-img {
-  float: left;
-  height: 450px;
-  margin-left: 10%;
-  margin-top: 50px;
-}
-
+/* Pet Port main parent container */
 #pet-port-hero {
+  display: flex;
   height: 550px;
-  width: 100%;
-  background-color: #56BDE8;
+  /*background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);*/
 } 
 
+/* left side of main parent container */
+#pet-port-hero-image-column {
+  flex: 1;
+  margin: 0;
+  background-color: yellow;
+}
 
-#button {
-  width: 175px;
+#pet-port-hero-image-column  img {
+  height: 500px;  
+  padding-top: 25px;
+  padding-right: 10px;
+  float: right;
+}
+
+/* right side of main parent container */
+/* also parent container for hero headline and button */
+#pet-port-second {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: pink;
+}
+
+/* first child of the second column */
+#pet-port-headline {
+  flex: 1;
+}
+
+#pet-port-hero h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 300;
+  font-size: 48px;
+  letter-spacing: 0.78 
+}
+
+#pet-port-description h1 {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.78px;
+  padding-left: 25px;
+}
+
+#pet-port-description p {
+  font-family: raleway;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.58
+}
+
+/* second child of the second column */
+#pet-port-description {
+  flex: 1;
+}
+
+/* third child of the second column */
+#pet-port-button {
+  flex: 1;
+  margin: 0;
+}
+
+#pet-port-second button {
+  width: 170px;
   height: 44.11px;
   border-radius: 10px;
   border: none;
-  font-family: raleway;
+  font-family: cabin;
   font-size: 14px;
-  font-style: bold;
+  font-weight:400;
   color: #FFFFFF;
   background-color: #EC1C2E;
 }
@@ -121,46 +170,162 @@ img {
 
 
 /* --------Why Me section --------------*/
+
+/* NEED TO LEFT JUSTIFY TEXT */ 
+
+
 #why-me {
-  width: 568px;
-  height: 209px;
-  margin-left: 228px;
-  margin-top: 1109px;
-}
-
-
-/*---------------Toolbox section ---------------*/
-
-#toolbox {
   display: flex;
-  background: white;
-  justify-content: center;
-
+  flex-direction: column;
+  height: 250px; 
+  margin: 0px;
+  padding-bottom: 35px;
 }
 
-#toolbox ul {
-  padding: 1em;
-  margin: 1em;
-  background: white;
+#why-me-headline {
+  flex: 1;
+  margin: 0px;
 }
 
-#toolbox ul li {
-  list-style: none;
+#why-me-description {
+  flex: 1;
+  margin: 0px;
+}
+
+#why-me-headline h1 {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.78px;
+  margin: 0px;
+  padding-top: 65px;
   text-align: center;
 }
 
-#toolbox svg {
-  width: 20%;
+#why-me h2 {
+  font-family: raleway;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.58px;
+  text-align: center;
 }
 
+/*---------------Toolbox section ---------------*/
+#toolbox {
+  display: flex;
+  margin-bottom: 65px;
+  font-family: raleway;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.58
+}
+
+li {
+  list-style: none;
+}
+
+#toolboxempty1 {
+  flex: 1;
+}
+
+#skills {
+  flex: 1;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#tools {
+  flex: 1;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#toolboxempty2 {
+  flex: 1;
+}
+
+#lightbulb {
+  height: 79px;
+  width: 66px;
+}
+
+#wrenches {
+  height: 79px;
+  width: 66px;
+}
 
 /*----------------Footer section -------------------*/
 
-#footer-main {
+#footer-section {
   display: flex;
+  background-color: #7D8080;
   height: 220px;
-  background: rgb(125,128,128);
 }
+#footer-empty1 {
+  flex:1;
+}
+#footer-nav {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+#footer-empty2 {
+  flex: 1;
+}
+
+#footer-links {
+  flex: 1;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#footer-icons {
+  flex: 1;
+  text-align: center;
+}
+
+#copyright {
+  flex: 1;
+  text-align: center;
+}
+
+#copyright p {
+  font-family: cabin;
+  color: #F2F5F5;
+  font-size: 10px;
+  padding-top: 20px;
+}
+
+#footer-links > ul > li > a {
+  font-family: raleway;
+  color: #FFFFFF;
+  letter-spacing: .058;
+  font-style: regular;
+  font-size: 24px;
+  text-align: center;
+}
+
+#footer-nav ul > li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#footer-icons ul>li {
+  display: inline-block;
+}
+
+.fa {
+  color: #FFFFFF;
+  font-size: 48px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+
+
+
 
 
 

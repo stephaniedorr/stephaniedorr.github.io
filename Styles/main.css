@@ -1,0 +1,360 @@
+
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* -----------Navigation Bar -------------*/
+#nav-section {
+  display: flex;
+  overflow: hidden;
+  background-color: #f2f5f5;
+  opacity:0.90;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  height:130px;
+}
+
+#logo {
+  flex: 1;
+}
+
+#logo img {
+  width: 65px;
+  height: 65px;
+  margin-top: 30px;
+  margin-left:70px;
+}
+
+#empty {
+  flex: .5;
+}
+
+#navbar-links {
+  flex: 1;
+  list-style-type: none;
+  padding-top: 40px;
+}
+
+#navbar-links > ul > li > a {
+  font-family: raleway;
+  color: #333333;
+  letter-spacing: .058;
+  font-style: regular;
+  font-size: 20px;
+}
+
+#navbar-links ul > li {
+  display: inline-block;
+  padding-left: 20px;
+
+}
+
+
+/* ----------Introduce Myself section ----*/
+
+#introduce-myself {
+  margin-top: 240px;
+  margin-left: 60px;
+  margin-bottom: 150px;
+  text-align: left;
+}
+
+#introduce-myself h1 {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 48px;
+  margin-left: 120px;
+  letter-spacing: 0.78px;
+}
+
+#introduce-myself h2 {
+  font-family: raleway;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 45px;
+  margin-left: 120px;
+  letter-spacing: 0.58px;
+}
+
+/* -----------Pet Port Hero Section  (using flexbox)----------*/
+/* NEED HELP WITH THE SPACING HERE */
+
+
+/* Pet Port main parent container */
+#pet-port-hero {
+  display: flex;
+  height: 550px;
+  background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
+  margin-bottom: 65px;
+} 
+
+/* left side of main parent container */
+#pet-port-hero-image-column {
+  flex: 1;
+  margin: 0;
+  justify-content: flex-end;
+  padding: 0 10% 0 0;
+}
+
+#pet-port-hero-image-column  img {
+  height: 500px;  
+  padding-top: 25px;
+  padding-right: 10px;
+  float: right;
+  padding-right: 50px;
+}
+
+/* right side of main parent container */
+/* also parent container for hero headline and button */
+#pet-port-second {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  padding: 0 0 0 0%;
+}
+
+/* first child of the second column */
+#pet-port-headline {
+  flex: 1;
+}
+
+#pet-port-hero h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 300;
+  font-size: 48px;
+  margin: 0;
+  padding-top: 99px;
+}
+
+#pet-port-description h1 {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.78px;
+  
+}
+
+#pet-port-description p {
+  font-family: raleway;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+
+}
+
+/* second child of the second column */
+#pet-port-description {
+  flex: 1;
+  text-align: center;
+}
+
+/* third child of the second column */
+#pet-port-button {
+  flex: 1;
+  margin: 0;
+  padding-top: 10px;
+}
+
+#hero-empty1 {
+  flex: .25;
+}
+
+#hero-empty2 {
+  flex:.25;
+}
+
+#pet-port-second button {
+  width: 170px;
+  height: 44.11px;
+  border-radius: 10px;
+  border: none;
+  font-family: cabin;
+  font-size: 14px;
+  font-weight:400;
+  color: #FFFFFF;
+  background-color: #EC1C2E;
+}
+
+
+
+/* --------Why Me section --------------*/
+
+/* NEED TO LEFT JUSTIFY TEXT */ 
+
+
+#why-me {
+  display: flex;
+  flex-direction: column;
+  height: 250px; 
+  margin: 0px;
+  padding-bottom: 35px;
+}
+
+#why-me-headline {
+  flex: 1;
+  margin: 0px;
+}
+
+#why-me-description {
+  flex: 1;
+  margin: 0px;
+}
+
+#why-me-headline h1 {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.78px;
+  margin: 0px;
+  padding-top: 65px;
+  text-align: center;
+}
+
+#why-me h2 {
+  font-family: raleway;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.58px;
+  text-align: center;
+}
+
+/*---------------Toolbox section ---------------*/
+#toolbox {
+  display: flex;
+  margin-bottom: 65px;
+  font-family: raleway;
+  font-size: 2opx;
+  font-weight: 300;
+  letter-spacing: 0.58
+}
+
+li {
+  list-style: none;
+  margin: 0;
+}
+
+#toolboxempty1 {
+  flex: .5;
+}
+
+#skills {
+  flex: 1;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+#tools {
+  flex: 1;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+#toolboxempty2 {
+  flex: .5;
+}
+
+#lightbulb {
+  height: 79px;
+  width: 66px;
+  padding-left: 50px;
+}
+
+#wrenches {
+  height: 79px;
+  width: 66px;
+  padding-left: 50px;
+}
+
+/*----------------Footer section -------------------*/
+
+#footer-section {
+  display: flex;
+  background-color: #7d8080;
+  height: 200px;
+}
+#footer-empty1 {
+  flex:1;
+}
+#footer-nav {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+#footer-empty2 {
+  flex: 1;
+}
+
+#footer-links {
+  flex: 1;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#footer-icons {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+#copyright {
+  flex: 1;
+  text-align: center;
+  padding-left: 20px;
+}
+
+#copyright p {
+  font-family: cabin;
+  color: #F2F5F5;
+  font-size: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#footer-links > ul > li > a {
+  font-family: raleway;
+  color: #FFFFFF;
+  letter-spacing: .058;
+  font-style: regular;
+  font-size: 18px;
+  text-align: center;
+}
+
+#footer-nav ul > li {
+  display: inline-block;
+  padding-left: 10px;
+ 
+}
+
+#footer-icons>ul {
+  margin: 0;
+}
+
+#footer-icons ul>li {
+  display: inline-block;
+}
+
+.fa {
+  color:#FFFFFF;
+  font-size: 36px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+
+
+
+
+
+

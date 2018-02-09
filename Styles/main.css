@@ -13,8 +13,8 @@ a {
 #nav-section {
   display: flex;
   overflow: hidden;
-  background-color: #f2f5f5;
-  opacity:0.90;
+  background-color: #fFFFFF;
+  opacity:0.85;
   position: fixed;
   top: 0;
   width: 100%; 
@@ -60,25 +60,36 @@ a {
 /* ----------Introduce Myself section ----*/
 
 #introduce-myself {
-  margin-top: 240px;
+  width: 100%
+  height: 850px;
+  margin-top: 250px;
+  
+  /*margin-top: 240px;
   margin-left: 60px;
   margin-bottom: 150px;
-  text-align: left;
+  text-align: left;*/
 }
 
-#introduce-myself h1 {
+
+#intro-words {
+  margin-top: -200px;
+  margin-bottom: 200px;
+}
+
+#intro-words h1 {
+  margin: 0;
   font-family: raleway;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 48px;
   margin-left: 120px;
   letter-spacing: 0.78px;
 }
 
-#introduce-myself h2 {
+#intro-words h2 {
   font-family: raleway;
   font-weight: 300;
-  font-size: 36px;
-  line-height: 45px;
+  font-size: 24px;
+  line-height: 32px;
   margin-left: 120px;
   letter-spacing: 0.58px;
 }
@@ -90,9 +101,11 @@ a {
 /* Pet Port main parent container */
 #pet-port-hero {
   display: flex;
-  height: 550px;
+  height: 700px;
   background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
   margin-bottom: 65px;
+  margin-top: -10px;
+
 } 
 
 /* left side of main parent container */
@@ -100,15 +113,15 @@ a {
   flex: 1;
   margin: 0;
   justify-content: flex-end;
-  padding: 0 10% 0 0;
+  padding: 0 0 0 0;
 }
 
 #pet-port-hero-image-column  img {
   height: 500px;  
-  padding-top: 25px;
-  padding-right: 10px;
+  padding-top:100px;
+  padding-right: 0px;
   float: right;
-  padding-right: 50px;
+  padding-right: 40px;
 }
 
 /* right side of main parent container */
@@ -119,7 +132,7 @@ a {
   flex-direction: column;
   margin: 0;
   align-items: center;
-  padding: 0 0 0 0%;
+  padding: 0 100px 0 0%;
 }
 
 /* first child of the second column */
@@ -132,7 +145,7 @@ a {
   font-weight: 300;
   font-size: 48px;
   margin: 0;
-  padding-top: 99px;
+  padding-top: 175px;
 }
 
 #pet-port-description h1 {
@@ -165,11 +178,11 @@ a {
 }
 
 #hero-empty1 {
-  flex: .25;
+  flex: .10;
 }
 
 #hero-empty2 {
-  flex:.25;
+  flex:.10;
 }
 
 #pet-port-second button {
@@ -196,7 +209,7 @@ a {
   flex-direction: column;
   height: 250px; 
   margin: 0px;
-  padding-bottom: 35px;
+  padding-bottom: 15px;
 }
 
 #why-me-headline {
@@ -230,13 +243,28 @@ a {
 
 /*---------------Toolbox section ---------------*/
 #toolbox {
-  display: flex;
-  margin-bottom: 65px;
+  height: 600px;
+  margin-bottom: 45px;
   font-family: raleway;
-  font-size: 2opx;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 0.58
 }
+
+#toolbox-image {
+  display: block;
+  margin: 0 auto 0 auto;
+  height: 545px;
+  padding-top: 40px;
+
+
+}
+
+/*#toolbox img {
+  height: 600px;
+  padding-top: 40px;
+
+}*/
 
 li {
   list-style: none;
@@ -244,7 +272,7 @@ li {
 }
 
 #toolboxempty1 {
-  flex: .5;
+  flex: .25;
 }
 
 #skills {
@@ -262,7 +290,7 @@ li {
 }
 
 #toolboxempty2 {
-  flex: .5;
+  flex: .25;
 }
 
 #lightbulb {

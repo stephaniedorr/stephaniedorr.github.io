@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 
@@ -8,8 +9,8 @@ a {
 #nav-section {
   display: flex;
   overflow: hidden;
-  background-color: #f2f5f5;
-  opacity:0.90;
+  background-color: #fFFFFF;
+  opacity:0.85;
   position: fixed;
   top: 0;
   width: 100%; 
@@ -35,6 +36,8 @@ a {
   flex: 1;
   list-style-type: none;
   padding-top: 40px;
+  padding-left: 60px
+  ;
 }
 
 #navbar-links > ul > li > a {
@@ -43,6 +46,10 @@ a {
   letter-spacing: .058;
   font-style: regular;
   font-size: 20px;
+}
+
+#navbar-links > ul > li > a:hover {
+  color: #1F9ACE;
 }
 
 #navbar-links ul > li {
@@ -179,14 +186,6 @@ button {
 
 
 
-
-
-
-
-
-
-
-
 /*----------------Footer section -------------------*/
 
 #footer-section {
@@ -241,6 +240,10 @@ button {
   text-align: center;
 }
 
+#footer-links > ul > li > a:hover {
+  color: #333333;
+}
+
 #footer-nav ul > li {
   display: inline-block;
   padding-left: 10px;
@@ -262,6 +265,9 @@ button {
   padding-right: 2px;
 }
 
+.fa:hover {
+  color: #333333;
+}
 
 
 

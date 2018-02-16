@@ -1,22 +1,17 @@
-body {
-  font-family: raleway;
-  margin: 0;
-  padding: 0;
-}
-
-
 a {
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 
 
-/* -----------Navigation Bar -------------*/
+/* -----NAVIGATION SECTION -----*/
+
 #nav-section {
   display: flex;
   overflow: hidden;
-  background-color: #f2f5f5;
-  opacity:0.90;
+  background-color: #fFFFFF;
+  opacity:0.85;
   position: fixed;
   top: 0;
   width: 100%; 
@@ -42,6 +37,8 @@ a {
   flex: 1;
   list-style-type: none;
   padding-top: 40px;
+  padding-left: 60px
+  ;
 }
 
 #navbar-links > ul > li > a {
@@ -52,24 +49,27 @@ a {
   font-size: 20px;
 }
 
+#navbar-links > ul > li > a:hover {
+  color: #1F9ACE;
+}
+
 #navbar-links ul > li {
   display: inline-block;
   padding-left: 20px;
 
 }
 
-/* --------------Pet Port Hero ----------------*/
+/* -----END NAVIGATION SECTION -----*/
 
-/* -----------Pet Port Hero Section  (using flexbox)----------*/
-/* NEED HELP WITH THE SPACING HERE */
+/* -----PET PORT HERO SECTION -----*/
 
-
-/* Pet Port main parent container */
 #pet-port-hero {
   display: flex;
-  height: 550px;
+  height: 700px;
   background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
-  margin: 135px 0 65px 0;
+  /*margin-bottom: 65px;*/
+  margin-top: 130px;
+
 } 
 
 /* left side of main parent container */
@@ -77,15 +77,15 @@ a {
   flex: 1;
   margin: 0;
   justify-content: flex-end;
-  padding: 0 10% 0 0;
+  padding: 0 0 0 0;
 }
 
 #pet-port-hero-image-column  img {
   height: 500px;  
-  padding-top: 25px;
-  padding-right: 10px;
+  padding-top:100px;
+  padding-right: 0px;
   float: right;
-  padding-right: 50px;
+  padding-right: 40px;
 }
 
 /* right side of main parent container */
@@ -96,7 +96,7 @@ a {
   flex-direction: column;
   margin: 0;
   align-items: center;
-  padding: .5% 0 0 0%;
+  padding: 0 100px 0 0%;
 }
 
 /* first child of the second column */
@@ -109,7 +109,7 @@ a {
   font-weight: 300;
   font-size: 48px;
   margin: 0;
-  padding-top: 99px;
+  padding-top: 175px;
 }
 
 #pet-port-description h1 {
@@ -125,7 +125,10 @@ a {
   font-weight: 300;
   font-size: 24px;
   line-height: 30px;
+}
 
+button:hover  {
+  opacity: 0.5; 
 }
 
 /* second child of the second column */
@@ -142,11 +145,11 @@ a {
 }
 
 #hero-empty1 {
-  flex: .5;
+  flex: .10;
 }
 
 #hero-empty2 {
-  flex:.5;
+  flex:.10;
 }
 
 #pet-port-second button {
@@ -161,14 +164,354 @@ a {
   background-color: #EC1C2E;
 }
 
+/* ----- END PET PORT HERO SECTION -----*/
+
+#summary {
+  display: flex;
+  height: 500px;
+  font-family: raleway;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 65px 0px 65px 0px;
+}
+
+  h3 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.58px;
+  margin: 0px;
+  /*padding-bottom: 20px;*/
+}
+
+#summary li {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+
+#tools-used {
+  flex:1;
+  text-align: center;
+  border-right: 1px solid #7D8080;
+}
+
+#my-role {
+  flex:1;
+  text-align: center;
+  border-right: 1px solid #7D8080;
+}
+
+#deliverables {
+  flex:1;
+  text-align: center;
+}
+
+#box {
+  height: 79px;
+  width: 50px;
+}
+
+#girl {
+  height: 79px;
+  width: 50px;
+}
+
+#wrenches {
+  height: 79px;
+  width: 60px;
+}
+
+/* ----- END SUMMARY SECTION -----*/
+
+/* -----CHALLENGE/SOLUTION SECTION -----*/
+
+#challenge-solution-section {
+  display: flex;
+  flex-direction: column;
+  height: 950px;
+  font-family: raleway;
+  background-color: #F2F5F5;
+}
+
+#challenge-solution-section h4 {
+  font-family: raleway;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: 0.58px;
+}
 
 
-.container:after,
-.row:after,
-.u-cf {
-  content: "";
-  display: table;
-  clear: both; }
+#challenge {
+  margin-top: 65px;
+  flex:1;
+  text-align: center;
+}
+
+#bow {
+  height: 79px;
+  width: 60px;
+}
+
+#solution {
+  flex:1;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+#lightbulb {
+  height: 79px;
+  width: 50px;
+  margin-top: 30px;
+}
+
+/* ----- END CHALLENGE SOLUTION SECTION -----*/
+
+/* -----  RESEARCH SECTION -----*/
+
+#research-section {
+  display: flex;
+  flex-direction: column;
+  font-family: raleway;
+  height: 850px;
+  /*margin-bottom: 75px;*/
+}
+
+
+#know-users {
+  flex: 1;
+  text-align: center;
+  padding-top: 75px;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 50px;
+}
+
+.textcontainer {
+  text-align: center;
+}
+
+.textcontainer p {
+  display: inline-block;
+  text-align: left;
+}
+
+.textcontainer ul {
+  display: inline-block;
+  text-align: left;
+} 
+
+#know-users h3 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.58px;
+}
+
+#research-text {
+  flex: 1;
+}
+
+#research-text p {
+  font-weight: 200;
+  font-size: 24px;
+  letter-spacing: 0.58px;
+  line-height: 30px;
+}
+
+#research-list {
+  flex: 1;
+}
+
+#research-list li {
+  font-weight: 200;
+  font-size: 24px;
+  list-style-type: none;
+  padding: 3px;
+}
+
+/* -----  END RESEARCH SECTION -----*/
+
+/* ----- STATISTICS SECTION -----*/
+
+#statistics {
+  height: 525px;
+  background-image: url(/assets/images/statistics-chart.jpg);
+  padding-top: 65px;
+}
+
+#statistics li {
+  font-family: raleway;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 20px;
+  list-style-type: disc;
+}
+
+#moneybag {
+  height: 79px;
+  width: 59px;
+
+}
+
+/* ----- END STATISTIC SECTION -----*/
+
+/* ----- BOTTOM LINE -----*/
+
+#bottom-line {
+  height: 375px;
+  font-family: raleway;
+  background-color: #56BDE8;
+}
+
+#bottom-line p {
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+#bottom-line-image {
+  text-align: center;
+  padding-top: 35px;
+}
+
+#moneybag {
+  height: 79px;
+  width: 50px;
+}
+
+/* ----- END BOTTOM LINE SECTION -----*/
+
+/* ----- PERSONAS SECTION -----*/
+
+#persona-section {
+  display: flex;
+  flex-direction: column;
+  height: 880px;
+  text-align: center;
+}
+
+#persona-text {
+  flex:1;
+}
+
+#persona-image {
+  flex: 1;
+}
+
+#icon {
+  height: 79px;
+  width: 79px; 
+  padding-top: 65px;
+}
+
+#personas {
+  width: 100%;
+  padding-top: 30px;
+}
+
+#persona-text h3 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.58px;
+}
+
+#persona-text h4 {
+  font-family: raleway;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+/* ----- END PERSONAS SECTION -----*/
+
+/* ----- FOOTER SECTION -----*/
+
+#footer-section {
+  display: flex;
+  background-color: #7d8080;
+  height: 200px;
+}
+#footer-empty1 {
+  flex:1;
+}
+#footer-nav {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+#footer-empty2 {
+  flex: 1;
+}
+
+#footer-links {
+  flex: 1;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#footer-icons {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
+
+#copyright {
+  flex: 1;
+  text-align: center;
+  padding-left: 20px;
+}
+
+#copyright p {
+  font-family: cabin;
+  color: #F2F5F5;
+  font-size: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#footer-links > ul > li > a {
+  font-family: raleway;
+  color: #FFFFFF;
+  letter-spacing: .058;
+  font-style: regular;
+  font-size: 18px;
+  text-align: center;
+}
+
+#footer-links > ul > li > a:hover {
+  color: #333333;
+}
+
+#footer-nav ul > li {
+  display: inline-block;
+  padding-left: 10px;
+ 
+}
+
+#footer-icons>ul {
+  margin: 0;
+}
+
+#footer-icons ul>li {
+  display: inline-block;
+}
+
+.fa {
+  color:#FFFFFF;
+  font-size: 36px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.fa:hover {
+  color: #333333;
+}
+
+/* ----- END FOOTER SECTION -----*/
 
 
 

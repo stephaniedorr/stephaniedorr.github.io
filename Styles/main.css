@@ -6,7 +6,9 @@ a {
 }
 
 
-/* -----------Navigation Bar -------------*/
+
+/* -----NAVIGATION SECTION -----*/
+
 #nav-section {
   display: flex;
   overflow: hidden;
@@ -58,6 +60,9 @@ a {
   padding-left: 20px;
 
 }
+
+/* ----- END NAVIGATION SECTION -----*/
+
 
 
 

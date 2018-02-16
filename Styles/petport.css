@@ -277,7 +277,7 @@ p {
   display: flex;
   flex-direction: column;
   font-family: raleway;
-  height: 850px;
+  height: 750px;
   /*margin-bottom: 75px;*/
 }
 
@@ -343,6 +343,8 @@ p {
   height: 525px;
   background-image: url(/assets/images/statistics-chart.jpg);
   padding-top: 65px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #statistics li {
@@ -401,6 +403,8 @@ p {
 
 #persona-image {
   flex: 1;
+  padding-top: 25px;
+  padding-bottom: 65px;
 }
 
 #icon {
@@ -426,7 +430,30 @@ p {
   font-size: 24px;
 }
 
+#persona-text p {
+  font-family: raleway;
+  font-size: 24px;
+  font-weight: 200;
+}
+
 /* ----- END PERSONAS SECTION -----*/
+
+/* ----- BRAND SECTION -----*/
+
+#brand-section {
+  height: 750px;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  widows: 60px;
+}
+
+
+
+
+
+/* ----- END BRAND SECTION -----*/
 
 /* ----- FOOTER SECTION -----*/
 

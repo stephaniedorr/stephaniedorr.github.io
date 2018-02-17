@@ -279,7 +279,6 @@ p {
   flex-direction: column;
   font-family: raleway;
   height: 800px;
-  /*margin-bottom: 75px;*/
 }
 
 
@@ -355,8 +354,7 @@ p {
 
 #statistics {
   height: 375px;
-  /* use this code on github: background-image: url(/assets/images/statistics-chart.jpg);*/
-  background-image: url(/Users/stephaniedorr/portfolio/assets/images/statistics-chart.jpg);
+  background-image: url(assets/images/statistics-chart.jpg);
   padding-top: 65px;
   padding-bottom: 175px;
   background-repeat: no-repeat;
@@ -427,7 +425,7 @@ p {
 }
 
 #personas {
-  width: 100%;
+  max-width: 1200px;
   padding-top: 30px;
 }
 

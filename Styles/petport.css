@@ -180,7 +180,7 @@ button:hover  {
   font-size: 24px;
   letter-spacing: 0.58px;
   margin: 0px;
-  /*padding-bottom: 20px;*/
+  padding-bottom: 20px;
 }
 
 #summary li {
@@ -220,6 +220,7 @@ button:hover  {
   height: 79px;
   width: 60px;
 }
+
 
 /* ----- END SUMMARY SECTION -----*/
 
@@ -277,7 +278,7 @@ p {
   display: flex;
   flex-direction: column;
   font-family: raleway;
-  height: 750px;
+  height: 800px;
   /*margin-bottom: 75px;*/
 }
 
@@ -335,30 +336,40 @@ p {
   padding: 3px;
 }
 
+#questions-asked {
+  flex:1;
+  padding-bottom: 65px;
+}
+
+#questions-asked p {
+  margin: 0px;
+  text-align: center;
+  line-height: 35px;
+  color: #4293b5;
+  font-weight: 600;
+}
+
 /* -----  END RESEARCH SECTION -----*/
 
 /* ----- STATISTICS SECTION -----*/
 
 #statistics {
-  height: 525px;
-  background-image: url(/assets/images/statistics-chart.jpg);
+  height: 375px;
+  /* use this code on github: background-image: url(/assets/images/statistics-chart.jpg);*/
+  background-image: url(/Users/stephaniedorr/portfolio/assets/images/statistics-chart.jpg);
   padding-top: 65px;
+  padding-bottom: 175px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #statistics li {
   font-family: raleway;
+  color: #FFFFFF;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   padding: 20px;
   list-style-type: disc;
-}
-
-#moneybag {
-  height: 79px;
-  width: 59px;
-
 }
 
 /* ----- END STATISTIC SECTION -----*/
@@ -384,6 +395,7 @@ p {
 #moneybag {
   height: 79px;
   width: 50px;
+  padding-top: 25px;
 }
 
 /* ----- END BOTTOM LINE SECTION -----*/
@@ -393,8 +405,9 @@ p {
 #persona-section {
   display: flex;
   flex-direction: column;
-  height: 880px;
+  height: 925px;
   text-align: center;
+  margin-bottom: 65px;
 }
 
 #persona-text {
@@ -419,6 +432,7 @@ p {
 }
 
 #persona-text h3 {
+  font-family: raleway;
   font-weight: 600;
   font-size: 24px;
   letter-spacing: 0.58px;
@@ -434,14 +448,20 @@ p {
   font-family: raleway;
   font-size: 24px;
   font-weight: 200;
+  margin: 0px;
+  padding-bottom: 35px;
 }
 
 /* ----- END PERSONAS SECTION -----*/
 
 /* ----- BRAND SECTION -----*/
 
+/* put this in a flex box*/
+
 #brand-section {
-  height: 750px;
+  height: 755px;
+  text-align: center;
+  margin-top: 85px;
 }
 
 #brand-paintbrush {
@@ -449,11 +469,80 @@ p {
   widows: 60px;
 }
 
+#brand-traits {
+  height: 350;
+  height: 350px;
+  padding-top: 35px;
+}
+
+#brand-section h4 {
+  font-family: raleway;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+#brand-section h3 {
+  font-family: raleway;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.58px;
+}
 
 
-
+#brand-section p {
+  font-family: raleway;
+  font-size: 24px;
+  font-weight: 200;
+  margin: 0px;
+}
 
 /* ----- END BRAND SECTION -----*/
+
+/* ----- BRAND PSYCHOLOGY -----*/
+
+#psychology-section {
+  height: 1410px;
+  text-align: center;
+  background-color: #F2F5F5;
+}
+
+#paintbucket {
+  height: 89px;
+  width: 50px;
+  padding-top: 65px;
+}
+
+#psychology-section h4 {
+  font-family: raleway;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+#psychology-section h3 {
+  font-family: raleway;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.58px;
+}
+
+
+#psychology-section p {
+  font-family: raleway;
+  font-size: 24px;
+  font-weight: 200;
+  margin: 0px;
+}
+
+#style-guide {
+  height: 575px;
+  width: 600px;
+  padding-top: 45px;
+  padding-bottom: 65px;
+}
+
+
+/* ----- END BRAND PSYCHOLOGY ---*/
+
 
 /* ----- FOOTER SECTION -----*/
 

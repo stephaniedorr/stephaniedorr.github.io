@@ -354,7 +354,7 @@ p {
 
 #statistics {
   height: 375px;
-  background-image: url(assets/images/statistics-chart.jpg);
+  background-image: url(stephaniedorr.github.io/assets/images/statistics-chart.jpg);
   padding-top: 65px;
   padding-bottom: 175px;
   background-repeat: no-repeat;
@@ -426,6 +426,7 @@ p {
 
 #personas {
   max-width: 1200px;
+  min-width: ;
   padding-top: 30px;
 }
 

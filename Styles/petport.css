@@ -399,8 +399,9 @@ button:hover  {
 
 #statistics {
   height: 375px;
- /* background-image: url(/Users/stephaniedorr/portfolio/assets/images/statistics-chart.jpg);*/
-  background-image: url(/assets/images/statistics-chart.jpg);
+  /*background-image: url('/Users/stephaniedorr/portfolio/assets/images/statistics-chart.jpg');*/
+  /*background-image: url(..assets/images/statistics-chart.jpg);*/
+  
   padding-top: 65px;
   padding-bottom: 175px;
   background-repeat: no-repeat;

@@ -12,12 +12,13 @@ a {
 #nav-section {
   display: flex;
   overflow: hidden;
-  background-color: #fFFFFF;
-  opacity:0.85;
+  background-color: #FFFFFF;
+  opacity:0.95;
   position: fixed;
   top: 0;
   width: 100%; 
   height:130px;
+  z-index: 99;
 }
 
 #logo {
@@ -31,16 +32,12 @@ a {
   margin-left:70px;
 }
 
-#empty {
-  flex: .5;
-}
 
 #navbar-links {
   flex: 1;
   list-style-type: none;
   padding-top: 40px;
-  padding-left: 60px
-  ;
+  padding-left: 60px;
 }
 
 #navbar-links > ul > li > a {
@@ -57,9 +54,12 @@ a {
 
 #navbar-links ul > li {
   display: inline-block;
-  padding-left: 20px;
+  padding-left: 10px;
 
 }
+
+@media (max-width: 687px) and (min-width: 401px){
+#nav-section { height: 60px; }}
 
 /* ----- END NAVIGATION SECTION -----*/
 
@@ -69,23 +69,22 @@ a {
 /* ----------Introduce Myself section ----*/
 
 #introduce-myself {
-  background-image: url(/assets/images/portfolio-header.jpg);
-  height: 650px;
+  /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
+  background-image: url(/assets/images/portfolio-header2.jpg);
+  height: 400px;
   margin-top: 120px;
 }
 
-
-
-#intro-text {
-}
+/*#intro-text {
+}*/
 
 #intro-text h1 {
   margin:0;
   font-family: raleway;
   font-size: 48px;
   font-weight: 200;
-  padding-top: 120px;
-  padding-left: 150px;
+  padding-top: 70px;
+  padding-left: 130px;
 }
 
 #intro-text p {
@@ -94,7 +93,7 @@ a {
   font-size: 24px;
   font-weight: 400;
   padding-top: 10px;
-  padding-left: 150px;
+  padding-left: 130px;
   line-height: 31px;
   letter-spacing: 0.58px;
 }
@@ -130,7 +129,6 @@ a {
 }
 
 /* -----------Pet Port Hero Section  (using flexbox)----------*/
-/* NEED HELP WITH THE SPACING HERE */
 
 
 /* Pet Port main parent container */
@@ -367,7 +365,7 @@ li {
 
 #footer-links {
   flex: 1;
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -385,8 +383,8 @@ li {
 
 #copyright p {
   font-family: cabin;
-  color: #F2F5F5;
-  font-size: 10px;
+  color: #AEB3B3;
+  font-size: 8px;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -396,7 +394,7 @@ li {
   color: #FFFFFF;
   letter-spacing: .058;
   font-style: regular;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
 }
 

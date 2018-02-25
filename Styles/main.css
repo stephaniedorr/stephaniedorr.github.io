@@ -54,13 +54,13 @@ a {
 
 #navbar-links ul > li {
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 20px;
 
 }
 
-@media (max-width: 687px) and (min-width: 401px){
+/*@media (max-width: 687px) and (min-width: 401px){
 #nav-section { height: 60px; }}
-
+*/
 /* ----- END NAVIGATION SECTION -----*/
 
 
@@ -71,8 +71,8 @@ a {
 #introduce-myself {
   /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
   background-image: url(/assets/images/portfolio-header2.jpg);
-  height: 400px;
-  margin-top: 120px;
+  height: 500px;
+  margin-top: 130px;
 }
 
 /*#intro-text {
@@ -83,7 +83,7 @@ a {
   font-family: raleway;
   font-size: 48px;
   font-weight: 200;
-  padding-top: 70px;
+  padding-top: 140px;
   padding-left: 130px;
 }
 
@@ -95,7 +95,7 @@ a {
   padding-top: 10px;
   padding-left: 130px;
   line-height: 31px;
-  letter-spacing: 0.58px;
+  letter-spacing: 0.59px;
 }
 
 #header {
@@ -128,16 +128,19 @@ a {
   letter-spacing: 0.58px;
 }
 
-/* -----------Pet Port Hero Section  (using flexbox)----------*/
 
+/* -----PET PORT HERO SECTION -----*/
 
-/* Pet Port main parent container */
+#petport {
+  background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
+}
 #pet-port-hero {
   display: flex;
   height: 700px;
-  background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
-  margin-bottom: 65px;
-  margin-top: -10px;
+  width: 80%;
+  /*background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);*/
+  /*margin-bottom: 65px;*/
+  margin-top: 130px;
 
 } 
 
@@ -165,11 +168,139 @@ a {
   flex-direction: column;
   margin: 0;
   align-items: center;
-  padding: 0 100px 0 0%;
+  /*padding: 0 100px 0 0%;*/
 }
 
 /* first child of the second column */
 #pet-port-headline {
+  flex: 1;
+}
+
+#pet-port-hero h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 300;
+  font-size: 48px;
+  margin: 0;
+  padding-top: 175px;
+}
+
+#petport-logo {
+  width: 250px;
+  height: 70px;
+  padding-top: 150px;
+}
+
+.textcontainer {
+  text-align: center;
+}
+
+.textcontainer p {
+  display: inline-block;
+  text-align: left;
+}
+
+.textcontainer ul {
+  display: inline-block;
+  text-align: left;
+} 
+
+/*#pet-port-description h1 {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.78px;
+  
+}*/
+
+#pet-port-description p {
+  font-family: raleway;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+button:hover  {
+  opacity: 0.5; 
+}
+
+/* second child of the second column */
+#pet-port-description {
+  flex: 1;
+  text-align: center;
+}
+
+/* third child of the second column */
+#pet-port-button {
+  flex: 1;
+  margin: 0;
+  padding-top: 10px;
+}
+
+/*#hero-empty1 {
+  flex: .10;
+}
+
+#hero-empty2 {
+  flex:.10;
+}*/
+
+#pet-port-second button {
+  width: 170px;
+  height: 44.11px;
+  border-radius: 10px;
+  border: none;
+  font-family: cabin;
+  font-size: 14px;
+  font-weight:400;
+  color: #FFFFFF;
+  background-color: #EC1C2E;
+}
+
+/* ----- END PET PORT HERO SECTION -----*/
+
+
+/* -----------Pet Port Hero Section  (using flexbox)----------*/
+
+
+/* Pet Port main parent container */
+/*#pet-port-hero {
+  display: flex;
+  height: 700px;
+  background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
+  margin-bottom: 65px;
+  margin-top: -10px;
+
+} 
+
+/* left side of main parent container */
+/*#pet-port-hero-image-column {
+  flex: 1;
+  margin: 0;
+  justify-content: flex-end;
+  padding: 0 0 0 0;
+}
+
+#pet-port-hero-image-column  img {
+  height: 500px;  
+  padding-top:100px;
+  padding-right: 0px;
+  float: right;
+  padding-right: 40px;
+}
+
+/* right side of main parent container */
+/* also parent container for hero headline and button */
+/*#pet-port-second {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  padding: 0 100px 0 0%;
+}*/
+
+/* first child of the second column */
+/*#pet-port-headline {
   flex: 1;
 }
 
@@ -201,13 +332,13 @@ button:hover  {
 }
 
 /* second child of the second column */
-#pet-port-description {
+/*#pet-port-description {
   flex: 1;
   text-align: center;
-}
+}*/
 
 /* third child of the second column */
-#pet-port-button {
+/*#pet-port-button {
   flex: 1;
   margin: 0;
   padding-top: 10px;
@@ -231,13 +362,11 @@ button:hover  {
   font-weight:400;
   color: #FFFFFF;
   background-color: #EC1C2E;
-}
+}*/
 
 
 
 /* --------Why Me section --------------*/
-
-/* NEED TO LEFT JUSTIFY TEXT */ 
 
 
 #why-me {
@@ -262,7 +391,7 @@ button:hover  {
   font-family: raleway;
   font-weight: 400;
   font-size: 48px;
-  letter-spacing: 0.78px;
+  letter-spacing: 0.58px;
   margin: 0px;
   padding-top: 65px;
   text-align: center;

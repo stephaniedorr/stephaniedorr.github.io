@@ -11,7 +11,7 @@ a {
 #nav-section {
   display: flex;
   overflow: hidden;
-  background-color: #fFFFFF;
+  background-color: #ffffff;
   opacity:0.95;
   position: fixed;
   top: 0;
@@ -53,7 +53,7 @@ a {
 
 #navbar-links ul > li {
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 20px;
 
 }
 
@@ -72,41 +72,102 @@ h1 {
   letter-spacing: 0.78px;
 }
 
-#text p {
+#about-head  {
   font-family: raleway;
-  font-size: 24px;
+  font-size: 48px;
   font-weight: 300;
-  letter-spacing: 0.58px;
-  line-height: 30px;
+  letter-spacing: 0.78px;
+  margin-top: 130px;
+  width: 100%;
+  background-color: #EDF0F0;
+  text-align: center;
+  height: 300px; 
+}
+
+#about-head h1 {
+  margin: 0px;
 }
 
 #about-me-section {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 65px;
+  height: 3400px;
+}
+
+/*#about-head {
+  width: 100%;
+  background-color: #EDF0F0;
+  text-align: center;
+  height: 450px; 
+}*/
+
+#storybook {
+  height: 200px;
+  width: 220px;
+}
+
+p {
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.58px;
+  line-height: 29px;
+}
+
+#about-shell-odd {
   display: flex;
-  margin-top: 130px;
-  height: 675px;
-  
+  padding-top: 30px;
 }
 
-#leigh-image {
-  flex: 1;
-  margin-top: 120px;
+#about-left {
+  flex:1;
 }
 
-#about-me {
-  flex: 2;
-  padding-left: 50px;
-
+#about-right {
+  flex:1;
 }
 
-#leighpic {
-  padding-left: 42%;
-  padding-top: 25px;
-  opacity: 0.75;
+#photo-group1 {
+  width: 450px;
+  height: 650px;
+  padding-left: 20%;
+  padding-top: 50px;
 }
 
-#text {
-  width: 520px;
+#about-shell-even {
+  display: flex;
+  padding-top: 65px;
 }
+
+#last-paragraph {
+  padding-top: 50px;
+}
+
+#mid-head {
+  text-align: center;
+  padding: 30px 0px 20px 0px;
+}
+
+#photo-group2 {
+  width: 400px;
+  height: 650px;
+}
+
+#photo-group3 {
+  width: 450px;
+  height: 550px;
+  padding-left: 20%;
+}
+
+#photo-group4 {
+  width: 380px;
+  height: 750px;
+}
+
+
+
 
 
 /*-------------LETS TALK ---------*/
@@ -114,9 +175,9 @@ h1 {
 #talk {
   display: flex;
   flex-direction: column;
-  padding-top: 5px;
-  height: 550px; 
-  background-color: #F2F5F5;
+  padding-top: 35px;
+  height: 650px; 
+  background-color: #EDF0F0;
   
 }
 

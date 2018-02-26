@@ -69,10 +69,10 @@ a {
 /* ----------Introduce Myself section ----*/
 
 #introduce-myself {
-  /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
-  background-image: url(/assets/images/portfolio-header2.jpg);
+  background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);
+  /*background-image: url(/assets/images/portfolio-header2.jpg);*/
   height: 500px;
-  margin-top: 130px;
+  margin-top: 230px;
 }
 
 /*#intro-text {
@@ -83,7 +83,7 @@ a {
   font-family: raleway;
   font-size: 48px;
   font-weight: 200;
-  padding-top: 140px;
+  padding-top: 70px;
   padding-left: 130px;
 }
 
@@ -140,7 +140,7 @@ a {
   width: 80%;
   /*background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);*/
   /*margin-bottom: 65px;*/
-  margin-top: 130px;
+  /*margin-top: 130px;*/
 
 } 
 
@@ -254,6 +254,7 @@ button:hover  {
   font-weight:400;
   color: #FFFFFF;
   background-color: #EC1C2E;
+  text-transform: uppercase;
 }
 
 /* ----- END PET PORT HERO SECTION -----*/

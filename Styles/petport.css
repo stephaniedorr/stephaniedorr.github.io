@@ -101,9 +101,9 @@ h4 {
 
 }
 
-@media (max-width: 687px) and (min-width: 401px){
+/*@media (max-width: 687px) and (min-width: 401px){
 #nav-section { height: 60px; }}
-
+*/
 /* ----- END NAVIGATION SECTION -----*/
 
 /* -----PET PORT HERO SECTION -----*/
@@ -162,6 +162,12 @@ h4 {
   padding-top: 175px;
 }
 
+#petport-logo {
+  width: 250px;
+  height: 70px;
+  padding-top: 125px;
+}
+
 /*#pet-port-description h1 {
   font-family: raleway;
   font-weight: 400;
@@ -212,6 +218,7 @@ button:hover  {
   font-weight:400;
   color: #FFFFFF;
   background-color: #EC1C2E;
+  text-transform: uppercase;
 }
 
 /* ----- END PET PORT HERO SECTION -----*/

@@ -36,7 +36,6 @@ a {
   flex: 3;
   list-style-type: none;
   padding-top: 40px;
-  /*padding-left: 60px;*/
   padding-left: 50%;
 }
 
@@ -67,7 +66,7 @@ a {
 
 @media only screen and (max-width: 1221px) and (min-width: 281px) {
   #navbar-links {
-    padding-left: 20%;
+    padding-left: 30%;
   }
 }
 
@@ -132,7 +131,7 @@ background-image: linear-gradient(#62B2DC 0%, #337AB7 100%);
   width: 40%;
   display: block;
   margin: 0 auto;
-  padding-top: 65px;
+  padding-top: 85px;
 }
 
 
@@ -172,7 +171,7 @@ background-image: linear-gradient(#62B2DC 0%, #337AB7 100%);
 
 #about-shell-odd {
   display: flex;
-  padding-top: 30px;
+  /*padding-top: 30px;*/
 }
 
 #about-left {
@@ -184,10 +183,9 @@ background-image: linear-gradient(#62B2DC 0%, #337AB7 100%);
 }
 
 
-
 #about-shell-even {
   display: flex;
-  padding-top: 65px;
+  /*padding-top: 65px;*/
 }
 
 #last-paragraph {
@@ -198,7 +196,7 @@ background-image: linear-gradient(#62B2DC 0%, #337AB7 100%);
   letter-spacing: 0.58px;
   line-height: 29px;
   padding-right: 20%;
-  padding-top: 10%;
+  padding-top: 30%;
 }
 
 #mid-head {
@@ -209,7 +207,7 @@ background-image: linear-gradient(#62B2DC 0%, #337AB7 100%);
 #photo-group1 {
   width: 70%;
   padding-left: 10%;
-  padding-top: 25%;
+  padding-top: 35%;
 }
 
 #photo-group2 {

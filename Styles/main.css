@@ -49,7 +49,7 @@ a {
 }
 
 #navbar-links > ul > li > a:hover {
-  color: #1F9ACE;
+  color: #337AB7;
 }
 
 #navbar-links ul > li {
@@ -478,7 +478,7 @@ li {
 
 #footer-section {
   display: flex;
-  background-color: #7d8080;
+  background-color: #4d4d4d;
   height: 200px;
 }
 #footer-empty1 {

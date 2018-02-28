@@ -33,10 +33,11 @@ a {
 
 
 #navbar-links {
-  flex: 1;
+  flex: 3;
   list-style-type: none;
   padding-top: 40px;
-  padding-left: 60px;
+  /*padding-left: 60px;*/
+  padding-left: 50%;
 }
 
 #navbar-links > ul > li > a {
@@ -44,7 +45,7 @@ a {
   color: #333333;
   letter-spacing: .058;
   font-style: regular;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #navbar-links > ul > li > a:hover {
@@ -54,11 +55,30 @@ a {
 #navbar-links ul > li {
   display: inline-block;
   padding-left: 20px;
-
 }
 
-@media (max-width: 687px) and (min-width: 401px){
-#nav-section { height: 60px; }}
+
+
+@media only screen and (min-width : 1221px){
+  #navbar-links {
+    padding-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 1221px) and (min-width: 281px) {
+  #navbar-links {
+    padding-left: 20%;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 /* ----- END NAVIGATION SECTION -----*/
 
@@ -72,7 +92,7 @@ h1 {
   letter-spacing: 0.78px;
 }
 
-#about-head  {
+/*#about-head  {
   font-family: raleway;
   font-size: 48px;
   font-weight: 300;
@@ -87,14 +107,34 @@ h1 {
 #about-head h1 {
   margin: 0px;
 }
-
+*/
 #about-me-section {
-  width: 80%;
+  /*width: 80%;
   margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 65px;
-  height: 3400px;
+  margin-right: 10%;*/
+  /* Rectangle 18: */
+background-image: linear-gradient(-180deg, #62B2DC 0%, #337AB7 100%);
+background-image: -webkit-linear-gradient(#62B2DC 0%, #337AB7 100%);
+background-image: -o-linear-gradient(#62B2DC 0%, #337AB7 100%);
+background-image: linear-gradient(#62B2DC 0%, #337AB7 100%);
+  margin-top: 130px;
+  /*height: 3565px;*/
 }
+
+#everydesign {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+#yourstory {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
 
 /*#about-head {
   width: 100%;
@@ -103,17 +143,31 @@ h1 {
   height: 450px; 
 }*/
 
-#storybook {
+/*#storybook {
   height: 200px;
   width: 220px;
-}
+}*/
 
-p {
+#left-text {
   font-family: raleway;
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 24px;
   font-weight: 400;
   letter-spacing: 0.58px;
   line-height: 29px;
+  padding-left: 20%;
+  padding-top: 10%;
+}
+
+#right-text {
+  font-family: raleway;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.58px;
+  line-height: 29px;
+  padding-right: 20%;
+  padding-top: 10%;
 }
 
 #about-shell-odd {
@@ -129,12 +183,7 @@ p {
   flex:1;
 }
 
-#photo-group1 {
-  width: 450px;
-  height: 650px;
-  padding-left: 20%;
-  padding-top: 50px;
-}
+
 
 #about-shell-even {
   display: flex;
@@ -142,7 +191,14 @@ p {
 }
 
 #last-paragraph {
-  padding-top: 50px;
+  font-family: raleway;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.58px;
+  line-height: 29px;
+  padding-right: 20%;
+  padding-top: 10%;
 }
 
 #mid-head {
@@ -150,20 +206,29 @@ p {
   padding: 30px 0px 20px 0px;
 }
 
+#photo-group1 {
+  width: 70%;
+  padding-left: 10%;
+  padding-top: 25%;
+}
+
 #photo-group2 {
-  width: 400px;
-  height: 650px;
+  width: 75%;
+  padding-left: 15%;
+  padding-top: 20%;
 }
 
 #photo-group3 {
-  width: 450px;
-  height: 550px;
-  padding-left: 20%;
+  width: 75%;
+  padding-left: 15%;
+  padding-top: 20%;
 }
 
 #photo-group4 {
-  width: 380px;
-  height: 750px;
+  width: 75%;
+  padding-left: 15%;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 
@@ -192,6 +257,7 @@ p {
   font-family: raleway;
   font-weight: 300;
   font-size: 20px;
+  color: #333333;
 }
 
 
@@ -256,7 +322,8 @@ button {
 
 #footer-section {
   display: flex;
-  background-color: #7d8080;
+  background-color: #848484;
+  background-color: #4d4d4d;
   height: 200px;
 }
 #footer-empty1 {
@@ -282,6 +349,8 @@ button {
   margin: 0;
   text-align: center;
 }
+
+
 
 #copyright {
   flex: 1;

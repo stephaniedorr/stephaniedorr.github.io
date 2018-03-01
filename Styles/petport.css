@@ -7,7 +7,7 @@ h1 {
   font-family: raleway;
   font-weight: 600;
   font-size: 48px;
-  letter-spacing: 0.78px; 
+  letter-spacing: 0.78px;
 }
 
 p {
@@ -162,18 +162,19 @@ h4 {
   flex: 1;
 }
 
-#pet-port-hero h2 {
+/*#pet-port-hero h2 {
   font-family: 'Luckiest Guy', cursive;
   font-weight: 300;
   font-size: 48px;
   margin: 0;
   padding-top: 175px;
-}
+}*/
 
 #petport-logo {
-  width: 250px;
-  height: 70px;
-  padding-top: 150px;
+  /*width: 250px;*/
+  widows: 100%;
+  /*height: 70px;*/
+  padding-top: 65%;
 }
 
 .textcontainer {
@@ -203,6 +204,11 @@ h4 {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+}
+
+#pet-port-description h1 {
+  margin: 0;
+  font-size: 39px;
 }
 
 button:hover  {
@@ -484,9 +490,9 @@ button:hover  {
 #persona-section {
   display: flex;
   flex-direction: column;
-  height: 925px;
+  /*height: 925px;*/
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 5%;
 }
 
 #persona-text {
@@ -496,7 +502,7 @@ button:hover  {
 #persona-image {
   flex: 1;
   padding-top: 25px;
-  padding-bottom: 65px;
+  /*padding-bottom: 65px;*/
 }
 
 #icon {
@@ -530,7 +536,7 @@ button:hover  {
   font-size: 24px;
   font-weight: 200;
   margin: 0px;
-  padding-bottom: 35px;
+  /*padding-bottom: 35px;*/
 }
 
 /* ----- END PERSONAS SECTION -----*/

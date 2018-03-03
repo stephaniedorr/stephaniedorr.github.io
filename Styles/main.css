@@ -59,17 +59,7 @@ a {
 
 
 
-@media only screen and (min-width : 1221px){
-  #navbar-links {
-    padding-left: 40%;
-  }
-}
 
-@media only screen and (max-width: 1221px) and (min-width: 281px) {
-  #navbar-links {
-    padding-left: 30%;
-  }
-}
 /* ----- END NAVIGATION SECTION -----*/
 
 
@@ -442,8 +432,18 @@ li {
 }
 
 
+/* ----- MEDIA QUERIES -----*/
 
+@media only screen and (min-width: 1221px){
+  #navbar-links {
+    padding-left: 40%;
+  }
+}
 
-
+@media only screen and (max-width: 1221px) and (min-width: 281px) {
+  #navbar-links {
+    padding-left: 30%;
+  }
+}
 
 

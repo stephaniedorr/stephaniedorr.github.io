@@ -48,14 +48,13 @@ a {
 }
 
 #navbar-links > ul > li > a:hover {
-  color: #1F9ACE;
+  color: #337AB7;
 }
 
 #navbar-links ul > li {
   display: inline-block;
   padding-left: 20px;
 }
-
 
 /* ----- END NAVIGATION SECTION -----*/
 
@@ -282,6 +281,13 @@ textarea {
     
 }
 
+a[href^="mailto:"]
+{ 
+  font-family: raleway;
+  color: #337ab7;
+  font-size: 20px;
+}
+
 
 button {
     display: block;
@@ -306,25 +312,24 @@ button {
 
 #footer-section {
   display: flex;
-  background-color: #848484;
   background-color: #4d4d4d;
   height: 200px;
 }
-#footer-empty1 {
+/*#footer-empty1 {
   flex:1;
-}
+}*/
 #footer-nav {
   flex:1;
   display: flex;
   flex-direction: column;
 }
-#footer-empty2 {
+/*#footer-empty2 {
   flex: 1;
-}
+}*/
 
 #footer-links {
   flex: 1;
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -333,8 +338,6 @@ button {
   margin: 0;
   text-align: center;
 }
-
-
 
 #copyright {
   flex: 1;
@@ -365,41 +368,213 @@ button {
 
 #footer-nav ul > li {
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
  
 }
 
 #footer-icons>ul {
   margin: 0;
+  padding: 0;
 }
 
 #footer-icons ul>li {
   display: inline-block;
 }
 
-.fa {
+.svg-inline--fa {
   color:#FFFFFF;
   font-size: 36px;
   padding-left: 2px;
   padding-right: 2px;
 }
 
-.fa:hover {
+.svg-inline--fa:hover {
   color: #333333;
 }
 
+
 /* ----- MEDIA QUERIES -----*/
 
-@media only screen and (min-width : 1221px){
-  #navbar-links {
-    padding-left: 40%;
-  }
-}
 
 @media only screen and (max-width: 450px) {
 
   #nav-section {
     height: 100px;
+    background-color: red;
+  }
+
+  #navbar-links {
+    padding-left: 20%;
+    flex:4;
+    padding-right: 0%;
+  }
+
+  #navbar-links ul {
+    margin: 0;
+  }
+
+  #navbar-links > ul > li > a {
+    font-size: 15px;
+  }
+
+  #navbar-links ul>li {
+    padding-left: 0px;
+    padding-right: 2%;
+  }
+
+  #logo img {
+    width:55px;
+    height: 55px;
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  #about-me-section {
+    margin-top: 100px;
+  }
+
+
+  #about-shell-odd {
+    flex-direction: column;
+  }
+  
+  #everydesign {
+    width: 60%;
+    padding-top: 5%;
+  }
+
+  #left-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+
+  #photo-group1 {
+    padding-top: 0%;
+    padding-left: 15%;
+  }
+
+  #about-shell-even {
+    flex-direction: column-reverse;
+  }
+    
+  #right-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+
+  #photo-group2 {
+    padding-top: 0%;
+  }
+
+  #yourstory {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+  }
+
+  #photo-group3 {
+    padding-top: 0%;
+    padding-left: 0%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #last-paragraph {
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #sign {
+    width: 25%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+  }
+
+  #talk {
+    padding-top: 18%;
+
+  }
+
+  #photo-group4 {
+    display: none;
+  }
+
+  #pitch h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  #pitch p {
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin:2%;
+  }
+
+  button {
+    width: 150px;
+    margin-top: 5%;
+  }
+
+  #footer-section {
+    height: 150px;
+  }
+
+  #footer-nav {
+    flex: 6;
+
+  }
+  
+  #footer-links {
+    padding-top: 0%;
+
+  }
+  #footer-links ul  {
+    padding: 0;
+  }
+
+  #footer-empty1 {
+    flex:0;
+  }
+
+  #footer-empty2 {
+    flex:0;
+  }
+  
+  #footer-links > ul > li > a {
+    font-size: 12px;
+  }
+
+  #footer-nav ul {
+    padding: 0;
+  }
+
+  #copyright {
+    padding-left: 0;
+    padding-bottom: 5%;
+  }
+
+  #copyright p {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+.fa {
+  font-size: 24px;
+}
+}
+
+@media (min-width: 451px) and (max-width: 550px) {
+
+   #nav-section {
+    height: 100px;
+    /*background-color: yellow;*/
   }
 
   #about-me-section {
@@ -408,9 +583,9 @@ button {
 
 
   #navbar-links {
-    padding-left: 0%;
+    padding-left: 25%;
     flex:4;
-    padding-right: 13%;
+    /*padding-right: 13%;*/
   }
 
   #navbar-links ul {
@@ -429,7 +604,7 @@ button {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   #navbar-links ul>li {
@@ -521,7 +696,7 @@ button {
   }
 
   #footer-section {
-    height: 135px;
+    height: 125px;
   }
 
   #footer-nav {
@@ -545,8 +720,353 @@ button {
     flex:0;
   }
   
-  #footer-linls > ul > li > a {
+  #footer-links > ul > li > a {
+    font-size: 12px;
+  }
+
+  #footer-nav ul {
+    padding: 0;
+  }
+
+  #copyright {
+    padding-left: 0;
+    padding-bottom: 5%;
+  }
+
+  #copyright p {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+.fa {
+  font-size: 24px;
+}
+}
+
+
+@media (min-width: 551px) and (max-width: 650px) {
+
+   #nav-section {
+    height: 100px;
+    /*background-color: green;*/
+  }
+
+  #about-me-section {
+    margin-top: 100px;
+  }
+
+
+  #navbar-links {
+    padding-left: 30%;
+    flex:4;
+  }
+
+  #navbar-links ul {
+    margin: 0;
+  }
+
+  #about-shell-odd {
+    flex-direction: column;
+  }
+
+  #logo img {
+    width:55px;
+    height: 55px;
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  #navbar-links > ul > li > a {
     font-size: 15px;
+  }
+
+  #navbar-links ul>li {
+    padding-left: 0px;
+    padding-right: 2%;
+  }
+
+  #everydesign {
+    width: 60%;
+    padding-top: 5%;
+  }
+
+  #left-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+
+  #photo-group1 {
+    padding-top: 0%;
+    padding-left: 15%;
+  }
+
+  #about-shell-even {
+    flex-direction: column-reverse;
+  }
+    
+  #right-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+
+  #photo-group2 {
+    padding-top: 0%;
+  }
+
+  #yourstory {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+  }
+
+  #photo-group3 {
+    padding-top: 0%;
+    padding-left: 0%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #last-paragraph {
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #sign {
+    width: 25%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+  }
+
+  #talk {
+    padding-top: 18%;
+
+  }
+
+  #photo-group4 {
+    display: none;
+  }
+
+  #pitch h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  #pitch p {
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin:2%;
+  }
+
+  button {
+    width: 150px;
+    margin-top: 5%;
+  }
+
+  #footer-section {
+    height: 125px;
+  }
+
+  #footer-nav {
+    flex: 6;
+
+  }
+  
+  #footer-links {
+    padding-top: 0%;
+
+  }
+  #footer-links ul  {
+    padding: 0;
+  }
+
+  #footer-empty1 {
+    flex:0;
+  }
+
+  #footer-empty2 {
+    flex:0;
+  }
+  
+  #footer-links > ul > li > a {
+    font-size: 12px;
+  }
+
+  #footer-nav ul {
+    padding: 0;
+  }
+
+  #copyright {
+    padding-left: 0;
+    padding-bottom: 5%;
+  }
+
+  #copyright p {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+.fa {
+  font-size: 24px;
+}
+}
+
+@media (min-width: 651px) and (max-width: 750px) {
+
+   #nav-section {
+    height: 100px;
+    /*background-color: purple;*/
+  }
+
+  #about-me-section {
+    margin-top: 100px;
+  }
+
+
+  #navbar-links {
+    padding-left: 35%;
+    flex:4;
+  }
+
+  #navbar-links ul {
+    margin: 0;
+  }
+
+  #about-shell-odd {
+    flex-direction: column;
+  }
+
+  #logo img {
+    width:55px;
+    height: 55px;
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+
+  #navbar-links > ul > li > a {
+    font-size: 15px;
+  }
+
+  #navbar-links ul>li {
+    padding-left: 0px;
+    padding-right: 2%;
+  }
+
+  #everydesign {
+    width: 60%;
+    padding-top: 5%;
+  }
+
+  #left-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+
+  #photo-group1 {
+    padding-top: 0%;
+    padding-left: 15%;
+  }
+
+  #about-shell-even {
+    flex-direction: column-reverse;
+  }
+    
+  #right-text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+  }
+
+  #photo-group2 {
+    padding-top: 0%;
+  }
+
+  #yourstory {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+  }
+
+  #photo-group3 {
+    padding-top: 0%;
+    padding-left: 0%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #last-paragraph {
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #sign {
+    width: 25%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+  }
+
+  #talk {
+    padding-top: 18%;
+
+  }
+
+  #photo-group4 {
+    display: none;
+  }
+
+  #pitch h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  #pitch p {
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin:2%;
+  }
+
+  button {
+    width: 150px;
+    margin-top: 5%;
+  }
+
+  #footer-section {
+    height: 125px;
+  }
+
+  #footer-nav {
+    flex: 6;
+
+  }
+  
+  #footer-links {
+    padding-top: 0%;
+
+  }
+  #footer-links ul  {
+    padding: 0;
+  }
+
+  #footer-empty1 {
+    flex:0;
+  }
+
+  #footer-empty2 {
+    flex:0;
+  }
+  
+  #footer-links > ul > li > a {
+    font-size: 12px;
   }
 
   #footer-nav ul {
@@ -560,12 +1080,58 @@ button {
     padding-bottom: 5%;
   }
 
+  #copyright p {
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
 .fa {
   font-size: 24px;
 }
+}
 
+@media (min-width: 751px) and (max-width: 800px){
+
+
+  #navbar-links {
+    padding-left: 20%;
+  }
+
+  #footer-empty1 {
+    flex: 0;
+  }
+
+  #footer-empty2 {
+    flex: 0;
+  }
 
 }
+
+@media (min-width: 801px) and (max-width: 1040px){
+
+  #nav-section {
+    /*background-color: orange;*/
+  }
+
+  #navbar-links {
+    padding-left: 20%;
+}
+
+  #footer-empty1 {
+    flex: 0;
+  }
+
+  #footer-empty2 {
+    flex: 0;
+  }
+
+}
+
+
+
+
+
+
 
 
 

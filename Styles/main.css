@@ -66,8 +66,8 @@ a {
 /* ----------Introduce Myself section ----*/
 
 #introduce-myself {
-  background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);
-  /*background-image: url(/assets/images/portfolio-header2.jpg);*/
+  /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
+  background-image: url(/assets/images/portfolio-header2.jpg);
   height: 475px;
   margin-top: 200px;
 }

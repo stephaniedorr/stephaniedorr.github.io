@@ -1127,7 +1127,12 @@ button {
 
 }
 
+@media (min-width: 1041px) and (max-width: 1350px) {
 
+  #navbar-links {
+    padding-left: 30%;
+  }
+}
 
 
 

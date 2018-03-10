@@ -130,24 +130,36 @@ a {
 }
 
 #case-studies {
-  background-color: #337ab7;
-  /*opacity: 0.63;*/
-  height: 130px;
+  background-image: linear-gradient(-180deg, #337AB7 9%, #087FA6 100%);
+  height: 100px;
+}
+
+/*#glasses {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5%;
+}*/
+
+#case-study-icon {
+  height: 99px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
 #case-studies p {
   font-family: raleway;
-  font-size: 36px;
-  font-weight: 200;
-  color: #ffffff;
+  font-size: 48px;
+  font-weight: 400;
+  color: #FFFFFF;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 2%;
   margin: 0;
 }
 
 #view-work {
   color: #ED1B2E;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 #view-work:hover{
@@ -436,7 +448,8 @@ li {
 
 #footer-section {
   display: flex;
-  background-color: #4d4d4d;
+  /*background-color: #4d4d4d;*/
+  background-image: linear-gradient(-180deg, #337AB7 9%, #087FA6 100%);
   height: 200px;
 }
 /*#footer-empty1 {
@@ -571,8 +584,13 @@ li {
     padding-right: 37%;
     font-size: 14px;
     line-height: 24px;
-
   }
+
+#case-studies p {
+  font-size: 20px;
+  padding-top: 10%;
+}
+
 
   #pet-port-hero {
     flex-direction: column-reverse;
@@ -973,6 +991,11 @@ li {
 
   }
 
+#case-studies p {
+  font-size: 20px;
+  padding-top: 10%;
+}
+
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
@@ -1369,6 +1392,12 @@ li {
     line-height: 24px;
 
   }
+
+#case-studies p {
+  font-size: 20px;
+  padding-top: 10%;
+}
+
 
   #pet-port-hero {
     flex-direction: column-reverse;
@@ -2519,7 +2548,12 @@ li {
     padding-left: 5%;
     font-size: 18px;
     line-height: 26px;
+  }
 
+
+  #case-studies p {
+    font-size: 36px;
+    padding-top: 4%;
   }
 
   /*#pet-port-hero {
@@ -2717,6 +2751,11 @@ li {
 
   }
 
+  #case-studies p {
+    font-size: 36px;
+    padding-top: 3%;
+  }
+
   /*#pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
@@ -2865,9 +2904,17 @@ li {
   padding-right: 0px;
 }
 
+#case-studies p {
+  font-size: 48px;
+}
 
+}
 
+@media (min-width: 1350) {
 
+  #case-studies p {
+    font-size: 48px;
+  }
 }
 
 

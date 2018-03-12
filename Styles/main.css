@@ -66,17 +66,19 @@ a {
 /* ----------Introduce Myself section ----*/
 
 #introduce-myself {
-  /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);
-  background-image: url(/assets/images/portfolio-header2.jpg);
-  background-size:cover;*/
+  /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
+  /*background-image: url(/assets/images/portfolio-header2.jpg);*/
+  background-size:cover;
   margin-top: 200px;
+  
 }
 
 #background-image {
-  /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
-  background-image: url(/assets/images/portfolio-header2.jpg);
+  background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);
+  /*background-image: url(/assets/images/portfolio-header2.jpg);*/
+  opacity: 0.5;
   background-size:cover;
-  height: 550px;
+  height: 600px;
 }
 
 #intro-text h1 {
@@ -84,7 +86,7 @@ a {
   font-family: raleway;
   font-size: 48px;
   font-weight: 200;
-  padding-top: 70px;
+  padding-top: 35px;
   padding-left: 130px;
 }
 
@@ -131,9 +133,9 @@ a {
 */
 
 
-#case-studies {
-  background-image: linear-gradient(-180deg, #337AB7 9%, #087FA6 100%);
-  height: 100px;
+/*#case-studies {
+  background-color: rgba(227,229,229,0.1);
+  height: 150px;
 }
 
 
@@ -148,12 +150,12 @@ a {
   font-family: raleway;
   font-size: 48px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #333333;
   text-align: center;
   padding-top: 2%;
   margin: 0;
 }
-
+*/
 #view-work {
   color: #ED1B2E;
   font-weight: 400;
@@ -340,6 +342,7 @@ button:hover  {
 #why-me {
   display: flex;
   flex-direction: column;
+  /*background-color: rgba(227,229,229,0.2);*/
   height: 250px; 
   margin: 0px;
   padding-bottom: 15px;
@@ -378,6 +381,7 @@ button:hover  {
 #toolbox {
   display: flex;
   height: 600px;
+  /*background-color: rgba(227,229,229,0.2);*/
   margin-bottom: 45px;
   font-family: raleway;
   font-size: 24px;
@@ -471,6 +475,7 @@ li {
   flex: 1;
   margin: 0;
   text-align: center;
+  padding-left: 3%;
 }
 
 #copyright {
@@ -481,7 +486,7 @@ li {
 
 #copyright p {
   font-family: cabin;
-  color: #AEB3B3;
+  color: #e3e5e5;
   font-size: 8px;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -562,11 +567,15 @@ li {
     margin-left: 20%;
   }
 
+  #background-image {
+    background-image: none;
+  }
+
   #introduce-myself {
     margin-top: 100px;
     height: 350px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    /*background-color: #EDF0F0;*/
+    background-image: none;
   }
 
   #intro-text h1 {
@@ -587,6 +596,7 @@ li {
   font-size: 20px;
   padding-top: 10%;
 }
+
 
 
   #pet-port-hero {
@@ -764,6 +774,10 @@ li {
     height: 55px;
     margin-top: 25%;
     margin-left: 20%;
+  }
+
+#background-image {
+    background-image: none;
   }
 
   #introduce-myself {
@@ -966,6 +980,10 @@ li {
     margin-left: 20%;
   }
 
+  #background-image {
+    background-image: none;
+  }
+
   #introduce-myself {
     margin-top: 100px;
     height: 250px;
@@ -1160,6 +1178,10 @@ li {
   #navbar-links ul>li {
     padding-left: 0px;
     padding-right: 2%;
+  }
+
+  #background-image {
+    background-image: none;
   }
 
   #logo img {
@@ -1367,6 +1389,11 @@ li {
     margin-top: 25%;
     margin-left: 20%;
   }
+  
+  #background-image {
+    background-image: none;
+  }
+
 
   #introduce-myself {
     margin-top: 100px;
@@ -1573,6 +1600,10 @@ li {
     margin-left: 20%;
   }
 
+  #background-image {
+    background-image: none;
+  }
+
   #introduce-myself {
     margin-top: 100px;
     height: 250px;
@@ -1771,6 +1802,10 @@ li {
     margin-top: 25%;
     margin-left: 20%;
   }
+  
+  #background-image {
+    background-image: none;
+  }
 
   #introduce-myself {
     margin-top: 100px;
@@ -1961,6 +1996,10 @@ li {
     height: 55px;
     margin-top: 25%;
     margin-left: 20%;
+  }
+
+  #background-image {
+    background-image: none;
   }
 
   #introduce-myself {
@@ -2155,6 +2194,10 @@ li {
     margin-left: 20%;
   }
 
+  #background-image {
+    background-image: none;
+  }
+
   #introduce-myself {
     margin-top: 100px;
     height: 250px;
@@ -2341,6 +2384,10 @@ li {
     margin-left: 20%;
   }
 
+  #background-image {
+    background-image: none;
+  }
+
   #introduce-myself {
     margin-top: 100px;
     height: 250px;
@@ -2525,6 +2572,10 @@ li {
     height: 55px;
     margin-top: 25%;
     margin-left: 20%;
+  }
+
+  #background-image {
+    background-image: none;
   }
 
   #introduce-myself {
@@ -2725,6 +2776,10 @@ li {
     height: 55px;
     margin-top: 25%;
     margin-left: 20%;
+  }
+
+  #background-image {
+    background-image: none;
   }
 
   #introduce-myself {

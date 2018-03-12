@@ -335,6 +335,7 @@ button {
   flex: 1;
   margin: 0;
   text-align: center;
+  padding-left: 3%;
 }
 
 #copyright {
@@ -345,7 +346,7 @@ button {
 
 #copyright p {
   font-family: cabin;
-  color: #AEB3B3;
+  color: #e3e5e5;
   font-size: 8px;
   padding-top: 20px;
   padding-bottom: 30px;

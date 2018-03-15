@@ -56,7 +56,7 @@ h4 {
   display: flex;
   overflow: hidden;
   background-color: #ffffff;
-  /*opacity:0.95;*/
+  opacity:0.95;
   position: fixed;
   top: 0;
   width: 100%; 
@@ -209,12 +209,6 @@ h4 {
   /*margin-top: 130px;*/
 
 } 
-
-.anchor {
-  display: block;
-  height: 50px;
-  visibility: hidden;
-}
 
 /* left side of main parent container */
 #pet-port-hero-image-column {
@@ -1341,7 +1335,7 @@ button {
 
 
   #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -1645,7 +1639,7 @@ li {
 @media (min-width: 330px) and (max-width: 349px) {
 
   #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -1943,7 +1937,7 @@ li {
 @media (min-width: 350px) and (max-width: 370px) {
 
   #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -2244,7 +2238,7 @@ li {
 @media (min-width: 371px) and (max-width: 400px) {
 
   #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -2542,7 +2536,7 @@ li {
 @media (min-width: 401px) and (max-width: 430px) {
 
   #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -2852,7 +2846,7 @@ li {
 @media (min-width: 431px) and (max-width: 450px) {
 
   #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -3153,7 +3147,7 @@ li {
 @media (min-width: 451px) and (max-width: 510px) {
 
 #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -3444,7 +3438,7 @@ li {
 @media (min-width: 511px) and (max-width: 550px) {
 
 #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -3734,7 +3728,7 @@ li {
 @media (min-width: 551px) and (max-width: 650px){
 
 #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -4018,7 +4012,7 @@ li {
 @media (min-width: 651px) and (max-width: 750px){
 
 #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -4302,7 +4296,7 @@ li {
 @media (min-width: 751px) and (max-width: 800px){
 
 #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {
@@ -4548,7 +4542,7 @@ li {
 @media (min-width: 801px) and (max-width: 1040px){
 
 #nav-section {
-    height: 130px;
+    height: 100px;
   }
 
   #navbar-links {

@@ -396,7 +396,7 @@ button {
 /* ----- MEDIA QUERIES -----*/
 
 
-@media only screen and (max-width: 450px) {
+@media only (max-width: 450px) {
 
   #nav-section {
     height: 100px;

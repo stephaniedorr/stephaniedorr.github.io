@@ -115,8 +115,8 @@ h4 {
 }
 
 #background-image {
-  /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
-  background-image: url(/assets/images/portfolio-header2.jpg);
+  background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);
+  /*background-image: url(/assets/images/portfolio-header2.jpg);*/
   opacity: 0.5;
   background-size:cover;
   height: 600px;
@@ -407,7 +407,7 @@ li {
 #about-me-section {
   /*background-image: linear-gradient(-180deg, #337AB7 9%, #087FA6 100%);*/
   background-color: rgb(86,145,165);
-  margin-top: 130px; 
+  margin-top: 100px; 
 }
 
 #everydesign {
@@ -1548,13 +1548,12 @@ td {
 
 
   #nav-section {
-    height: 130px;
+    height: 50px;
   }
 
   #navbar-links {
-    padding-left: 0%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 0%;
   }
 
   #navbar-links ul {
@@ -1573,8 +1572,8 @@ td {
   #logo img {
     width:35px;
     height: 35px;
-    margin-top: 45%;
-    margin-left: 20%;
+    margin-top: 15%;
+    margin-left: 15%;
   }
 
   #background-image {
@@ -1582,7 +1581,7 @@ td {
   }
 
   #introduce-myself {
-    margin-top: 100px;
+    margin-top: 55px;
     height: 350px;
     /*background-color: #EDF0F0;*/
     background-image: none;
@@ -1590,9 +1589,9 @@ td {
 
   #intro-text h1 {
     font-size: 20px;
+    font-weight: 400;
     padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
@@ -1610,7 +1609,7 @@ td {
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 600px;
+    height: 400px;
   }
 
   #pet-port-hero-image-column img {
@@ -1620,12 +1619,11 @@ td {
     padding-right: 0;
     display: block;
     margin: 0 auto;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
 
 
   #petport-logo {
-    padding-top: 20%;
     width: 150px;
     height: 40px;
 }
@@ -1636,17 +1634,17 @@ td {
 }
 
   #pet-port-description h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #pet-port-second button {
-  width: 100px;
-  height: 30px;
-  font-size: 8px;
+  width: 75px;
+  height: 25px;
+  font-size: 7px;
 }
 
 #pet-port-button {
-  padding-top: 100%;
+  padding-top: 75%;
 }
 
 button {
@@ -1701,6 +1699,15 @@ button {
 
 li {
   font-size: 12px;
+}
+
+
+#about-me-section {
+  margin-top: 55px;
+}
+
+#buffer {
+  height: 30px;
 }
 
 #everydesign {
@@ -1769,11 +1776,11 @@ li {
 
 #talk {
   padding-top: 0px;
-  height: 500px;
+  height: 600px;
 }
 
 #pitch {
-  padding-top: 0px;
+  padding-top: 20%;
 }
 
 #about-me-section h1 {
@@ -1852,13 +1859,12 @@ li {
 @media (min-width: 330px) and (max-width: 349px) {
 
   #nav-section {
-    height: 130px;
+    height: 50px;
   }
 
   #navbar-links {
-    padding-left: 0%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 0%;
   }
 
   #navbar-links ul {
@@ -1875,79 +1881,83 @@ li {
   }
 
   #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
-    margin-left: 20%;
+    width:35px;
+    height: 35px;
+    margin-top: 15%;
+    margin-left: 15%;
   }
 
-#background-image {
+  #background-image {
     background-image: none;
   }
 
   #introduce-myself {
-    margin-top: 100px;
+    margin-top: 55px;
     height: 350px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    background-image: none;
   }
 
   #intro-text h1 {
     font-size: 20px;
+    font-weight: 400;
     padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
-    font-size: 14px;
+    padding-right: 20%;
+    font-size: 16px;
     line-height: 24px;
 
   }
 
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 525px;
+    height: 400px;
   }
 
-#pet-port-hero-image-column img {
-  height: 250px;
-  /*padding-top: 5%;*/
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 30%;
+  #pet-port-hero-image-column img {
+    height: 250px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
 }
 
 
-#petport-logo {
-  padding-top: 20%;
-  width: 150px;
-  height: 40px;
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 0;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-description h3 {
-  font-size: 20px;
+  #pet-port-description h3 {
+  font-size: 18px;
 }
 
 #pet-port-second button {
-  width: 100px;
-  height: 30px;
-  font-size: 8px;
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
 }
 
 #pet-port-button {
-  padding-top: 90%;
+  padding-top: 66%;
 }
+
 
 #why-me-headline h1 {
   font-size: 20px;
@@ -1999,8 +2009,16 @@ li {
   font-size: 12px;
 }
 
+#about-me-section {
+  margin-top: 55px;
+}
+
+#buffer {
+  height: 40px;
+}
+
 #everydesign {
-  width: 60%;
+  width: 40%;
   padding-top: 10%;
 }
 
@@ -2017,7 +2035,8 @@ li {
 
 #photo-group1 {
   padding-left: 15%;
-  padding-top: 0px;
+  padding-top: 2%;
+  width: 80%;
 }
 
 #about-shell-even {
@@ -2036,6 +2055,10 @@ li {
   width: 80%;
   padding-top: 0px;
   padding-left: 10%;
+}
+
+#photo-group3 {
+  width: 80%;
 }
 
 #yourstory {
@@ -2060,6 +2083,7 @@ li {
 }
 
 #photo-group4 {
+  width: 90%;
   padding-top: 0;
 }
 
@@ -2073,7 +2097,7 @@ li {
 }
 
 #about-me-section h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #pitch p {
@@ -2150,13 +2174,12 @@ li {
 @media (min-width: 350px) and (max-width: 370px) {
 
   #nav-section {
-    height: 130px;
+    height: 50px;
   }
 
   #navbar-links {
-    padding-left: 0%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 10%;
   }
 
   #navbar-links ul {
@@ -2164,7 +2187,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   #navbar-links ul>li {
@@ -2173,84 +2196,92 @@ li {
   }
 
   #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
-    margin-left: 20%;
+    width:35px;
+    height: 35px;
+    margin-top: 17%;
+    margin-left: 15%;
   }
 
   #background-image {
     background-image: none;
   }
 
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #buffer {
+    height: 40px;
+  }
+
   #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
+    margin-top: 70px;
+    height: 350px;
     /*background-color: #EDF0F0;
     background-image: none;*/
   }
 
   #intro-text h1 {
     font-size: 20px;
-    padding-top: 1%;
+    font-weight: 400;
+    padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
-    font-size: 14px;
+    padding-right: 20%;
+    font-size: 16px;
     line-height: 24px;
 
   }
 
-#case-studies p {
-  font-size: 20px;
-  padding-top: 10%;
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
 }
 
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 550px;
+    height: 400px;
   }
 
-#pet-port-hero-image-column img {
-  height: 250px;
-  /*padding-top: 5%;*/
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 30%;
+  #pet-port-hero-image-column img {
+    height: 250px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
 }
 
 
-#petport-logo {
-  padding-top: 20%;
-  width: 150px;
-  height: 40px;
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 0;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-description h3 {
+  #pet-port-description h3 {
   font-size: 20px;
 }
 
 #pet-port-second button {
-  width: 100px;
-  height: 30px;
-  font-size: 8px;
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
 }
 
 #pet-port-button {
-  padding-top: 95%;
+  padding-top: 55%;
 }
+
 
 #why-me-headline h1 {
   font-size: 20px;
@@ -2319,8 +2350,9 @@ li {
 }
 
 #photo-group1 {
-  padding-left: 15%;
-  padding-top: 0px;
+  padding-left: 30%;
+  padding-top: 5%;
+  width: 80%;
 }
 
 #about-shell-even {
@@ -2339,6 +2371,11 @@ li {
   width: 80%;
   padding-top: 0px;
   padding-left: 10%;
+}
+
+#photo-group3 {
+  width: 80%;
+  padding: 5% 0% 0% 20%;
 }
 
 #yourstory {
@@ -2363,12 +2400,13 @@ li {
 }
 
 #photo-group4 {
-  padding-top: 0;
+  padding: 2% 0% 5% 20%;
+  width: 80%;
 }
 
 #talk {
-  padding-top: 0px;
-  height: 500px;
+  padding-top: 10%;
+  height: 600px;
 }
 
 #pitch {
@@ -2376,7 +2414,7 @@ li {
 }
 
 #about-me-section h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #pitch p {
@@ -2451,13 +2489,12 @@ li {
 @media (min-width: 371px) and (max-width: 400px) {
 
   #nav-section {
-    height: 130px;
+    height: 50px;
   }
 
   #navbar-links {
-    padding-left: 0%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 20%;
   }
 
   #navbar-links ul {
@@ -2465,7 +2502,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   #navbar-links ul>li {
@@ -2473,80 +2510,92 @@ li {
     padding-right: 2%;
   }
 
+  #logo img {
+    width:35px;
+    height: 35px;
+    margin-top: 17%;
+    margin-left: 15%;
+  }
+
   #background-image {
     background-image: none;
   }
 
-  #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
-    margin-left: 20%;
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #buffer {
+    height: 40px;
   }
 
   #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    margin-top: 70px;
+    height: 350px;
+    background-image: none
   }
 
   #intro-text h1 {
     font-size: 20px;
-    padding-top: 1%;
+    font-weight: 400;
+    padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
-    font-size: 14px;
+    padding-right: 20%;
+    font-size: 16px;
     line-height: 24px;
 
   }
 
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 550px;
+    height: 400px;
   }
 
-#pet-port-hero-image-column img {
-  height: 250px;
-  /*padding-top: 5%;*/
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 30%;
+  #pet-port-hero-image-column img {
+    height: 250px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
 }
 
 
-#petport-logo {
-  padding-top: 20%;
-  width: 150px;
-  height: 40px;
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 0;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-description h3 {
+  #pet-port-description h3 {
   font-size: 20px;
 }
 
 #pet-port-second button {
-  width: 100px;
-  height: 30px;
-  font-size: 8px;
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
 }
 
 #pet-port-button {
-  padding-top: 85%;
+  padding-top: 50%;
 }
+
 
 #why-me-headline h1 {
   font-size: 20px;
@@ -2615,8 +2664,9 @@ li {
 }
 
 #photo-group1 {
-  padding-left: 15%;
-  padding-top: 0px;
+  padding-left: 30%;
+  padding-top: 5%;
+  width: 80%;
 }
 
 #about-shell-even {
@@ -2635,6 +2685,11 @@ li {
   width: 80%;
   padding-top: 0px;
   padding-left: 10%;
+}
+
+#photo-group3 {
+  width: 80%;
+  padding: 5% 0% 0% 20%;
 }
 
 #yourstory {
@@ -2659,12 +2714,13 @@ li {
 }
 
 #photo-group4 {
-  padding-top: 0;
+  padding: 2% 0% 5% 20%;
+  width: 80%;
 }
 
 #talk {
-  padding-top: 0px;
-  height: 500px;
+  padding-top: 10%;
+  height: 600px;
 }
 
 #pitch {
@@ -2672,7 +2728,7 @@ li {
 }
 
 #about-me-section h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #pitch p {
@@ -2692,7 +2748,6 @@ li {
   padding: 0;
 }
 
-
 #footer-section {
     height: 150px;
   }
@@ -2746,16 +2801,16 @@ li {
 }
 
 
+
 @media (min-width: 401px) and (max-width: 430px) {
 
-  #nav-section {
-    height: 130px;
+ #nav-section {
+    height: 50px;
   }
 
   #navbar-links {
-    padding-left: 0%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 22%;
   }
 
   #navbar-links ul {
@@ -2763,7 +2818,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   #navbar-links ul>li {
@@ -2772,86 +2827,91 @@ li {
   }
 
   #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
-    margin-left: 20%;
+    width:35px;
+    height: 35px;
+    margin-top: 17%;
+    margin-left: 15%;
   }
-  
+
   #background-image {
     background-image: none;
   }
 
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #buffer {
+    height: 40px;
+  }
 
   #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    margin-top: 70px;
+    height: 350px;
+    background-image: none;
   }
 
   #intro-text h1 {
     font-size: 20px;
-    padding-top: 1%;
+    font-weight: 400;
+    padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
-    font-size: 14px;
+    padding-right: 20%;
+    font-size: 16px;
     line-height: 24px;
 
   }
 
-#case-studies p {
-  font-size: 20px;
-  padding-top: 10%;
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
 }
-
 
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 550px;
+    height: 400px;
   }
 
-#pet-port-hero-image-column img {
-  height: 250px;
-  /*padding-top: 5%;*/
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 30%;
+  #pet-port-hero-image-column img {
+    height: 250px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
 }
 
 
-#petport-logo {
-  padding-top: 20%;
-  width: 150px;
-  height: 40px;
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 0;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-description h3 {
+  #pet-port-description h3 {
   font-size: 20px;
 }
 
 #pet-port-second button {
-  width: 100px;
-  height: 30px;
-  font-size: 8px;
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
 }
 
 #pet-port-button {
-  padding-top: 85%;
+  padding-top: 45%;
 }
+
 
 #why-me-headline h1 {
   font-size: 20px;
@@ -2909,8 +2969,8 @@ li {
 }
 
 #left-text {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 16px;
   line-height: 20px;
 }
@@ -2920,8 +2980,9 @@ li {
 }
 
 #photo-group1 {
-  padding-left: 15%;
-  padding-top: 0px;
+  padding-left: 30%;
+  padding-top: 5%;
+  width: 80%;
 }
 
 #about-shell-even {
@@ -2929,8 +2990,8 @@ li {
 }
 
 #right-text {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 16px;
   line-height: 20px;
   padding-top: 0px;
@@ -2942,6 +3003,11 @@ li {
   padding-left: 10%;
 }
 
+#photo-group3 {
+  width: 80%;
+  padding: 5% 0% 0% 20%;
+}
+
 #yourstory {
   width: 60%;
   margin: 0 auto;
@@ -2950,8 +3016,8 @@ li {
 }
 
 #last-paragraph {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 16px;
   line-height: 20px;
   padding-top: 0px;
@@ -2964,12 +3030,13 @@ li {
 }
 
 #photo-group4 {
-  padding-top: 0;
+  padding: 2% 0% 5% 20%;
+  width: 80%;
 }
 
 #talk {
-  padding-top: 0px;
-  height: 500px;
+  padding-top: 10%;
+  height: 600px;
 }
 
 #pitch {
@@ -2977,14 +3044,14 @@ li {
 }
 
 #about-me-section h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #pitch p {
   font-size: 14px;
   line-height: 20px;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #pitch a {
@@ -2996,12 +3063,6 @@ li {
   font-size: 12px;
   padding: 0;
 }
-
-#sign {
-  width: 20%;
-  padding-left: 10%;
-}
-
 
 #footer-section {
     height: 150px;
@@ -3056,16 +3117,16 @@ li {
 }
 
 
+
 @media (min-width: 431px) and (max-width: 450px) {
 
   #nav-section {
-    height: 130px;
+    height: 75px;
   }
 
   #navbar-links {
-    padding-left: 0%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 25%;
   }
 
   #navbar-links ul {
@@ -3073,7 +3134,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #navbar-links ul>li {
@@ -3082,79 +3143,91 @@ li {
   }
 
   #logo img {
-    width:50px;
-    height: 50px;
-    margin-top: 25%;
-    margin-left: 35%;
+    width:45px;
+    height: 45px;
+    margin-top: 20%;
+    margin-left: 20%;
   }
 
   #background-image {
     background-image: none;
   }
 
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #buffer {
+    height: 40px;
+  }
+
   #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    margin-top: 70px;
+    height: 350px;
+    background-image: none;
   }
 
   #intro-text h1 {
-    font-size: 20px;
-    padding-top: 1%;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
     padding-right: 37%;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 
   }
 
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 550px;
+    height: 400px;
   }
 
-#pet-port-hero-image-column img {
-  height: 250px;
-  /*padding-top: 5%;*/
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 25%;
+  #pet-port-hero-image-column img {
+    height: 250px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
 }
 
 
-#petport-logo {
-  padding-top: 20%;
-  width: 150px;
-  height: 40px;
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 0;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-description h3 {
+  #pet-port-description h3 {
   font-size: 20px;
 }
 
 #pet-port-second button {
-  width: 100px;
-  height: 30px;
-  font-size: 8px;
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
 }
 
 #pet-port-button {
-  padding-top: 75%;
+  padding-top: 40%;
 }
+
 
 #why-me-headline h1 {
   font-size: 20px;
@@ -3214,8 +3287,8 @@ li {
 #left-text {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 #about-shell-odd {
@@ -3223,8 +3296,9 @@ li {
 }
 
 #photo-group1 {
-  padding-left: 15%;
-  padding-top: 0px;
+  padding-left: 30%;
+  padding-top: 5%;
+  width: 80%;
 }
 
 #about-shell-even {
@@ -3234,15 +3308,20 @@ li {
 #right-text {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   padding-top: 0px;
 }
 
 #photo-group2 {
   width: 80%;
   padding-top: 0px;
-  padding-left: 5%;
+  padding-left: 10%;
+}
+
+#photo-group3 {
+  width: 80%;
+  padding: 5% 0% 0% 20%;
 }
 
 #yourstory {
@@ -3255,24 +3334,25 @@ li {
 #last-paragraph {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   padding-top: 0px;
 }
 
 #sign {
   padding-bottom: 0px;
-  width: 20%;
-  padding-left: 10%;
+  width: 30%;
+  padding-left: 5%;
 }
 
 #photo-group4 {
-  padding-top: 0;
+  padding: 2% 0% 5% 20%;
+  width: 80%;
 }
 
 #talk {
-  padding-top: 0px;
-  height: 500px;
+  padding-top: 10%;
+  height: 600px;
 }
 
 #pitch {
@@ -3280,7 +3360,7 @@ li {
 }
 
 #about-me-section h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #pitch p {
@@ -3296,13 +3376,9 @@ li {
 
 #contact-form button {
   width: 100px;
-  height: 25px;
   font-size: 12px;
-/*  padding-left: 0%;
-  padding-right: 0%;*/
   padding: 0;
 }
-
 
 #footer-section {
     height: 150px;
@@ -3360,13 +3436,12 @@ li {
 @media (min-width: 451px) and (max-width: 510px) {
 
 #nav-section {
-    height: 130px;
+    height: 75px;
   }
 
   #navbar-links {
-    padding-left: 20%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 25%;
   }
 
   #navbar-links ul {
@@ -3374,7 +3449,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #navbar-links ul>li {
@@ -3383,84 +3458,100 @@ li {
   }
 
   #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
+    width:45px;
+    height: 45px;
+    margin-top: 20%;
     margin-left: 20%;
   }
-  
+
   #background-image {
     background-image: none;
   }
 
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #buffer {
+    height: 40px;
+  }
+
   #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    margin-top: 70px;
+    height: 350px;
+    background-image: none5;
   }
 
   #intro-text h1 {
     font-size: 24px;
-    padding-top: 12%;
+    font-weight: 400;
+    padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
-    font-size: 14px;
+    padding-right: 37%;
+    font-size: 16px;
     line-height: 24px;
 
   }
 
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 700px;
+    height: 400px;
   }
 
-#pet-port-hero-image-column img {
-  height: 300px;
-  padding-top: 5%;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 30%;
+  #pet-port-hero-image-column img {
+    height: 250px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
 }
 
 
-#petport-logo {
-  padding-top: 20%;
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 5%;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-description h3 {
-  font-size: 24px;
+  #pet-port-description h3 {
+  font-size: 20px;
 }
 
 #pet-port-second button {
-  width: 110px;
-  height: 40px;
-  font-size: 10px;
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
 }
 
 #pet-port-button {
-  padding-top: 75%;
+  padding-top: 35%;
 }
 
+
 #why-me-headline h1 {
-  font-size: 36px;
+  font-size: 20px;
   padding-top: 10%;
 }
 
 #why-me {
   height: 180px;
+  padding-bottom: 0;
 }
 
 #why-me-description {
@@ -3468,7 +3559,7 @@ li {
 }
 
 #why-me h2 {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   margin: 0;
   line-height: 25px;
@@ -3491,7 +3582,7 @@ li {
 }
 
 #toolbox {
-  height: 400px;
+  height: 320px;
 }
 
 #tools ul {
@@ -3500,7 +3591,7 @@ li {
 }
 
 li {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #everydesign {
@@ -3511,8 +3602,8 @@ li {
 #left-text {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 #about-shell-odd {
@@ -3520,8 +3611,9 @@ li {
 }
 
 #photo-group1 {
-  padding-left: 15%;
-  padding-top: 0px;
+  padding-left: 30%;
+  padding-top: 5%;
+  width: 80%;
 }
 
 #about-shell-even {
@@ -3531,15 +3623,20 @@ li {
 #right-text {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   padding-top: 0px;
 }
 
 #photo-group2 {
   width: 80%;
   padding-top: 0px;
-  padding-left: 5%;
+  padding-left: 10%;
+}
+
+#photo-group3 {
+  width: 80%;
+  padding: 5% 0% 0% 20%;
 }
 
 #yourstory {
@@ -3552,24 +3649,25 @@ li {
 #last-paragraph {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   padding-top: 0px;
 }
 
 #sign {
   padding-bottom: 0px;
-  width: 20%;
-  padding-left: 10%;
+  width: 30%;
+  padding-left: 5%;
 }
 
 #photo-group4 {
-  padding-top: 0;
+  padding: 2% 0% 5% 20%;
+  width: 80%;
 }
 
 #talk {
-  padding-top: 0px;
-  height: 500px;
+  padding-top: 10%;
+  height: 600px;
 }
 
 #pitch {
@@ -3577,7 +3675,7 @@ li {
 }
 
 #about-me-section h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #pitch p {
@@ -3593,19 +3691,17 @@ li {
 
 #contact-form button {
   width: 100px;
-  height: 25px;
   font-size: 12px;
   padding: 0;
-
 }
 
 #footer-section {
-    height: 200px;
+    height: 150px;
   }
 
   #footer-nav {
     flex: 6;
-  height: 120px;
+    height: 120px;
   }
   
   #footer-links {
@@ -3634,30 +3730,32 @@ li {
 
   #copyright {
     padding-left: 0;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
   }
 
   #copyright p {
     margin: 0;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
+  }
+
+  .svg-inline--fa {
+    font-size: 20px;
   }
 
 .fa {
   font-size: 24px;
 }
 }
-
 
 @media (min-width: 511px) and (max-width: 550px) {
 
 #nav-section {
-    height: 130px;
+    height: 75px;
   }
 
   #navbar-links {
-    padding-left: 20%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 25%;
   }
 
   #navbar-links ul {
@@ -3665,7 +3763,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #navbar-links ul>li {
@@ -3674,9 +3772,9 @@ li {
   }
 
   #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
+    width:45px;
+    height: 45px;
+    margin-top: 20%;
     margin-left: 20%;
   }
 
@@ -3684,360 +3782,101 @@ li {
     background-image: none;
   }
 
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #buffer {
+    height: 40px;
+  }
+
   #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    margin-top: 70px;
+    height: 350px;
+    background-image: none;
   }
 
   #intro-text h1 {
     font-size: 24px;
-    padding-top: 12%;
+    font-weight: 400;
+    padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
-    font-size: 14px;
+    padding-right: 37%;
+    font-size: 16px;
     line-height: 24px;
 
   }
 
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 700px;
+    height: 600px;
   }
 
-#pet-port-hero-image-column img {
-  height: 350px;
-  padding-top: 10%;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 18%;
+  #pet-port-hero-image-column {
+    flex:6;
+  }
+
+  #pet-port-hero-image-column img {
+    height: 350px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    /*padding-bottom: 20%;*/
 }
 
+  #iphone1 {
+    padding-top: 20%;
+  }
 
-#petport-logo {
-  padding-top: 20%;
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 5%;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-description h3 {
-  font-size: 24px;
+  #pet-port-description h3 {
+  font-size: 20px;
+}
+
+#pet-port-second {
+  padding-top: 15%;
 }
 
 #pet-port-second button {
-  width: 110px;
-  height: 40px;
-  font-size: 10px;
-}
-
-#pet-port-button {
-  padding-top: 70%;
-}
-
-#why-me-headline h1 {
-  font-size: 36px;
-  padding-top: 10%;
-}
-
-#why-me {
-  height: 180px;
-}
-
-#why-me-description {
-  padding-bottom: 10%;
-}
-
-#why-me h2 {
-  font-size: 14px;
-  font-weight: 400;
-  margin: 0;
-  line-height: 25px;
-  padding-top: 5%;
-}
-
-#skills ul {
-  margin: 0;
-  padding: 0;
-}
-
-#lightbulb {
-  height:59px;
-  width: 30px
-}
-
-#wrenches {
-  height:59px;
-  width: 35px
-}
-
-#toolbox {
-  height: 400px;
-}
-
-#tools ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  font-size: 16px;
-}
-
-#everydesign {
-  width: 60%;
-  padding-top: 10%;
-}
-
-#left-text {
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 20px;
-  line-height: 25px;
-}
-
-#about-shell-odd {
-  flex-direction: column;
-}
-
-#photo-group1 {
-  padding-left: 15%;
-  padding-top: 5%;
-}
-
-#about-shell-even {
-  flex-direction: column-reverse;
-}
-
-#right-text {
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 20px;
-  line-height: 25px;
-}
-
-#photo-group2 {
-  width: 80%;
-  padding-top: 0px;
-  padding-left: 5%;
-}
-
-#yourstory {
-  width: 60%;
-  margin: 0 auto;
-  padding-left: 0px;
-  padding-bottom: 0px;
-}
-
-#last-paragraph {
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 20px;
-  line-height: 25px;
-  padding-top: 0;
-}
-
-#sign {
-  padding-bottom: 0px;
-  width: 21%;
-  padding-left: 10%;
-}
-
-#photo-group4 {
-  padding-top: 0;
-}
-
-#talk {
-  padding-top: 0px;
-  height: 500px;
-}
-
-#pitch {
-  padding-top: 0px;
-}
-
-#about-me-section h1 {
-  font-size: 36px;
-}
-
-#pitch p {
-  font-size: 14px;
-  line-height: 20px;
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-#pitch a {
-  font-size: 14px;
-}
-
-#contact-form button {
-  width: 100px;
+  width: 139px;
   height: 25px;
-  font-size: 12px;
-  padding: 0;
-}
-
-#footer-section {
-    height: 200px;
-  }
-
-  #footer-nav {
-    flex: 6;
-  height: 120px;
-  }
-  
-  #footer-links {
-    padding-top: 0%;
-
-  }
-  #footer-links ul  {
-    padding: 0;
-  }
-
-  #footer-empty1 {
-    flex:0;
-  }
-
-  #footer-empty2 {
-    flex:0;
-  }
-  
-  #footer-links > ul > li > a {
-    font-size: 12px;
-  }
-
-  #footer-nav ul {
-    padding: 0;
-  }
-
-  #copyright {
-    padding-left: 0;
-    padding-bottom: 5%;
-  }
-
-  #copyright p {
-    margin: 0;
-    padding-bottom: 5px;
-  }
-
-.fa {
-  font-size: 24px;
-}
-}
-
-
-
-@media (min-width: 551px) and (max-width: 650px){
-
-#nav-section {
-    height: 130px;
-  }
-
-  #navbar-links {
-    padding-left: 30%;
-    flex:4;
-    padding-right: 0%;
-  }
-
-  #navbar-links ul {
-    margin: 0;
-  }
-
-  #navbar-links > ul > li > a {
-    font-size: 15px;
-  }
-
-  #navbar-links ul>li {
-    padding-left: 0px;
-    padding-right: 2%;
-  }
-
-  #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
-    margin-left: 20%;
-  }
-
-  #background-image {
-    background-image: none;
-  }
-
-  #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
-  }
-
-  #intro-text h1 {
-    font-size: 36px;
-    padding-top: 5%;
-    padding-left: 5%;
-
-  }
-
-  #intro-text p {
-    padding-left: 5%;
-    font-size: 18px;
-    line-height: 26px;
-
-  }
-
-  #pet-port-hero {
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 700px;
-  }
-
-#pet-port-hero-image-column img {
-  height: 350px;
-  padding-top: 5%;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 16%;
-}
-
-
-#petport-logo {
-  padding-top: 20%;
-}
-
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 5%;
-}
-
-#pet-port-second button {
-  width: 110px;
-  height: 40px;
-  font-size: 10px;
+  font-size: 7px;
 }
 
 #pet-port-button {
   padding-top: 65%;
 }
 
+
 #why-me-headline h1 {
-  font-size: 36px;
-  padding-top: 5%;
+  font-size: 20px;
+  padding-top: 10%;
 }
 
 #why-me {
   height: 180px;
+  padding-bottom: 0;
 }
 
 #why-me-description {
@@ -4045,7 +3884,7 @@ li {
 }
 
 #why-me h2 {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   margin: 0;
   line-height: 25px;
@@ -4068,7 +3907,7 @@ li {
 }
 
 #toolbox {
-  height: 400px;
+  height: 320px;
 }
 
 #tools ul {
@@ -4077,7 +3916,7 @@ li {
 }
 
 li {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #everydesign {
@@ -4088,8 +3927,8 @@ li {
 #left-text {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 #about-shell-odd {
@@ -4097,8 +3936,9 @@ li {
 }
 
 #photo-group1 {
-  padding-left: 15%;
+  padding-left: 30%;
   padding-top: 5%;
+  width: 80%;
 }
 
 #about-shell-even {
@@ -4106,16 +3946,22 @@ li {
 }
 
 #right-text {
-  font-size: 20px;
-  line-height: 25px;
-  padding: 5% 10% 5% 10%;
-  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 0px;
 }
 
 #photo-group2 {
   width: 80%;
   padding-top: 0px;
-  padding-left: 5%;
+  padding-left: 10%;
+}
+
+#photo-group3 {
+  width: 80%;
+  padding: 5% 0% 0% 20%;
 }
 
 #yourstory {
@@ -4128,24 +3974,25 @@ li {
 #last-paragraph {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 20px;
-  line-height: 25px;
-  padding-top: 0;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 0px;
 }
 
 #sign {
   padding-bottom: 0px;
-  width: 21%;
-  padding-left: 10%;
+  width: 30%;
+  padding-left: 5%;
 }
 
 #photo-group4 {
-  padding-top: 0;
+  padding: 2% 0% 5% 20%;
+  width: 80%;
 }
 
 #talk {
-  padding-top: 0px;
-  height: 500px;
+  padding-top: 10%;
+  height: 600px;
 }
 
 #pitch {
@@ -4153,7 +4000,7 @@ li {
 }
 
 #about-me-section h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #pitch p {
@@ -4169,18 +4016,17 @@ li {
 
 #contact-form button {
   width: 100px;
-  height: 25px;
   font-size: 12px;
   padding: 0;
 }
 
 #footer-section {
-    height: 200px;
+    height: 150px;
   }
 
   #footer-nav {
     flex: 6;
-  height: 120px;
+    height: 120px;
   }
   
   #footer-links {
@@ -4209,12 +4055,16 @@ li {
 
   #copyright {
     padding-left: 0;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
   }
 
   #copyright p {
     margin: 0;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
+  }
+
+  .svg-inline--fa {
+    font-size: 20px;
   }
 
 .fa {
@@ -4222,16 +4072,16 @@ li {
 }
 }
 
-@media (min-width: 651px) and (max-width: 750px){
+
+@media (min-width: 551px) and (max-width: 650px){
 
 #nav-section {
-    height: 130px;
+    height: 75px;
   }
 
   #navbar-links {
-    padding-left: 40%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 35%;
   }
 
   #navbar-links ul {
@@ -4239,7 +4089,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   #navbar-links ul>li {
@@ -4248,9 +4098,9 @@ li {
   }
 
   #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
+    width:45px;
+    height: 45px;
+    margin-top: 20%;
     margin-left: 20%;
   }
 
@@ -4258,70 +4108,105 @@ li {
     background-image: none;
   }
 
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #view-work {
+    font-weight: 200;
+  }
+
+  #buffer {
+    height: 60px;
+    margin-top:75px;
+  }
+
   #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    margin-top: 70px;
+    height: 350px;
+    background-image: none;
   }
 
   #intro-text h1 {
-    font-size: 36px;
-    padding-top: 5%;
+    font-size: 28px;
+    font-weight: 200;
+    padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
+    padding-right: 37%;
     font-size: 18px;
-    line-height: 26px;
-
+    line-height: 24px;
   }
 
-  /*#pet-port-hero {
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
+  #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 700px;
-  }*/
+    height: 600px;
+  }
 
-#pet-port-hero-image-column img {
-  height: 400px;
-  padding-top: 60%;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-left: 25%;
+  #pet-port-hero-image-column {
+    flex:6;
+  }
+
+  #pet-port-hero-image-column img {
+    height: 350px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    /*padding-bottom: 20%;*/
 }
 
-/*
-#petport-logo {
-  padding-top: 20%;
+  #iphone1 {
+    padding-top: 15%;
+  }
+
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 5%;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
-*/
-#pet-port-second button {
-  width: 110px;
-  height: 40px;
-  font-size: 10px;
+
+  #pet-port-description h3 {
+  font-size: 20px;
 }
 
 #pet-port-second {
-  padding-left: 10%;
+  padding-top: 10%;
 }
 
+#pet-port-second button {
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
+}
+
+#pet-port-button {
+  padding-top: 57%;
+}
+
+
 #why-me-headline h1 {
-  font-size: 36px;
+  font-size: 20px;
   padding-top: 5%;
 }
 
 #why-me {
   height: 180px;
+  padding-bottom: 0;
 }
 
 #why-me-description {
@@ -4329,7 +4214,7 @@ li {
 }
 
 #why-me h2 {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   margin: 0;
   line-height: 25px;
@@ -4352,7 +4237,7 @@ li {
 }
 
 #toolbox {
-  height: 400px;
+  height: 320px;
 }
 
 #tools ul {
@@ -4361,7 +4246,7 @@ li {
 }
 
 li {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #everydesign {
@@ -4372,8 +4257,8 @@ li {
 #left-text {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 #about-shell-odd {
@@ -4381,8 +4266,9 @@ li {
 }
 
 #photo-group1 {
-  padding-left: 15%;
+  padding-left: 30%;
   padding-top: 5%;
+  width: 80%;
 }
 
 #about-shell-even {
@@ -4390,16 +4276,22 @@ li {
 }
 
 #right-text {
-  font-size: 20px;
-  line-height: 25px;
-  padding: 5% 10% 5% 10%;
-  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 0px;
 }
 
 #photo-group2 {
   width: 80%;
   padding-top: 0px;
-  padding-left: 5%;
+  padding-left: 10%;
+}
+
+#photo-group3 {
+  width: 80%;
+  padding: 5% 0% 0% 20%;
 }
 
 #yourstory {
@@ -4412,24 +4304,25 @@ li {
 #last-paragraph {
   padding-left: 10%;
   padding-right: 10%;
-  font-size: 20px;
-  line-height: 25px;
-  padding-top: 0;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 0px;
 }
 
 #sign {
   padding-bottom: 0px;
-  width: 21%;
-  padding-left: 10%;
+  width: 30%;
+  padding-left: 5%;
 }
 
 #photo-group4 {
-  padding-top: 0;
+  padding: 2% 0% 5% 20%;
+  width: 80%;
 }
 
 #talk {
-  padding-top: 0px;
-  height: 500px;
+  padding-top: 10%;
+  height: 600px;
 }
 
 #pitch {
@@ -4437,7 +4330,7 @@ li {
 }
 
 #about-me-section h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 #pitch p {
@@ -4453,18 +4346,17 @@ li {
 
 #contact-form button {
   width: 100px;
-  height: 25px;
   font-size: 12px;
   padding: 0;
 }
 
 #footer-section {
-    height: 200px;
+    height: 150px;
   }
 
   #footer-nav {
     flex: 6;
-  height: 120px;
+    height: 120px;
   }
   
   #footer-links {
@@ -4493,12 +4385,348 @@ li {
 
   #copyright {
     padding-left: 0;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
   }
 
   #copyright p {
     margin: 0;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
+  }
+
+  .svg-inline--fa {
+    font-size: 20px;
+  }
+
+.fa {
+  font-size: 24px;
+}
+}
+
+
+@media (min-width: 651px) and (max-width: 750px){
+
+#nav-section {
+    height: 75px;
+  }
+
+  #navbar-links {
+    flex:4;
+    padding: 5% 0% 0% 45%;
+  }
+
+  #navbar-links ul {
+    margin: 0;
+  }
+
+  #navbar-links > ul > li > a {
+    font-size: 14px;
+  }
+
+  #navbar-links ul>li {
+    padding-left: 0px;
+    padding-right: 2%;
+  }
+
+  #logo img {
+    width:45px;
+    height: 45px;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+
+  #background-image {
+    background-image: none;
+  }
+
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #view-work {
+    font-weight: 200;
+  }
+
+  #buffer {
+    height: 60px;
+    margin-top:75px;
+  }
+
+  #introduce-myself {
+    margin-top: 75px;
+    height: 350px;
+    background-image: none;
+  }
+
+  #intro-text h1 {
+    font-size: 36px;
+    font-weight: 200;
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+
+  #intro-text p {
+    padding-left: 5%;
+    padding-right: 0%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
+  /*#pet-port-hero {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }*/
+
+  #pet-port-hero-image-column {
+    flex:6;
+  }
+
+  #pet-port-hero-image-column img {
+    height: 350px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    /*padding-bottom: 20%;*/
+}
+
+  #iphone1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #petport-logo {
+    width: 175px;
+    height: 50px;
+}
+
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+  #pet-port-description h3 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#pet-port-second {
+  padding-top: 15%;
+}
+
+#pet-port-second button {
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
+}
+
+#pet-port-button {
+  padding-top: 20%;
+}
+
+
+#why-me-headline h1 {
+  font-size: 36px;
+  padding-top: 5%;
+}
+
+#why-me {
+  height: 180px;
+  padding-bottom: 0;
+}
+
+#why-me-description {
+  padding-bottom: 10%;
+}
+
+#why-me h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 25px;
+  padding-top: 5%;
+}
+
+#skills ul {
+  margin: 0;
+  padding: 0;
+}
+
+#lightbulb {
+  height:59px;
+  width: 30px
+}
+
+#wrenches {
+  height:59px;
+  width: 35px
+}
+
+#toolbox {
+  height: 380px;
+}
+
+#tools ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 12px;
+}
+
+#everydesign {
+  width: 60%;
+  padding-top: 10%;
+}
+
+#left-text {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#about-shell-odd {
+  flex-direction: column;
+}
+
+#photo-group1 {
+  padding-left: 30%;
+  padding-top: 5%;
+  width: 80%;
+}
+
+#about-shell-even {
+  flex-direction: column-reverse;
+}
+
+#right-text {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 0px;
+}
+
+#photo-group2 {
+  width: 80%;
+  padding-top: 0px;
+  padding-left: 10%;
+}
+
+#photo-group3 {
+  width: 80%;
+  padding: 5% 0% 0% 20%;
+}
+
+#yourstory {
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+#last-paragraph {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 0px;
+}
+
+#sign {
+  padding-bottom: 0px;
+  width: 30%;
+  padding-left: 10%;
+}
+
+#photo-group4 {
+  padding: 2% 0% 5% 20%;
+  width: 80%;
+}
+
+#talk {
+  padding-top: 10%;
+  height: 600px;
+}
+
+#pitch {
+  padding-top: 0px;
+}
+
+#about-me-section h1 {
+  font-size: 28px;
+}
+
+#pitch p {
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#pitch a {
+  font-size: 14px;
+}
+
+#contact-form button {
+  width: 100px;
+  font-size: 12px;
+  padding: 0;
+}
+
+#footer-section {
+    height: 150px;
+  }
+
+  #footer-nav {
+    flex: 6;
+    height: 120px;
+  }
+  
+  #footer-links {
+    padding-top: 0%;
+
+  }
+  #footer-links ul  {
+    padding: 0;
+  }
+
+  #footer-empty1 {
+    flex:0;
+  }
+
+  #footer-empty2 {
+    flex:0;
+  }
+  
+  #footer-links > ul > li > a {
+    font-size: 12px;
+  }
+
+  #footer-nav ul {
+    padding: 0;
+  }
+
+  #copyright {
+    padding-left: 0;
+    /*padding-bottom: 5%;*/
+  }
+
+  #copyright p {
+    margin: 0;
+    /*padding-bottom: 5px;*/
+  }
+
+  .svg-inline--fa {
+    font-size: 20px;
   }
 
 .fa {
@@ -4509,13 +4737,12 @@ li {
 @media (min-width: 751px) and (max-width: 800px){
 
 #nav-section {
-    height: 130px;
+    height: 75px;
   }
 
   #navbar-links {
-    padding-left: 40%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 50%;
   }
 
   #navbar-links ul {
@@ -4523,7 +4750,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   #navbar-links ul>li {
@@ -4532,9 +4759,9 @@ li {
   }
 
   #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
+    width:45px;
+    height: 45px;
+    margin-top: 20%;
     margin-left: 20%;
   }
 
@@ -4542,75 +4769,98 @@ li {
     background-image: none;
   }
 
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #view-work {
+    font-weight: 200;
+  }
+
+  #buffer {
+    height: 60px;
+    margin-top:75px;
+  }
+
   #introduce-myself {
-    margin-top: 100px;
-    height: 250px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    margin-top: 75px;
+    height: 350px;
+    background-image: none;
   }
 
   #intro-text h1 {
     font-size: 36px;
-    padding-top: 5%;
+    font-weight: 200;
+    padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
-    font-size: 18px;
-    line-height: 26px;
+    padding-right: 0%;
+    font-size: 20px;
+    line-height: 24px;
   }
-
 
   #case-studies p {
-    font-size: 36px;
-    padding-top: 4%;
-  }
+    font-size: 20px;
+    padding-top: 10%;
+}
 
   /*#pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 700px;
+    height: 600px;
   }*/
 
-#pet-port-hero-image-column img {
-  height: 400px;
-  padding-top: 60%;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-left: 25%;
+  #pet-port-hero-image-column {
+    flex:6;
+  }
+
+  #pet-port-hero-image-column img {
+    height: 350px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    /*padding-bottom: 20%;*/
 }
 
-/*
-#petport-logo {
-  padding-top: 20%;
+  #iphone1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #petport-logo {
+    width: 175px;
+    height: 50px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 5%;
-}
-*/
-#pet-port-second button {
-  width: 110px;
-  height: 40px;
-  font-size: 10px;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-button {
-  padding-top: 5%;
+  #pet-port-description h3 {
+  font-size: 20px;
+  font-weight: 200;
 }
 
 #pet-port-second {
-  padding-left: 10%;
+  padding-top: 10%;
 }
 
-#petport-logo {
-  padding-top: 80%;
+#pet-port-second button {
+  width: 139px;
+  height: 25px;
+  font-size: 7px;
 }
+
+#pet-port-button {
+  padding-top: 20%;
+}
+
 
 #why-me-headline h1 {
   font-size: 36px;
@@ -4619,6 +4869,7 @@ li {
 
 #why-me {
   height: 180px;
+  padding-bottom: 0;
 }
 
 #why-me-description {
@@ -4626,7 +4877,7 @@ li {
 }
 
 #why-me h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   margin: 0;
   line-height: 25px;
@@ -4649,7 +4900,7 @@ li {
 }
 
 #toolbox {
-  height: 400px;
+  height: 380px;
 }
 
 #tools ul {
@@ -4658,58 +4909,117 @@ li {
 }
 
 li {
-  font-size: 16px;
+  font-size: 12px;
+}
+
+#everydesign {
+  width: 60%;
+  padding-top: 10%;
 }
 
 #left-text {
   padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#about-shell-odd {
+  flex-direction: column;
 }
 
 #photo-group1 {
+  padding-left: 30%;
+  padding-top: 5%;
   width: 80%;
-  padding-top: 40%;
+}
+
+#about-shell-even {
+  flex-direction: column-reverse;
+}
+
+#right-text {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 0px;
 }
 
 #photo-group2 {
   width: 80%;
+  padding-top: 0px;
   padding-left: 10%;
-  padding-top: 40%;
-}
-
-#right-text {
-  padding-right: 10%;
-}
-
-#yourstory {
-  padding-bottom: 0;
 }
 
 #photo-group3 {
   width: 80%;
-  padding-top: 40%;
+  padding: 5% 0% 0% 20%;
+}
+
+#yourstory {
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-bottom: 0px;
 }
 
 #last-paragraph {
-  padding-top: 0;
+  padding-left: 10%;
   padding-right: 10%;
-}
-
-#photo-group4 {
-  width: 80%;
-  padding-top: 40%;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 0px;
 }
 
 #sign {
-  width: 35%;
+  padding-bottom: 0px;
+  width: 30%;
+  padding-left: 10%;
+}
+
+#photo-group4 {
+  padding: 2% 0% 5% 20%;
+  width: 80%;
+}
+
+#talk {
+  padding-top: 10%;
+  height: 600px;
+}
+
+#pitch {
+  padding-top: 0px;
+}
+
+#about-me-section h1 {
+  font-size: 36px;
+}
+
+#pitch p {
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#pitch a {
+  font-size: 14px;
+}
+
+#contact-form button {
+  width: 100px;
+  font-size: 12px;
+  padding: 0;
 }
 
 #footer-section {
-    height: 200px;
+    height: 150px;
   }
 
   #footer-nav {
     flex: 6;
-  height: 120px;
+    height: 120px;
   }
   
   #footer-links {
@@ -4738,12 +5048,16 @@ li {
 
   #copyright {
     padding-left: 0;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
   }
 
   #copyright p {
     margin: 0;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
+  }
+
+  .svg-inline--fa {
+    font-size: 20px;
   }
 
 .fa {
@@ -4751,17 +5065,15 @@ li {
 }
 }
 
-
-@media (min-width: 801px) and (max-width: 1040px){
+@media (min-width: 801px) and (max-width: 1000px){
 
 #nav-section {
-    height: 130px;
+    height: 75px;
   }
 
   #navbar-links {
-    padding-left: 40%;
     flex:4;
-    padding-right: 0%;
+    padding: 5% 0% 0% 55%;
   }
 
   #navbar-links ul {
@@ -4769,7 +5081,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   #navbar-links ul>li {
@@ -4778,9 +5090,9 @@ li {
   }
 
   #logo img {
-    width:55px;
-    height: 55px;
-    margin-top: 25%;
+    width:45px;
+    height: 45px;
+    margin-top: 20%;
     margin-left: 20%;
   }
 
@@ -4788,8 +5100,21 @@ li {
     background-image: none;
   }
 
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #view-work {
+    font-weight: 200;
+  }
+
+  #buffer {
+    height: 60px;
+    margin-top:75px;
+  }
+
   #introduce-myself {
-    margin-top: 100px;
+    margin-top: 75px;
     height: 350px;
     /*background-color: #EDF0F0;
     background-image: none;*/
@@ -4797,62 +5122,24 @@ li {
 
   #intro-text h1 {
     font-size: 36px;
+    font-weight: 200;
     padding-top: 10%;
     padding-left: 5%;
-
   }
 
   #intro-text p {
     padding-left: 5%;
-    font-size: 18px;
-    line-height: 26px;
-
+    padding-right: 0%;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   #case-studies p {
-    font-size: 36px;
-    padding-top: 3%;
-  }
-
-  /*#pet-port-hero {
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 700px;
-  }*/
-
-#pet-port-hero-image-column img {
-  height: 500px;
-  padding-top: 30%;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-  padding-left: 25%;
+    font-size: 20px;
+    padding-top: 10%;
 }
 
-/*
-#petport-logo {
-  padding-top: 20%;
-}
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 5%;
-}
-*/
-#pet-port-second button {
-  width: 110px;
-  height: 40px;
-  font-size: 10px;
-}
-
-#pet-port-second {
-  padding-left: 10%;
-}
-
-#petport-logo {
-  padding-top: 100%;
-}
 
 #why-me-headline h1 {
   font-size: 36px;
@@ -4860,7 +5147,8 @@ li {
 }
 
 #why-me {
-  height: 250px;
+  height: 180px;
+  padding-bottom: 0;
 }
 
 #why-me-description {
@@ -4868,7 +5156,7 @@ li {
 }
 
 #why-me h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   margin: 0;
   line-height: 25px;
@@ -4891,7 +5179,7 @@ li {
 }
 
 #toolbox {
-  height: 400px;
+  height: 380px;
 }
 
 #tools ul {
@@ -4900,58 +5188,117 @@ li {
 }
 
 li {
-  font-size: 16px;
+  font-size: 12px;
+}
+
+#everydesign {
+  width: 60%;
+  padding-top: 10%;
 }
 
 #left-text {
   padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#about-shell-odd {
+  flex-direction: column;
 }
 
 #photo-group1 {
+  padding-left: 30%;
+  padding-top: 5%;
   width: 80%;
-  padding-top: 40%;
+}
+
+#about-shell-even {
+  flex-direction: column-reverse;
+}
+
+#right-text {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 0px;
 }
 
 #photo-group2 {
   width: 80%;
+  padding-top: 0px;
   padding-left: 10%;
-  padding-top: 40%;
-}
-
-#right-text {
-  padding-right: 10%;
-}
-
-#yourstory {
-  padding-bottom: 0;
 }
 
 #photo-group3 {
   width: 80%;
-  padding-top: 40%;
+  padding: 5% 0% 0% 20%;
+}
+
+#yourstory {
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-bottom: 0px;
 }
 
 #last-paragraph {
-  padding-top: 0;
+  padding-left: 10%;
   padding-right: 10%;
-}
-
-#photo-group4 {
-  width: 80%;
-  padding-top: 40%;
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 0px;
 }
 
 #sign {
-  width: 35%;
+  padding-bottom: 0px;
+  width: 30%;
+  padding-left: 10%;
+}
+
+#photo-group4 {
+  padding: 2% 0% 5% 20%;
+  width: 80%;
+}
+
+#talk {
+  padding-top: 10%;
+  height: 600px;
+}
+
+#pitch {
+  padding-top: 0px;
+}
+
+#about-me-section h1 {
+  font-size: 36px;
+}
+
+#pitch p {
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#pitch a {
+  font-size: 14px;
+}
+
+#contact-form button {
+  width: 100px;
+  font-size: 12px;
+  padding: 0;
 }
 
 #footer-section {
-    height: 200px;
+    height: 150px;
   }
 
   #footer-nav {
     flex: 6;
-  height: 120px;
+    height: 120px;
   }
   
   #footer-links {
@@ -4980,12 +5327,16 @@ li {
 
   #copyright {
     padding-left: 0;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
   }
 
   #copyright p {
     margin: 0;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
+  }
+
+  .svg-inline--fa {
+    font-size: 20px;
   }
 
 .fa {
@@ -4993,28 +5344,38 @@ li {
 }
 }
 
+@media (min-width: 801px) and (max-width: 1000px) {
 
-@media (min-width: 1041px) and (max-width: 1350px) {
+  #nav-section {
+    height: 75px;
+  }
 
   #navbar-links {
-    padding-left: 30%;
+    flex:4;
+    padding: 5% 0% 0% 55%;
   }
 
-#pet-port-hero-image-column img {
-  padding-right: 0px;
-}
-
-#case-studies p {
-  font-size: 48px;
-}
-
-}
-
-@media (min-width: 1350) {
-
-  #case-studies p {
-    font-size: 48px;
+  #navbar-links ul {
+    margin: 0;
   }
+
+  #navbar-links > ul > li > a {
+    font-size: 14px;
+  }
+
+  #navbar-links ul>li {
+    padding-left: 0px;
+    padding-right: 2%;
+  }
+
+  #logo img {
+    width:45px;
+    height: 45px;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+
+
 }
 
 

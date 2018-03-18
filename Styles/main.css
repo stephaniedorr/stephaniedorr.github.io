@@ -12,14 +12,15 @@ h1 {
 
 p {
   font-family: raleway;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 200;
   line-height: 30px;
   letter-spacing: 0.58px;
 }
 
  h3 {
   font-family: raleway;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 0.58px;
   margin: 0px;
   padding-bottom: 20px;
@@ -56,11 +57,11 @@ h4 {
   display: flex;
   overflow: hidden;
   background-color: #ffffff;
-  /*opacity:0.95;*/
+  opacity:0.95;
   position: fixed;
   top: 0;
   width: 100%; 
-  height:130px;
+  height:100px;
   z-index: 99;
 }
 
@@ -71,15 +72,15 @@ h4 {
 #logo img {
   width: 65px;
   height: 65px;
-  margin-top: 30px;
-  margin-left:70px;
+  margin-top: 8%;
+  margin-left: 15%;
 }
 
 
 #navbar-links {
   flex: 3;
   list-style-type: none;
-  padding-top: 40px;
+  padding-top: 1%;
   padding-left: 50%;
 }
 
@@ -92,7 +93,7 @@ h4 {
 }
 
 #navbar-links > ul > li > a:hover {
-  color: #337AB7;
+  color: #5691A5;
 }
 
 #navbar-links ul > li {
@@ -130,6 +131,7 @@ h4 {
 
 #intro-text p {
   margin:0;
+  font-size: 24px;
   font-weight: 400;
   padding-top: 10px;
   padding-left: 130px;
@@ -163,56 +165,28 @@ h4 {
   margin: 0 auto;
 }
 
-/*.bounce {
-  animation: bounce 5s infinite;
- -webkit-animation: bounce 5s infinite;
- -moz-animation: bounce 5s infinite;
- -o-animation: bounce 5s infinite;
-}
-
-@-webkit-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
- 40% {-webkit-transform: translateY(-30px);}
- 60% {-webkit-transform: translateY(-15px);}
-}
- 
-@-moz-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
- 40% {-moz-transform: translateY(-30px);}
- 60% {-moz-transform: translateY(-15px);}
-}
- 
-@-o-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
- 40% {-o-transform: translateY(-30px);}
- 60% {-o-transform: translateY(-15px);}
-}
-@keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
- 40% {transform: translateY(-30px);}
- 60% {transform: translateY(-15px);}
-}
-
-*/
-
 /* -----PET PORT HERO SECTION -----*/
 
 #petport {
   background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
 }
+
+#petport2 {
+  background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
+}
 #pet-port-hero {
   display: flex;
-  height: 700px;
+  /*height: 700px;*/
   width: 80%;
   /*background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);*/
   /*margin-bottom: 65px;*/
   /*margin-top: 130px;*/
-
 } 
 
 .anchor {
   display: block;
-  height: 50px;
+  /*height: 100px;*/
+  margin-top: 100px;
   visibility: hidden;
 }
 
@@ -225,11 +199,20 @@ h4 {
 }
 
 #pet-port-hero-image-column  img {
-  height: 500px;  
-  padding-top:100px;
-  padding-right: 0px;
+  height: 90%;   
   float: right;
-  padding-right: 40px;
+}
+
+#iphone1 {
+  padding-top: 7%;
+}
+
+#iphone2 {
+  padding-top: 5%;
+}
+
+#two {
+  padding-left: 2%;
 }
 
 /* right side of main parent container */
@@ -240,7 +223,7 @@ h4 {
   flex-direction: column;
   margin: 0;
   align-items: center;
-  /*padding: 0 100px 0 0%;*/
+  padding-top: 7%;
 }
 
 /* first child of the second column */
@@ -259,7 +242,7 @@ h4 {
 #petport-logo {
   width: 250px;
   height: 70px;
-  padding-top: 70%;
+  /*padding-top: 70%;*/
 }
 
 .textcontainer {
@@ -284,6 +267,7 @@ h4 {
   font-weight: 400;
   font-size: 28px;
   margin: 0;
+  padding: 0;
 }
 
 button:hover  {
@@ -295,6 +279,7 @@ button:hover  {
   flex: 1;
   text-align: center;
   padding-top: 5%;
+  padding-bottom: 8%;
 }
 
 /* third child of the second column */
@@ -356,11 +341,11 @@ button:hover  {
 /*---------------Toolbox section ---------------*/
 #toolbox {
   display: flex;
-  height: 600px;
   margin-bottom: 45px;
   font-family: raleway;
   font-size: 24px;
   font-weight: 300;
+  padding-top: 5%;
 }
 
 #toolbox-image {
@@ -389,8 +374,6 @@ li {
 #tools {
   flex: 1;
   text-align: center;
-  /*padding-top: 50px;*/
-  /*padding-right: 50px;*/
 }
 
 #toolboxempty2 {
@@ -400,15 +383,17 @@ li {
 #lightbulb {
   height: 79px;
   width: 50px;
-  /*padding-left: 50px;*/
 }
 
 #wrenches {
   height: 79px;
   width: 60px;
-  margin-top: 30px;
 }
 
+
+/*#tools-used ul {
+-webkit-padding-start: 0;
+}*/
 
 /* ------------------About Me-----------------*/
 
@@ -420,7 +405,8 @@ li {
 }
 
 #about-me-section {
-  background-image: linear-gradient(-180deg, #337AB7 9%, #087FA6 100%);
+  /*background-image: linear-gradient(-180deg, #337AB7 9%, #087FA6 100%);*/
+  background-color: rgb(86,145,165);
   margin-top: 130px; 
 }
 
@@ -429,6 +415,21 @@ li {
   display: block;
   margin: 0 auto;
   padding-top: 65px;
+}
+
+#buffer {
+  background-color: rgb(86,145,165);
+  height: 60px;
+}
+
+#about-me-header {
+  background-color: #FFFFFF;
+}
+
+#vision {
+  width: 100%;
+  opacity: .6;
+  overflow: hidden;
 }
 
 #yourstory {
@@ -463,6 +464,7 @@ li {
 
 #about-shell-odd {
   display: flex;
+  padding-top: 5%;
 }
 
 #about-left {
@@ -510,7 +512,7 @@ li {
 #photo-group3 {
   width: 75%;
   padding-left: 15%;
-  /*padding-top: 20%;*/
+  padding-top: 5%;
 }
 
 #photo-group4 {
@@ -668,9 +670,10 @@ button {
   width: 60px;
 }
 
-#wrenches {
+#more-wrenches {
   height: 89px;
   width: 60px;
+  margin-top: 0;
 }
 
 
@@ -681,7 +684,7 @@ button {
 #challenge-solution-section {
   display: flex;
   flex-direction: column;
-  height: 950px;
+  /*height: 950px;*/
   font-family: raleway;
   background-color: #F2F5F5;
 }
@@ -700,7 +703,7 @@ button {
 
 
 #challenge {
-  margin-top: 65px;
+  margin-top: 5%;
   flex:1;
   text-align: center;
 }
@@ -713,13 +716,7 @@ button {
 #solution {
   flex:1;
   text-align: center;
-  margin-bottom: 65px;
-}
-
-#lightbulb {
-  height: 79px;
-  width: 50px;
-  margin-top: 30px;
+  margin-bottom: 5%;
 }
 
 /* ----- END CHALLENGE SOLUTION SECTION -----*/
@@ -805,11 +802,11 @@ button {
 /* ----- STATISTICS SECTION -----*/
 
 #statistics {
-  height: 425px;
+  /*height: 1010px;*/
   /*background-image: url('/Users/stephaniedorr/portfolio/assets/images/statistics-chart.jpg');*/
   /*background-image: url(..assets/images/statistics-chart.jpg);*/
-  padding-top: 65px;
-  padding-bottom: 175px;
+/*  padding-top: 65px;
+  padding-bottom: 175px;*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -823,12 +820,17 @@ button {
   list-style-type: disc;
 }
 
+/*#stats-text {
+  padding-top: 5%;
+  height: 700px;
+}*/
+
 /* ----- END STATISTIC SECTION -----*/
 
 /* ----- BOTTOM LINE -----*/
 
 #bottom-line {
-  height: 375px;
+  /*height: 375px;*/
   font-family: raleway;
   background-color: #56BDE8;
 }
@@ -836,17 +838,17 @@ button {
 #bottom-line p {
   font-size: 28px;
   color: #FFFFFF;
+  padding-bottom: 5%;
 }
 
 #bottom-line-image {
   text-align: center;
-  padding-top: 35px;
+  padding-top: 5%;
 }
 
 #moneybag {
-  height: 79px;
-  width: 50px;
-  padding-top: 25px;
+  height: 90px;
+  width: 70px;
 }
 
 /* ----- END BOTTOM LINE SECTION -----*/
@@ -858,11 +860,15 @@ button {
   flex-direction: column;
   /*height: 925px;*/
   text-align: center;
-  margin-bottom: 5%;
+  padding-top: 5%
+  padding-bottom: 5%;
+
+  
 }
 
 #persona-text {
   flex:1;
+  padding-top: 5%;
 }
 
 #persona-image {
@@ -874,20 +880,153 @@ button {
 #icon {
   height: 79px;
   width: 79px; 
-  padding-top: 65px;
 }
 
-#personas {
+/*#personas {
   width: 100%;
   max-width: 2200px;
   min-width: ;
   padding-top: 30px;
+}*/
+
+
+.personas {
+  width: 50%;
+  padding-top: 65px;
+  display: block;
+  margin: 0 auto;
+}
+.personas { transition: all .3s ease-in-out; }
+
+.personas:hover {
+  transform: scale(1.5);
+}
+
+#persona-wrapper {
+  display: flex;
+}
+
+/*persona slides */
+
+.black {
+  color: #333333;
+}
+
+#slide-button {
+  color: blue;
+}
+
+/*#slide-container img {
+  display: block;
+  margin: 0 auto;
+}*/
+
+/*trying another slideshow */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 5%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #4d4d4d;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  right: 96%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: #ffffff;
+  background-color: rgba(125,128,128,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 #persona-text h3 {
   font-family: raleway;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 0.58px;
 }
 
@@ -898,9 +1037,9 @@ button {
 }
 
 #persona-text p {
-  font-family: raleway;
+/*  font-family: raleway;
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 200;*/
   margin: 0px;
   /*padding-bottom: 35px;*/
 }
@@ -912,9 +1051,13 @@ button {
 /* put this in a flex box*/
 
 #brand-section {
-  height: 755px;
   text-align: center;
-  margin-top: 85px;
+  margin-top: 5%;
+  background-color: #F2F5F5
+}
+
+#brand-text{
+  padding-top: 5%;
 }
 
 #brand-paintbrush {
@@ -936,16 +1079,48 @@ button {
 #brand-section h3 {
   font-family: raleway;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 0.58px;
 }
 
 
 #brand-section p {
   font-family: raleway;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 200;
   margin: 0px;
+}
+
+#brand-image {
+  padding-bottom: 5%;
+}
+
+#traits-table {
+  font-family: raleway;
+ font-size: 24px;
+ font-weight: 200;
+ width: 60%;
+ padding-top: 2%;
+}
+
+th {
+  height: 100px;
+  width: 100px;
+}
+
+td {
+  height: 50px;
+  width: 100px;
+}
+
+.green {
+  color: #8EB261;
+  font-weight: 600;
+}
+
+.blue {
+  color: #56BCE8;
+  font-weight: 600;
 }
 
 /* ----- END BRAND SECTION -----*/
@@ -953,59 +1128,81 @@ button {
 /* ----- BRAND PSYCHOLOGY -----*/
 
 #psychology-section {
-  height: 1470px;
   text-align: center;
-  background-color: #F2F5F5;
+  /*background-color: #F2F5F5;*/
+  padding-top: 5%;
 }
 
 #paintbucket {
   height: 89px;
   width: 50px;
-  padding-top: 65px;
 }
-
-/*#psychology-section h4 {
-  font-family: raleway;
-  font-weight: 200;
-  font-size: 24px;
-}*/
 
 #psychology-section h3 {
   font-family: raleway;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 0.58px;
 }
 
 
 #psychology-section p {
-/*  font-family: raleway;
-  font-size: 24px;
-  font-weight: 200;*/
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: 200;
   margin: 0px;
 }
 
-#style-guide {
-  height: 575px;
-  width: 600px;
-  padding-top: 75px;
-  padding-bottom: 65px;
+#psychology-text: {
+  padding-top: 5%;
 }
 
+#style-guide {
+  background-color: #ffffff;
+  height: 575px;
+  width: 500px;
+  max-width: 500px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+#style-guide { transition: all .3s ease-in-out; }
+
+#style-guide:hover {
+  transform: scale(1.75);
+}
+
+#style-scape {
+  width: 100%;
+  max-width: 1700px;
+}
+
+#style-images {
+  display: flex;
+  flex-direction: column;
+}
+
+#guide {
+  flex: 1;
+}
+
+#scape {
+  flex:1;
+}
 
 /* ----- END BRAND PSYCHOLOGY ------*/
 
 /* ----- LOGO SECTION ----- */
 
 #logo-section {
-  height: 1050px;
   text-align: center;
+  background-color: #f2f5f5;
+  padding-top: 5%;
 }
 
 #logo-pencil {
   height: 89px;
   width: 60px;
-  padding-top: 65px;
 }
 
 /*#psychology-section h4 {
@@ -1030,11 +1227,9 @@ button {
 }
 
 #logo-sketch {
-  height: 375px;
-  width: 100%;
-  max-width: 1200px;
-  padding-top: 75px;
-  padding-bottom: 65px;
+  max-width: 500px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /* ----- END LOGO SECTION ----- */
@@ -1059,14 +1254,20 @@ button {
   max-width: 1200px;
 }
 
+#flow-image { transition: all .3s ease-in-out; }
+
+#flow-image:hover {
+  transform: scale(1.75);
+}
+
 /* ----- END INFORMATION ARCHITECTURE SECTION ----- */
 
 /* ----- WIREFRAMING SECTION -----*/
 
 #wireframing-section {
-  height: 950px;
   text-align: center;
   background-color: #F2F5F5;
+  padding-top: 5%;
 }
 
 #wireframe-icon {
@@ -1079,8 +1280,8 @@ button {
 }
 
 #wireframe-sketch {
-  height: 450px;
   width: 700px;
+  padding-top: 5%;
   padding-bottom: 95px;
 }
 
@@ -1088,12 +1289,10 @@ button {
 /* ----- USER TESTING SECTION -----*/
 
 #user-testing-section {
-  height: 3900px;
   text-align: center;
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 5%;
+  background-color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #user-testing-icon {
@@ -1102,16 +1301,18 @@ button {
 }
 
 #user-testing {
-  padding-top: 65px;
+  padding-top: 5%;
 }
 
 #testing-text2 {
-  padding-top: 50px;
+  padding-top: 5%;
 }
 
 #coach-images {
   display: flex;
-  padding-top: 50px;
+  width: 60%;
+  padding-top: 5%;
+  margin-left: 20%;
 }
 
 #coach-cat {
@@ -1125,13 +1326,11 @@ button {
 .image-l {
   height:550px;
   width: 290px;
-  padding-left: 90px;
 }
 
 .image-r {
   height:550px;
-  width: 290px;
-  padding-right: 90px;
+  width: 280px;
 }
 
 /*#dog {
@@ -1141,7 +1340,9 @@ button {
 
 #sign-up-images {
   display: flex;
-  padding-top: 50px;
+  padding-top: 5%;
+  width: 60%;
+  margin-left: 20%;
 }
 
 #sign-up2  {
@@ -1154,7 +1355,9 @@ button {
 
 #search-images {
   display: flex;
-  padding-top: 50px;
+  width: 60%;
+  margin-left: 20%;
+  padding-top: 5%;
 }
 
 #er-search {
@@ -1167,7 +1370,9 @@ button {
 
 #filter-images {
   display: flex;
-  padding-top: 50px;
+  width: 60%;
+  margin-left: 20%;
+  padding-top: 5%;
 }
 
 #old-filter {
@@ -1180,7 +1385,9 @@ button {
 
 #welcome-images {
   display: flex;
-  padding-top: 50px;
+  width: 60%;
+  margin-left: 20%;
+  padding-top: 5%;
 }
 
 #old-welcome {
@@ -1229,8 +1436,9 @@ button {
 
 #summary-list li {
   font-family: raleway;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
+  list-style-type: circle;
   letter-spacing: 0.58;
 }
 
@@ -1251,9 +1459,10 @@ button {
 
 #footer-section {
   display: flex;
+  background-color: #333333;
   /*background-color: #4d4d4d;*/
-  background-image: linear-gradient(-180deg, #337AB7 9%, #087FA6 100%);
-  height: 200px;
+  /*background-image: linear-gradient(-180deg, #337AB7 9%, #087FA6 100%);*/
+  height: 150px;
 }
 /*#footer-empty1 {
   flex:1;
@@ -1269,7 +1478,7 @@ button {
 
 #footer-links {
   flex: 1;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   text-align: center;
 }
 
@@ -1290,8 +1499,6 @@ button {
   font-family: cabin;
   color: #e3e5e5;
   font-size: 8px;
-  padding-top: 20px;
-  padding-bottom: 30px;
 }
 
 #footer-links > ul > li > a {
@@ -1304,7 +1511,7 @@ button {
 }
 
 #footer-links > ul > li > a:hover {
-  color: #333333;
+  color: #5691a5;
 }
 
 #footer-nav ul > li {
@@ -1331,7 +1538,7 @@ button {
 }
 
 .svg-inline--fa:hover {
-  color: #333333;
+  color: #5691a5;
 }
 
 

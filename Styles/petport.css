@@ -3,25 +3,24 @@ a {
   color: #FFFFFF;
 }
 
+
 h1 {
   font-family: raleway;
-  font-weight: 600;
   font-size: 48px;
   letter-spacing: 0.78px;
 }
 
 p {
   font-family: raleway;
+  font-size: 20px;
   font-weight: 200;
-  font-size: 24px;
   line-height: 30px;
   letter-spacing: 0.58px;
 }
 
  h3 {
   font-family: raleway;
-  font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 0.58px;
   margin: 0px;
   padding-bottom: 20px;
@@ -60,7 +59,7 @@ h4 {
   position: fixed;
   top: 0;
   width: 100%; 
-  height:130px;
+  height:100px;
   z-index: 99;
 }
 
@@ -71,15 +70,15 @@ h4 {
 #logo img {
   width: 65px;
   height: 65px;
-  margin-top: 30px;
-  margin-left:70px;
+  margin-top: 8%;
+  margin-left: 15%;
 }
 
 
 #navbar-links {
   flex: 3;
   list-style-type: none;
-  padding-top: 40px;
+  padding-top: 1%;
   padding-left: 50%;
 }
 
@@ -92,7 +91,7 @@ h4 {
 }
 
 #navbar-links > ul > li > a:hover {
-  color: #337AB7;
+  color: #5691A5;
 }
 
 #navbar-links ul > li {
@@ -100,23 +99,32 @@ h4 {
   padding-left: 20px;
 }
 
-
 /* ----- END NAVIGATION SECTION -----*/
 
 /* -----PET PORT HERO SECTION -----*/
+
 #petport {
   background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
-  margin-top: 130px;
+}
+
+#petport2 {
+  background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
 }
 #pet-port-hero {
   display: flex;
-  height: 700px;
+  /*height: 700px;*/
   width: 80%;
   /*background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);*/
   /*margin-bottom: 65px;*/
   /*margin-top: 130px;*/
-
 } 
+
+.anchor {
+  display: block;
+  /*height: 100px;*/
+  margin-top: 100px;
+  visibility: hidden;
+}
 
 /* left side of main parent container */
 #pet-port-hero-image-column {
@@ -127,11 +135,20 @@ h4 {
 }
 
 #pet-port-hero-image-column  img {
-  height: 500px;  
-  padding-top:100px;
-  padding-right: 0px;
+  height: 90%;   
   float: right;
-  padding-right: 40px;
+}
+
+#iphone1 {
+  padding-top: 7%;
+}
+
+#iphone2 {
+  padding-top: 5%;
+}
+
+#two {
+  padding-left: 2%;
 }
 
 /* right side of main parent container */
@@ -142,7 +159,7 @@ h4 {
   flex-direction: column;
   margin: 0;
   align-items: center;
-  /*padding: 0 100px 0 0%;*/
+  padding-top: 7%;
 }
 
 /* first child of the second column */
@@ -150,19 +167,18 @@ h4 {
   flex: 1;
 }
 
-/*#pet-port-hero h2 {
+#pet-port-hero h2 {
   font-family: 'Luckiest Guy', cursive;
   font-weight: 300;
   font-size: 48px;
   margin: 0;
   padding-top: 175px;
-}*/
+}
 
 #petport-logo {
-  /*width: 250px;*/
-  widows: 100%;
-  /*height: 70px;*/
-  padding-top: 65%;
+  width: 250px;
+  height: 70px;
+  /*padding-top: 70%;*/
 }
 
 .textcontainer {
@@ -179,24 +195,15 @@ h4 {
   text-align: left;
 } 
 
-/*#pet-port-description h1 {
-  font-family: raleway;
-  font-weight: 400;
-  font-size: 48px;
-  letter-spacing: 0.78px;
-  
-}*/
-
-#pet-port-description p {
-  font-family: raleway;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
+#pet-port-description h4 {
+  margin: 0;
 }
 
-#pet-port-description h1 {
+#pet-port-description h3 {
+  font-weight: 400;
+  font-size: 28px;
   margin: 0;
-  font-size: 39px;
+  padding: 0;
 }
 
 button:hover  {
@@ -207,6 +214,8 @@ button:hover  {
 #pet-port-description {
   flex: 1;
   text-align: center;
+  padding-top: 5%;
+  padding-bottom: 8%;
 }
 
 /* third child of the second column */
@@ -216,16 +225,8 @@ button:hover  {
   padding-top: 10px;
 }
 
-/*#hero-empty1 {
-  flex: .10;
-}
-
-#hero-empty2 {
-  flex:.10;
-}*/
-
 #pet-port-second button {
-  width: 170px;
+  width: 200px;
   height: 44.11px;
   border-radius: 10px;
   border: none;
@@ -237,8 +238,7 @@ button:hover  {
   text-transform: uppercase;
 }
 
-
-/* ----- END PET PORT HERO SECTION -----*/
+/* --- END PET PORT SECTION --*/
 
 #summary {
   display: flex;

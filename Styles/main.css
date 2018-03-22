@@ -1,3 +1,5 @@
+
+
 a {
   text-decoration: none;
   color: #FFFFFF;
@@ -10,13 +12,41 @@ h1 {
   letter-spacing: 0.78px;
 }
 
-p {
+
+.p {
   font-family: raleway;
   font-size: 20px;
   font-weight: 200;
   line-height: 30px;
   letter-spacing: 0.58px;
 }
+
+.para {
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: 200;
+  display: block;
+  margin: 0 auto;
+  width: 55%;
+  max-width: 650px;
+  line-height: 1.8em;
+  letter-spacing: 0.75;
+  text-align: left;
+}
+
+.para-c {
+  font-family: raleway;
+  font-size: 20px;
+  font-weight: 200;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 650px;
+  line-height: 30px;
+  letter-spacing: 0.75;
+  text-align: center;
+}
+
 
  h3 {
   font-family: raleway;
@@ -165,7 +195,7 @@ h4 {
   margin: 0 auto;
 }
 
-/* -----PET PORT HERO SECTION -----*/
+/* -----PET PORT HERO SECTION (Main page)-----*/
 
 #petport {
   background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
@@ -301,6 +331,161 @@ button:hover  {
   background-color: #EC1C2E;
   text-transform: uppercase;
 }
+
+/* -----END PET PORT HERO SECTION (MAIN OA)-----*/
+
+
+/* -----PET PORT HERO SECTION (Case Study)-----*/
+
+#petport-cs {
+  background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
+}
+
+#petport2 {
+  background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);
+}
+
+#petport-cs {
+  margin-top: 100px;
+}
+
+#pet-port-hero-cs {
+  display: flex;
+  /*height: 700px;*/
+  width: 80%;
+  /*background: radial-gradient(569.38px at 50% 13.33%, #8FE0F5 0%, #56BDE8 100%);*/
+  /*margin-bottom: 65px;*/
+  /*margin-top: 130px;*/
+} 
+
+.anchor {
+  display: block;
+  /*height: 100px;*/
+  margin-top: 120px;
+  visibility: hidden;
+}
+
+/* left side of main parent container */
+#pet-port-hero-image-column-cs {
+  flex: 1;
+  margin: 0;
+  justify-content: flex-end;
+  padding: 0 0 0 0;
+}
+
+#pet-port-hero-image-column-cs  img {
+  height: 90%;   
+  float: right;
+}
+
+#iphone1 {
+  padding-top: 7%;
+}
+
+#iphone2 {
+  padding-top: 5%;
+}
+
+#two-cs {
+  padding-left: 2%;
+}
+
+/* right side of main parent container */
+/* also parent container for hero headline and button */
+#pet-port-second-cs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  padding-top: 6%;
+}
+
+/* first child of the second column */
+#pet-port-headline-cs {
+  flex: 1;
+}
+
+#pet-port-hero-cs h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 300;
+  font-size: 48px;
+  margin: 0;
+  padding-top: 175px;
+}
+
+#petport-logo-cs {
+  width: 250px;
+  height: 70px;
+  /*padding-top: 70%;*/
+}
+
+.textcontainer {
+  text-align: center;
+}
+
+.textcontainer p {
+  display: inline-block;
+  text-align: left;
+}
+
+.textcontainer ul {
+  display: inline-block;
+  text-align: left;
+} 
+
+#pet-port-description-cs h4 {
+  margin: 0;
+}
+
+#pet-port-description-cs h3 {
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+button:hover  {
+  opacity: 0.5; 
+}
+
+
+#pet-port-description h1 {
+  margin: 0;
+}
+
+/* second child of the second column */
+#pet-port-description-cs {
+  flex: 1;
+  text-align: center;
+  /*padding-top: 2%;
+  padding-bottom: 2%;*/
+}
+
+/* third child of the second column */
+#pet-port-button-cs {
+  flex: 1;
+  margin: 0;
+  padding-top: 10px;
+}
+
+#pet-port-second-cs button {
+  width: 200px;
+  height: 44.11px;
+  border-radius: 10px;
+  border: none;
+  font-family: cabin;
+  font-size: 14px;
+  font-weight:400;
+  color: #FFFFFF;
+  background-color: #EC1C2E;
+  text-transform: uppercase;
+}
+
+/* --------------  END PET PORT CASE STUDY SECTION ------*/
+
+
+
 
 
 #why-me {
@@ -630,12 +815,14 @@ button {
 
 #summary {
   display: flex;
-  height: 500px;
   font-family: raleway;
   font-size: 24px;
   font-weight: 300;
-  margin: 65px 0px 65px 0px;
+  width: 80%;
+  margin: 10% 0% 10% 10%;
+
 }
+
 
 #summary li {
   list-style: none;
@@ -653,6 +840,10 @@ button {
   flex:1;
   text-align: center;
   border-right: 1px solid #7D8080;
+}
+
+#my-role ul {
+  padding: 0;
 }
 
 #deliverables {
@@ -680,6 +871,8 @@ button {
 /* ----- END SUMMARY SECTION -----*/
 
 /* -----CHALLENGE/SOLUTION SECTION -----*/
+
+
 
 #challenge-solution-section {
   display: flex;
@@ -716,7 +909,8 @@ button {
 #solution {
   flex:1;
   text-align: center;
-  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 /* ----- END CHALLENGE SOLUTION SECTION -----*/
@@ -724,15 +918,15 @@ button {
 /* -----  RESEARCH SECTION -----*/
 
 #research-section {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   font-family: raleway;
-  height: 800px;
+  padding-bottom: 10%;
 }
 
 
 #know-users {
-  flex: 1;
+  /*flex: 1;*/
   text-align: center;
   padding-top: 75px;
 }
@@ -741,37 +935,12 @@ button {
   height: 79px;
   width: 50px;
 }
-/*
-.textcontainer {
-  text-align: center;
-}
-
-.textcontainer p {
-  display: inline-block;
-  text-align: left;
-}
-
-.textcontainer ul {
-  display: inline-block;
-  text-align: left;
-} */
-
-/*#know-users h3 {
-  font-weight: 600;
-  font-size: 24px;
-  letter-spacing: 0.58px;
-}*/
 
 #research-text {
-  flex: 1;
+  /*flex: 1;*/
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
-
-/*#research-text p {
-  font-weight: 200;
-  font-size: 24px;
-  letter-spacing: 0.58px;
-  line-height: 30px;
-}*/
 
 #research-list {
   flex: 1;
@@ -779,13 +948,19 @@ button {
 
 #research-list li {
   font-weight: 200;
-  font-size: 24px;
+  font-size: 20px;
+  letter-spacing: 0.58;
   list-style-type: none;
   padding: 3px;
+  list-style: disc;
+}
+
+#research-list ul {
+  margin: 0;
 }
 
 #questions-asked {
-  flex:1;
+  /*flex:1;*/
   padding-bottom: 65px;
 }
 
@@ -809,6 +984,8 @@ button {
   padding-bottom: 175px;*/
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #statistics li {
@@ -836,9 +1013,11 @@ button {
 }
 
 #bottom-line p {
-  font-size: 28px;
+  font-size: 24px;
   color: #FFFFFF;
   padding-bottom: 5%;
+  width: 60%;
+  line-height: 1.8em;
 }
 
 #bottom-line-image {
@@ -847,8 +1026,8 @@ button {
 }
 
 #moneybag {
-  height: 90px;
-  width: 70px;
+  height: 79px;
+  width: 60px;
 }
 
 /* ----- END BOTTOM LINE SECTION -----*/
@@ -858,18 +1037,20 @@ button {
 #persona-section {
   display: flex;
   flex-direction: column;
-  /*height: 925px;*/
   text-align: center;
-  padding-top: 5%
-  padding-bottom: 5%;
-
-  
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #F2F5F5;
 }
 
 #persona-text {
   flex:1;
-  padding-top: 5%;
 }
+
+/*#persona-text p {
+  width: 30%;
+  text-align: center:;
+}*/
 
 #persona-image {
   flex: 1;
@@ -880,6 +1061,7 @@ button {
 #icon {
   height: 79px;
   width: 79px; 
+
 }
 
 /*#personas {
@@ -921,7 +1103,6 @@ button {
   margin: 0 auto;
 }*/
 
-/*trying another slideshow */
 
 * {box-sizing:border-box}
 
@@ -1046,6 +1227,32 @@ button {
 
 /* ----- END PERSONAS SECTION -----*/
 
+/*-----COMPETITIVE ANALYSAS SECTIO -----*/
+
+#comp-analysis-section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+#swot-image {
+  width: 325px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 2%;
+
+}
+
+#shake {
+  height: 80px;
+  width: 89px;
+}
+
+#here-text {
+  color: #4293b5;
+}
+
 /* ----- BRAND SECTION -----*/
 
 /* put this in a flex box*/
@@ -1053,7 +1260,7 @@ button {
 #brand-section {
   text-align: center;
   margin-top: 5%;
-  background-color: #F2F5F5
+  background-color: #F2F5F5;
 }
 
 #brand-text{
@@ -1078,18 +1285,97 @@ button {
 
 #brand-section h3 {
   font-family: raleway;
-  font-weight: 600;
-  font-size: 28px;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
   letter-spacing: 0.58px;
 }
 
+#brand-chart {
+  display:flex;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
-#brand-section p {
+#culture-group {
+  flex: 1;
+  border-right: 1px solid #333333;
+}
+
+#consumer-group {
+  flex:1;
+  border-right: 1px solid #333333;
+}
+
+#consumer-group ul {
+  padding-left: 0;
+}
+
+#benefit-group ul {
+  padding-left: 0;
+}
+
+#benefit-group li {
+  font-weight: 200;
+}
+
+#voice-group {
+  flex: 1;
+  border-right: 1px solid #333333;
+}
+
+#voice-group ul {
+  padding-left: 0;
+}
+
+#benefit-group {
+  flex: 1;
+}
+
+#culture-group li {
+  font-weight: 200;
+}
+
+#consumer-group li {
+  font-weight: 200;
+}
+
+#voice-group li {
+  font-weight: 200;
+}
+
+#brand {
+  font-weight: 600;
+}
+
+/*#benefit {
+  height: 40px;
+  width: 30px;
+}
+
+#voice {
+  height: 40px;
+  width: 30px;
+}
+
+#consumer {
+  height: 40px;
+  width: 30px;
+}
+
+
+#culture {
+  height: 40px;
+  width: 30px;
+}*/
+/*#brand-section p {
   font-family: raleway;
   font-size: 20px;
   font-weight: 200;
   margin: 0px;
-}
+}*/
 
 #brand-image {
   padding-bottom: 5%;
@@ -1166,12 +1452,12 @@ td {
   padding-bottom: 5%;
 }
 
-#style-guide { transition: all .3s ease-in-out; }
+/*#style-guide { transition: all .3s ease-in-out; }
 
 #style-guide:hover {
   transform: scale(1.75);
 }
-
+*/
 #style-scape {
   width: 100%;
   max-width: 1700px;
@@ -1254,11 +1540,11 @@ td {
   max-width: 1200px;
 }
 
-#flow-image { transition: all .3s ease-in-out; }
+/*#flow-image { transition: all .3s ease-in-out; }
 
 #flow-image:hover {
   transform: scale(1.75);
-}
+}*/
 
 /* ----- END INFORMATION ARCHITECTURE SECTION ----- */
 
@@ -1546,6 +1832,7 @@ td {
 
 @media (min-width: 300px) and (max-width: 329px) {
 
+/* ------- Nav section ___*/
 
   #nav-section {
     height: 50px;
@@ -1576,6 +1863,8 @@ td {
     margin-left: 15%;
   }
 
+/* ----------- Introduce Myself section (main page) --------*/
+
   #background-image {
     background-image: none;
   }
@@ -1605,6 +1894,8 @@ td {
     font-size: 20px;
     padding-top: 10%;
 }
+
+/* ---------- Pet Port Header (main page) -------------------*/
 
   #pet-port-hero {
     flex-direction: column-reverse;
@@ -1637,19 +1928,32 @@ td {
   font-size: 18px;
 }
 
-#pet-port-second button {
+  #pet-port-second {
+  z-index: 1;
+}
+
+  #pet-port-second-cs {
+  z-index: 1;
+}
+
+
+  #pet-port-second button {
   width: 75px;
   height: 25px;
   font-size: 7px;
+  cursor: pointer;
 }
 
-#pet-port-button {
+  #pet-port-button {
   padding-top: 75%;
 }
 
-button {
+  button {
   padding: 0px;
+  cursor: pointer;
 }
+
+/* ---------------------Why me section (main page) ---------------*/
 
 #why-me-headline h1 {
   font-size: 20px;
@@ -1701,6 +2005,8 @@ li {
   font-size: 12px;
 }
 
+
+/* -------------------About me section (contact/about me page)------*/
 
 #about-me-section {
   margin-top: 55px;
@@ -1802,6 +2108,278 @@ li {
   width: 80px;
   font-size: 12px;
 }
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+  #petport-logo-cs {
+    width: 150px;
+    height: 40px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+  #pet-port-second-cs button {
+  width: 75px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 100%;
+}
+
+/*--------------------Pet Port Case Study Page/ My role --------*/
+ 
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+#statistics {
+  height: 800px;
+}
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+  padding-left: 10%;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 0 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------Footer section ------------------*/
 
 #footer-section {
     height: 150px;
@@ -1921,7 +2499,7 @@ li {
     flex-direction: column-reverse;
     width: 100%;
     height: 400px;
-  }
+}
 
   #pet-port-hero-image-column img {
     height: 250px;
@@ -1932,7 +2510,6 @@ li {
     margin: 0 auto;
     padding-bottom: 20%;
 }
-
 
   #petport-logo {
     width: 150px;
@@ -1948,15 +2525,35 @@ li {
   font-size: 18px;
 }
 
-#pet-port-second button {
+  #pet-port-second {
+  z-index: 1;
+}
+
+  #pet-port-second-cs {
+  z-index: 1;
+}
+
+
+  #pet-port-second button {
   width: 139px;
   height: 25px;
   font-size: 7px;
 }
 
-#pet-port-button {
+  #pet-port-button {
   padding-top: 66%;
 }
+
+/* petport case study */
+  #petport-cs {
+  margin-top: 75px;
+}
+
+  #pet-port-logo-cs{
+  width: 20%;
+}
+
+
 
 
 #why-me-headline h1 {
@@ -2255,6 +2852,14 @@ li {
     display: block;
     margin: 0 auto;
     padding-bottom: 20%;
+}
+
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
 }
 
 
@@ -2569,6 +3174,14 @@ li {
     display: block;
     margin: 0 auto;
     padding-bottom: 20%;
+}
+
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
 }
 
 
@@ -2887,6 +3500,14 @@ li {
     padding-bottom: 20%;
 }
 
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
+}
+
 
   #petport-logo {
     width: 150px;
@@ -3201,6 +3822,14 @@ li {
     display: block;
     margin: 0 auto;
     padding-bottom: 20%;
+}
+
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
 }
 
 
@@ -3518,6 +4147,15 @@ li {
     padding-bottom: 20%;
 }
 
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
+}
+
+
 
   #petport-logo {
     width: 150px;
@@ -3825,6 +4463,15 @@ li {
   #pet-port-hero-image-column {
     flex:6;
   }
+
+  #pet-port-second {
+  z-index: 1;
+  }
+
+  #pet-port-second-cs {
+  z-index: 1;
+  }
+
 
   #pet-port-hero-image-column img {
     height: 350px;
@@ -4151,6 +4798,15 @@ li {
     width: 100%;
     height: 600px;
   }
+
+  #pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
+}
+
 
   #pet-port-hero-image-column {
     flex:6;
@@ -4827,6 +5483,15 @@ li {
     /*padding-bottom: 20%;*/
 }
 
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
+}
+
+
   #iphone1 {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -5139,6 +5804,14 @@ li {
     padding-top: 10%;
 }
 
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
+}
+
 
 
 #why-me-headline h1 {
@@ -5374,8 +6047,30 @@ li {
     margin-top: 20%;
     margin-left: 20%;
   }
+}
 
+@media (min-width: 1001px) and (max-width: 1200px) {
 
+  #navbar-links {
+    padding-top: 2%;
+    padding-left: 30%;
+  }
+
+  #sign {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1201px) {
+
+  #navbar-links {
+    padding-top: 2%;
+    padding-left: 40%;
+  }
+
+  #sign {
+    width: 25%;
+  }
 }
 
 

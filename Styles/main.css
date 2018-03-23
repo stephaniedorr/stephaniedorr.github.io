@@ -213,7 +213,7 @@ h4 {
   /*margin-top: 130px;*/
 } 
 
-.anchor {
+#anchor {
   display: block;
   /*height: 100px;*/
   margin-top: 100px;
@@ -388,6 +388,8 @@ button:hover  {
 
 #two-cs {
   padding-left: 2%;
+  font-family: raleway;
+  font-weight: 200;
 }
 
 /* right side of main parent container */
@@ -1237,7 +1239,7 @@ button {
 }
 
 #swot-image {
-  width: 325px;
+  width: 50%;
   display: block;
   margin: 0 auto;
   padding-bottom: 2%;
@@ -1724,7 +1726,7 @@ td {
   font-family: raleway;
   font-size: 20px;
   font-weight: 300;
-  list-style-type: circle;
+  list-style-type: disc;
   letter-spacing: 0.58;
 }
 
@@ -2158,16 +2160,18 @@ li {
 }
 
   #pet-port-button-cs {
-  padding-top: 100%;
-}
+  padding-top: 110%;
+} 
 
-/*--------------------Pet Port Case Study Page/ My role --------*/
- 
+#iphone2 {
+  padding-top: 0;
+}
 
 #summary {
   flex-direction: column-reverse;
   height: auto;
   margin: 0;
+  width: 100%;
 }
 
 #deliverables ul {
@@ -2187,6 +2191,14 @@ li {
 
 #deliverables li {
   font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
 }
 
 #my-role ul {
@@ -2229,6 +2241,12 @@ li {
   width: 40px;
 }
 
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
 #challenge h4 {
   font-size: 20px;
 }
@@ -2259,7 +2277,7 @@ li {
 
 #solution p {
   font-size: 18px;
-  padding: 0 10% 0 5%;
+  padding: 10% 10% 0 5%;
   text-align: left; 
 }
 
@@ -2307,9 +2325,6 @@ li {
   padding-right: 5%;
 }
 
-#statistics {
-  height: 800px;
-}
 
 #statistics li {
   font-size: 20px;
@@ -2320,14 +2335,21 @@ li {
   height: auto:;
 }
 
+#bottom-line p {
+  width: 80%;
+}
+
 #moneybag {
   height: 79px;
   width: 40px;
 }
 
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
 #bottom-line-text p {
   font-size: 18px;
-  padding-left: 10%;
 }
 
 #icon {
@@ -2341,7 +2363,7 @@ li {
 
 #persona-text h3 {
   font-size: 24px;
-  padding: 0 10% 0 10%;
+  padding: 0 10% 10% 10%;
 }
 
 #persona-text p {
@@ -2360,6 +2382,7 @@ li {
 
 #brand-text h3 {
   font-size: 24px;
+  fot-weight: 600;
 }
 
 #brand-text p {
@@ -2369,9 +2392,161 @@ li {
   padding-right: 10%;
 }
 
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
 
 
+#wireframes h4 {
+  font-size: 20px;
+}
 
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
 
 
 
@@ -2544,17 +2719,6 @@ li {
   padding-top: 66%;
 }
 
-/* petport case study */
-  #petport-cs {
-  margin-top: 75px;
-}
-
-  #pet-port-logo-cs{
-  width: 20%;
-}
-
-
-
 
 #why-me-headline h1 {
   font-size: 20px;
@@ -2713,6 +2877,449 @@ li {
   font-size: 12px;
   padding: 0;
 }
+
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+  #petport-logo-cs {
+    width: 150px;
+    height: 40px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 100%;
+} 
+
+#iphone2 {
+  padding-top: 0;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
+
+
+/*-------FOOTER SECTION ----*/
 
 #footer-section {
     height: 150px;
@@ -3039,6 +3646,447 @@ li {
   padding: 0;
 }
 
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+  #petport-logo-cs {
+    width: 150px;
+    height: 40px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 100%;
+} 
+
+#iphone2 {
+  padding-top: 0;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
+
+
 #footer-section {
     height: 150px;
   }
@@ -3360,6 +4408,453 @@ li {
   font-size: 12px;
   padding: 0;
 }
+
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+#petport-cs {
+  margin-top: 75px;
+}
+
+#pet-port-hero-cs {
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 600px;
+}
+
+#pet-port-hero-image-column-cs img {
+  height: 250px;
+  float: none;
+  padding-right: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+#pet-port-hero-image-column-cs {
+  padding: 0% 0 15% 0;
+}
+
+  #petport-logo-cs {
+    width: 150px;
+    height: 40px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 90%;
+} 
+
+#iphone2 {
+  padding-top: 0;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+/*#pet-port-button {
+  padding: 0 0 10% 0;
+}*/
+
 
 #footer-section {
     height: 150px;
@@ -3685,6 +5180,452 @@ li {
   padding: 0;
 }
 
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+  #petport-logo-cs {
+    width: 150px;
+    height: 40px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+#pet-port-hero-image-column-cs {
+  padding-bottom: 20%;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 80%;
+} 
+
+#iphone2 {
+  padding-top: 0;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
+
+
+
 #footer-section {
     height: 150px;
   }
@@ -4009,6 +5950,453 @@ li {
   padding: 0;
 }
 
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+  #petport-logo-cs {
+    width: 250px;
+    height: 65px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+  padding-left:0; 
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+#pet-port-hero-image-column-cs {
+  padding-bottom: 20%;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 65%;
+} 
+
+#iphone2 {
+  padding-top: 3%;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
+
+
+
 #footer-section {
     height: 150px;
   }
@@ -4155,19 +6543,17 @@ li {
   z-index: 1;
 }
 
-
-
-  #petport-logo {
-    width: 150px;
-    height: 40px;
+#petport-logo {
+  width: 150px;
+  height: 40px;
 }
 
-  #pet-port-description {
-    padding-top: 0;
-    padding-bottom: 0;
+#pet-port-description {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-  #pet-port-description h3 {
+#pet-port-description h3 {
   font-size: 20px;
 }
 
@@ -4332,6 +6718,452 @@ li {
   font-size: 12px;
   padding: 0;
 }
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+#petport-cs {
+  margin-top: 75px;
+}
+
+#pet-port-hero-cs {
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 600px;
+}
+
+#pet-port-hero-image-column-cs img {
+  height: 250px;
+  float: none;
+  padding-right: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+#petport-logo-cs {
+  width: 250px;
+  height: 65px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+#pet-port-hero-image-column-cs {
+  padding-bottom: 20%;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 63%;
+} 
+
+#iphone2 {
+  padding-top: 3%;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
+
 
 #footer-section {
     height: 150px;
@@ -4666,6 +7498,453 @@ li {
   font-size: 12px;
   padding: 0;
 }
+
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+#petport-cs {
+  margin-top: 75px;
+}
+
+#pet-port-hero-cs {
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 600px;
+}
+
+#pet-port-hero-image-column-cs img {
+  height: 250px;
+  float: none;
+  padding-right: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+#petport-logo-cs {
+  width: 250px;
+  height: 65px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+#pet-port-hero-image-column-cs {
+  padding-bottom: 20%;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 55%;
+} 
+
+#iphone2 {
+  padding-top: 3%;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
+
 
 #footer-section {
     height: 150px;
@@ -5006,6 +8285,454 @@ li {
   padding: 0;
 }
 
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+#petport-cs {
+  margin-top: 75px;
+}
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 700px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 300px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+  #petport-logo-cs {
+    width: 250px;
+    height: 65px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 5%;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+  padding-top: 10%;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 36px;
+}
+
+#pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+#pet-port-hero-image-column-cs {
+  padding-bottom: 10%;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+  #pet-port-button-cs {
+  padding-top: 58%;
+} 
+
+#iphone2 {
+  padding-top: 0;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
+
 #footer-section {
     height: 150px;
   }
@@ -5067,7 +8794,7 @@ li {
 
   #navbar-links {
     flex:4;
-    padding: 5% 0% 0% 45%;
+    padding: 5% 0% 0% 40%;
   }
 
   #navbar-links ul {
@@ -5337,6 +9064,465 @@ li {
   font-size: 12px;
   padding: 0;
 }
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+#petport-cs {
+  margin-top: 75px;
+}
+
+#pet-port-hero-cs {
+  width: 100%;
+  height: auto;
+  padding-bottom: 4%;
+}
+
+#pet-port-image-column-cs {
+  padding-left: 5%;
+}
+
+#pet-port-hero-image-column-cs img {
+  height: 300px;
+  float: none;
+  padding-right: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+#petport-logo-cs {
+  width: 250px;
+  height: 65px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 5%;
+}
+
+#pet-port-second-cs {
+  flex: 2;
+  z-index: 1;
+  padding-top: 10%;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 36px;
+}
+
+#pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+#pet-port-hero-image-column-cs {
+  padding: 5% 0 3% 0;
+}
+
+#pet-port-hero-image-column-cs img {
+  height: 350px;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+#pet-port-button-cs {
+  padding-top: 0%;
+} 
+
+#iphone2 {
+  padding-top: 0;
+}
+
+#summary {
+  width: 100%;
+  margin: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: 1px solid #333333;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-right: 1px solid #333333;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#deliverables ul {
+  margin: 0;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: 60%;
+  font-size: 20px;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 20px;
+  /*padding: 0 5% 0 5%;*/
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 20px;
+  text-align: left; 
+  padding-top: 4%;
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 20px;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 20px;
+  list-style: disc;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 24px;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 24px;
+  padding-bottom: 0;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+}
+
+#persona-text p {
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 20px;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+  padding-bottom: 10%;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 0 0 10% 0;
+}
+
 
 #footer-section {
     height: 150px;
@@ -5678,6 +9864,105 @@ li {
   padding: 0;
 }
 
+/*---------------------PET PORT CS -------------*/
+
+#petport-cs {
+  margin-top: 75px;
+}
+
+#pet-port-hero-cs {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#pet-port-hero-image-column-cs {
+  padding: 0 0 0 0;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 36px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#two-cs {
+  margin: 0;
+}
+
+#pet-port-button-cs {
+  padding-top: 10%;
+}
+
+#pet-port-second-cs {
+  padding-top: 10%;
+}
+
+#pet-port-hero-image-column-cs img {
+  float: none;
+}
+
+#iphone2 {
+  padding-top: 10%;
+}
+
+#summary {
+  width: 90%;
+  margin: 10% 10% 10% 0;
+}
+
+.para {
+  width: 70%;
+}
+
+#persona-text p {
+  padding-bottom: 8%;
+}
+
+#brand-chart {
+  width: 100%;
+  padding: 5% 5% 10% 5%;
+}
+
+#style-scape {
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#sign-up-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#search-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#filter-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#welcome-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#pet-port-button-cs {
+  padding-top: 10%;
+}
+ #brand-chart {
+  margin-left: 0;
+ }
+
+
+
+
+
 #footer-section {
     height: 150px;
   }
@@ -5730,6 +10015,7 @@ li {
 }
 }
 
+
 @media (min-width: 801px) and (max-width: 1000px){
 
 #nav-section {
@@ -5738,7 +10024,7 @@ li {
 
   #navbar-links {
     flex:4;
-    padding: 5% 0% 0% 55%;
+    padding: 3% 0% 0% 55%;
   }
 
   #navbar-links ul {
@@ -5811,8 +10097,6 @@ li {
 #pet-port-second-cs {
   z-index: 1;
 }
-
-
 
 #why-me-headline h1 {
   font-size: 36px;
@@ -5965,6 +10249,102 @@ li {
   padding: 0;
 }
 
+/*---------------------PET PORT CS -------------*/
+
+#petport-cs {
+  margin-top: 75px;
+}
+
+#pet-port-hero-cs {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#pet-port-hero-image-column-cs {
+  padding: 0 0 0 0;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 36px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#two-cs {
+  margin: 0;
+}
+
+#pet-port-button-cs {
+  padding-top: 10%;
+}
+
+#pet-port-second-cs {
+  padding-top: 10%;
+}
+
+#pet-port-hero-image-column-cs img {
+  float: none;
+}
+
+#iphone2 {
+  padding-top: 10%;
+}
+
+#summary {
+  width: 90%;
+  margin: 10% 10% 10% 0;
+}
+
+.para {
+  width: 70%;
+}
+
+#persona-text p {
+  padding-bottom: 8%;
+}
+
+#brand-chart {
+  width: 100%;
+  padding: 5% 5% 10% 5%;
+}
+
+#style-scape {
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#sign-up-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#search-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#filter-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#welcome-images {
+  width: 100%;
+  margin-left: 0;
+}
+
+#pet-port-button-cs {
+  padding-top: 10%;
+}
+ #brand-chart {
+  margin-left: 0;
+ }
+
+
 #footer-section {
     height: 150px;
   }
@@ -6017,37 +10397,6 @@ li {
 }
 }
 
-@media (min-width: 801px) and (max-width: 1000px) {
-
-  #nav-section {
-    height: 75px;
-  }
-
-  #navbar-links {
-    flex:4;
-    padding: 5% 0% 0% 55%;
-  }
-
-  #navbar-links ul {
-    margin: 0;
-  }
-
-  #navbar-links > ul > li > a {
-    font-size: 14px;
-  }
-
-  #navbar-links ul>li {
-    padding-left: 0px;
-    padding-right: 2%;
-  }
-
-  #logo img {
-    width:45px;
-    height: 45px;
-    margin-top: 20%;
-    margin-left: 20%;
-  }
-}
 
 @media (min-width: 1001px) and (max-width: 1200px) {
 
@@ -6059,6 +10408,11 @@ li {
   #sign {
     width: 30%;
   }
+
+  #pet-port-hero-image-column-cs {
+    padding: 4% 0 0 0;
+  }
+
 }
 
 @media (min-width: 1201px) {
@@ -6071,7 +10425,21 @@ li {
   #sign {
     width: 25%;
   }
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
 
 
 

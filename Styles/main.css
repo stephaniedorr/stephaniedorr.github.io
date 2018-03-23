@@ -137,7 +137,7 @@ h4 {
 /* ----------Introduce Myself section ----*/
 
 #introduce-myself {
-  /*background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
+  background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);
   /*background-image: url(/assets/images/portfolio-header2.jpg);*/
   background-size:cover;
   margin-top: 200px;
@@ -145,14 +145,15 @@ h4 {
 }
 
 #background-image {
-  background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);
+/*  background-image: url(/Users/stephaniedorr/portfolio/assets/images/portfolio-header2.jpg);*/
   /*background-image: url(/assets/images/portfolio-header2.jpg);*/
   opacity: 0.5;
   background-size:cover;
-  height: 600px;
+  height: 400px;
 }
 
 #intro-text h1 {
+  font-size: 62px;
   margin:0;
   font-weight: 200;
   padding-top: 35px;
@@ -161,11 +162,12 @@ h4 {
 
 #intro-text p {
   margin:0;
-  font-size: 24px;
+  font-family: raleway;
+  font-size: 28px;
   font-weight: 400;
   padding-top: 10px;
   padding-left: 130px;
-  line-height: 31px;
+  line-height: 1.8em;
   letter-spacing: 0.59px;
 }
 
@@ -3421,8 +3423,7 @@ li {
   #introduce-myself {
     margin-top: 70px;
     height: 350px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    background-image: none;
   }
 
   #intro-text h1 {
@@ -3698,7 +3699,7 @@ li {
 }
 
   #pet-port-button-cs {
-  padding-top: 100%;
+  padding-top: 90%;
 } 
 
 #iphone2 {
@@ -4083,7 +4084,7 @@ li {
 }
 
 #pet-port-button {
-  padding: 0 0 10% 0;
+  padding-top: 52%;
 }
 
 
@@ -4968,7 +4969,7 @@ li {
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 20%;
+    padding-right: 30%;
     font-size: 16px;
     line-height: 24px;
 
@@ -5067,7 +5068,7 @@ li {
 }
 
 #toolbox {
-  height: 320px;
+  height: auto;
 }
 
 #tools ul {
@@ -5077,6 +5078,7 @@ li {
 
 li {
   font-size: 12px;
+  font-weight: 400;
 }
 
 #everydesign {
@@ -5621,7 +5623,7 @@ li {
 }
 
 #pet-port-button {
-  padding: 0 0 10% 0;
+  padding-top: 45%;
 }
 
 
@@ -6496,7 +6498,7 @@ li {
   #introduce-myself {
     margin-top: 70px;
     height: 350px;
-    background-image: none5;
+    background-image: none;
   }
 
   #intro-text h1 {
@@ -10067,8 +10069,8 @@ li {
   #introduce-myself {
     margin-top: 75px;
     height: 350px;
-    /*background-color: #EDF0F0;
-    background-image: none;*/
+    
+    background-image: none;
   }
 
   #intro-text h1 {

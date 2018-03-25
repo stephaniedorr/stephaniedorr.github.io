@@ -1779,6 +1779,12 @@ td {
   letter-spacing: 0.58;
 }
 
+#pet-port-button-vp {
+  flex:1;
+  margin: 0;
+  padding-top: 10px;
+}
+
 /*button {
   width: 170px;
   height: 44.11px;
@@ -2631,6 +2637,14 @@ li {
   padding: 65% 0 0 0;
 }
 
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
+}
 
 
 
@@ -3442,6 +3456,15 @@ li {
 
 #pet-port-button {
   padding: 60% 0 0 0;
+}
+
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
 }
 
 
@@ -4258,6 +4281,15 @@ li {
   padding-top: 52%;
 }
 
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
+}
+
 /* -------FOOTER SECTION ---------*/
 #footer-section {
     height: 100px;
@@ -5068,9 +5100,15 @@ li {
   font-size: 24px;
 }
 
-/*#pet-port-button {
-  padding: 0 0 10% 0;
-}*/
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
+}
+
 
 /*---------FOOTER SECTION ---------*/
 
@@ -5885,6 +5923,16 @@ li {
 #pet-port-button {
   padding-top: 43%;
 }
+
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
+}
+
 
 /*---------FOOTER SECTION ------*/
 
@@ -6701,7 +6749,14 @@ li {
   padding: 38% 0 0 0;
 }
 
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
 
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
+}
 
 #footer-section {
     height: 100px;
@@ -7515,6 +7570,15 @@ li {
 
 #pet-port-button {
   padding: 35% 0 0 0;
+}
+
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
 }
 
 
@@ -8339,6 +8403,15 @@ li {
 
 #lessons-learned h3 {
   font-size: 24px;
+}
+
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
 }
 
 
@@ -9171,6 +9244,14 @@ li {
   font-size: 24px;
 }
 
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
+}
 
 #footer-section {
     height: 100px;
@@ -10001,6 +10082,12 @@ li {
   padding-bottom: 10%;
 }
 
+#summary-list {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
 #lessons-learned h1 {
   font-size: 36px;
 }
@@ -10008,6 +10095,8 @@ li {
 #lessons-learned h3 {
   font-size: 24px;
 }
+
+
 
 
 #footer-section {

@@ -176,9 +176,10 @@ h4 {
   margin:0;
   font-family: raleway;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 300;
   padding-top: 10px;
   padding-left: 130px;
+  padding-right: 27%;
   line-height: 1.8em;
   letter-spacing: 0.59px;
 }
@@ -191,7 +192,8 @@ h4 {
 
 #view-work {
   color: #ED1B2E;
-  font-weight: 400;
+  font-weight: 200;
+  font-size: 12px;
 }
 
 #view-work:hover{
@@ -308,7 +310,7 @@ h4 {
 }
 
 #pet-port-description h3 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -507,19 +509,29 @@ button:hover  {
 #why-me {
   display: flex;
   flex-direction: column;
-  height: 250px; 
+  height: auto; 
   margin: 0px;
   padding-bottom: 15px;
 }
 
 #why-me-headline {
   flex: 1;
-  margin: 0px;
+  margin-top: 15%;
 }
 
 #why-me-description {
   flex: 1;
   margin: 0px;
+}
+
+#why-me  p {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 5% 0 5%;
+  line-height: 24px;
+  letter-spacing: 0.59
+  
 }
 
 #why-me-headline h1 {
@@ -1369,6 +1381,7 @@ button {
 }
 
 #benefit-group li {
+  font-family: raleway;
   font-weight: 200;
 }
 
@@ -1386,14 +1399,17 @@ button {
 }
 
 #culture-group li {
+  font-family: raleway;
   font-weight: 200;
 }
 
 #consumer-group li {
+  font-family: raleway;
   font-weight: 200;
 }
 
 #voice-group li {
+  font-family: raleway;
   font-weight: 200;
 }
 
@@ -1496,9 +1512,9 @@ td {
 
 #style-guide {
   background-color: #ffffff;
-  height: 575px;
-  width: 500px;
-  max-width: 500px;
+  /*height: 575px;*/
+  width: 55%;
+  /*max-width: 500px;*/
   padding-top: 3%;
   padding-bottom: 5%;
 }
@@ -1908,7 +1924,8 @@ td {
   }
 
   #navbar-links ul>li {
-    padding: 0;
+    /*padding: 0;*/
+    padding: 5px;
   }
 
   #logo {
@@ -1935,16 +1952,17 @@ td {
   }
 
   #intro-text h1 {
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 10%;
+    font-family: raleway;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
-    font-size: 14px;
+    padding-right: 17%;
+    font-size: 16px;
     line-height: 24px;
   }
 
@@ -1962,7 +1980,7 @@ td {
   }
 
   #pet-port-hero-image-column img {
-    height: 250px;
+    height: 275px;
     /*padding-top: 5%;*/
     float: none;
     padding-right: 0;
@@ -1981,8 +1999,8 @@ td {
 
 
   #petport-logo {
-    width: 150px;
-    height: 40px;
+    width: 125px;
+    height: 35px;
 }
 
   #pet-port-description {
@@ -1991,13 +2009,14 @@ td {
 }
 
   #pet-port-description h3 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
+  font-size: 10px;
+  padding: 0;
 }
 
 #pet-port-button {
@@ -2008,18 +2027,20 @@ td {
 /* ---------------------Why me section (main page) ---------------*/
 
 #why-me-headline h1 {
-  font-size: 20px;
+  font-family: raleway;
+  font-size: 24px;
   padding-top: 10%;
+  font-weight: 600;
 }
 
 #why-me {
-  height: 180px;
+  /*height: 180px;*/
   padding-bottom: 0;
 }
 
-#why-me-description {
+/*#why-me-description {
   padding-bottom: 10%;
-}
+}*/
 
 #why-me h2 {
   font-size: 10px;
@@ -2044,9 +2065,10 @@ td {
   width: 35px
 }
 
-#toolbox {
+/*#toolbox {
   height: 320px;
-}
+  margin-top: 15%;
+}*/
 
 #tools ul {
   margin: 0;
@@ -2054,7 +2076,841 @@ td {
 }
 
 li {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+/* -------------------About me section (contact/about me page)------*/
+
+#about-me-section {
+  margin-top: 50px;
+}
+
+#about-headline h1 {
+  font-size: 28px;
+  margin-left: 5%;
+  border-bottom: none;
+}
+
+#about-me-text {
+  margin: 0 5% 0 5%;
+}
+
+#about-me-text p {
+  font-size: 18px;
+}
+
+
+
+
+/*#buffer {
+  height: 30px;
+}
+
+#everydesign {
+  width: 60%;
+  padding-top: 10%;
+}
+
+#left-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#about-shell-odd {
+  flex-direction: column;
+}
+
+#photo-group1 {
+  padding-left: 15%;
+  padding-top: 0px;
+}
+
+#about-shell-even {
+  flex-direction: column-reverse;
+}
+
+#right-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 0px;
+}
+
+#photo-group2 {
+  width: 80%;
+  padding-top: 0px;
+  padding-left: 10%;
+}
+
+#yourstory {
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+#last-paragraph {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 0px;
+}
+
+#sign {
+  padding-bottom: 0px;
+  width: 30%;
+  padding-left: 5%;
+}
+
+#photo-group4 {
+  padding-top: 0;
+}
+
+#talk {
+  padding-top: 0px;
+  height: 600px;
+}
+
+#pitch {
+  padding-top: 20%;
+}
+
+#about-me-section h1 {
+  font-size: 36px;
+}*/
+#talk {
+  height: 570px;
+}
+
+#pitch {
+  padding: 0;
+}
+
+#pitch h1 {
+  font-family: raleway;
+  font-weight: 200;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+#pitch p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#pitch a {
+  font-size: 14px;
+}
+
+#contact-form {
+  margin-bottom: 10%;
+}
+
+
+#contact-form button {
+  width: 80px;
   font-size: 12px;
+}
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+  #petport-logo-cs {
+    width: 150px;
+    height: 40px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.75;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+  #pet-port-second-cs button {
+  width: 100px;
+  height: 25px;
+  font-size: 9px;
+  padding: 0;
+}
+
+  #pet-port-button-cs {
+  padding-top: 110%;
+} 
+
+#iphone2 {
+  padding-top: 0;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 70% 0 10% 0;
+}
+
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
+}
+
+
+
+
+
+
+/* ---------------------------Footer section ------------------*/
+
+#footer-section {
+    height: 100px;
+  }
+
+  #footer-nav {
+    flex: 6;
+  }
+  
+  #footer-links {
+    padding-top: 0%;
+
+  }
+  #footer-links ul  {
+    padding: 0;
+  }
+
+  #footer-empty1 {
+    flex:0;
+  }
+
+  #footer-empty2 {
+    flex:0;
+  }
+  
+  #footer-links > ul > li > a {
+    font-size: 12px;
+  }
+
+  #footer-links ul {
+    padding: 10px;
+    margin: 0;
+  }
+
+  #footer-nav ul {
+    padding-left:;
+  }
+
+  #copyright {
+    padding-left: 0;
+    padding-bottom: 2%;
+  }
+
+  #copyright p {
+    margin: 0;
+    /*padding-bottom: 5px;*/
+  }
+
+  .svg-inline--fa {
+    font-size: 20px;
+  }
+
+.fa {
+  font-size: 24px;
+}
+}
+
+
+@media (min-width: 330px) and (max-width: 349px) {
+
+/* ------- Nav section ___*/
+
+  #nav-section {
+    height: 50px;
+  }
+
+/*  #navbar-links {
+    flex:4;
+    padding: 5% 0% 0% 0%;
+  }
+*/
+  #navbar-links ul {
+    margin: 0;
+    padding: 5px;
+  }
+
+  #navbar-links > ul > li > a {
+    font-size: 12px;
+  }
+
+  #navbar-links ul>li {
+    /*padding: 0;*/
+    padding: 5px;
+  }
+
+  #logo {
+    padding: 5px;
+  }
+
+  #logo img {
+    width:35px;
+    height: 35px;
+    padding: 0;
+  }
+
+/* ----------- Introduce Myself section (main page) --------*/
+
+  #background-image {
+    background-image: none;
+  }
+
+  #introduce-myself {
+    margin-top: 55px;
+    height: 350px;
+    /*background-color: #EDF0F0;*/
+    background-image: none;
+  }
+
+  #intro-text h1 {
+    font-family: raleway;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20%;
+    padding-left: 5%;
+  }
+
+  #intro-text p {
+    padding-left: 5%;
+    padding-right: 17%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
+/* ---------- Pet Port Header (main page) -------------------*/
+
+  #pet-port-hero {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 400px;
+  }
+
+  #pet-port-hero-image-column img {
+    height: 275px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
+
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
+}
+
+
+  #petport-logo {
+    width: 125px;
+    height: 35px;
+}
+
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+  #pet-port-description h3 {
+  font-size: 16px;
+}
+
+#pet-port-second button {
+  width: 139px;
+  height: 25px;
+  font-size: 10px;
+  padding: 0;
+}
+
+#pet-port-button {
+  padding-top: 50%;
+}
+
+
+/* ---------------------Why me section (main page) ---------------*/
+
+#why-me-headline h1 {
+  font-family: raleway;
+  font-size: 24px;
+  padding-top: 10%;
+  font-weight: 600;
+}
+
+#why-me {
+  /*height: 180px;*/
+  padding-bottom: 0;
+}
+
+/*#why-me-description {
+  padding-bottom: 10%;
+}*/
+
+#why-me h2 {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 25px;
+  padding-top: 5%;
+}
+
+#skills ul {
+  margin: 0;
+  padding: 0;
+}
+
+#lightbulb {
+  height:59px;
+  width: 30px
+}
+
+#wrenches {
+  height:59px;
+  width: 35px
+}
+
+/*#toolbox {
+  height: 320px;
+  margin-top: 15%;
+}*/
+
+#tools ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 300;
 }
 
 
@@ -2634,7 +3490,7 @@ li {
 }
 
 #pet-port-button {
-  padding: 65% 0 0 0;
+  padding: 63% 0 10% 0;
 }
 
 #pet-port-button-vp {
@@ -2710,824 +3566,6 @@ li {
 }
 
 
-@media (min-width: 330px) and (max-width: 349px) {
-
-  /* ------- Nav section ___*/
-
-  #nav-section {
-    height: 50px;
-  }
-
-/*  #navbar-links {
-    flex:4;
-    padding: 5% 0% 0% 0%;
-  }
-*/
-  #navbar-links ul {
-    margin: 0;
-    padding-top: 5px;
-  }
-
-  #navbar-links > ul > li > a {
-    font-size: 12px;
-  }
-
-  #navbar-links ul>li {
-    padding: 0;
-  }
-
-  #logo {
-    padding: 5px;
-  }
-
-  #logo img {
-    width:35px;
-    height: 35px;
-    padding: 0;
-  }
-
-  #background-image {
-    background-image: none;
-  }
-
-  #introduce-myself {
-    margin-top: 55px;
-    height: 350px;
-    background-image: none;
-  }
-
-  #intro-text h1 {
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 10%;
-    padding-left: 5%;
-  }
-
-  #intro-text p {
-    padding-left: 5%;
-    padding-right: 20%;
-    font-size: 16px;
-    line-height: 24px;
-
-  }
-
-  #case-studies p {
-    font-size: 20px;
-    padding-top: 10%;
-}
-
-  #pet-port-hero {
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 400px;
-}
-
-  #pet-port-hero-image-column img {
-    height: 250px;
-    /*padding-top: 5%;*/
-    float: none;
-    padding-right: 0;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 20%;
-}
-
-  #petport-logo {
-    width: 150px;
-    height: 40px;
-}
-
-  #pet-port-description {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-  #pet-port-description h3 {
-  font-size: 18px;
-}
-
-  #pet-port-second {
-  z-index: 1;
-}
-
-  #pet-port-second-cs {
-  z-index: 1;
-}
-
-
-  #pet-port-second button {
-  width: 139px;
-  height: 25px;
-  font-size: 7px;
-}
-
-  #pet-port-button {
-  padding-top: 66%;
-}
-
-
-#why-me-headline h1 {
-  font-size: 20px;
-  padding-top: 10%;
-}
-
-#why-me {
-  height: 180px;
-  padding-bottom: 0;
-}
-
-#why-me-description {
-  padding-bottom: 10%;
-}
-
-#why-me h2 {
-  font-size: 10px;
-  font-weight: 400;
-  margin: 0;
-  line-height: 25px;
-  padding-top: 5%;
-}
-
-#skills ul {
-  margin: 0;
-  padding: 0;
-}
-
-#lightbulb {
-  height:59px;
-  width: 30px
-}
-
-#wrenches {
-  height:59px;
-  width: 35px
-}
-
-#toolbox {
-  height: 320px;
-}
-
-#tools ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  font-size: 12px;
-}
-
-#about-me-section {
-  margin-top: 50px;
-}
-
-#about-headline h1 {
-  font-size: 28px;
-  margin-left: 5%;
-  border-bottom: none;
-}
-
-#about-me-text {
-  margin: 0 5% 0 5%;
-}
-
-#about-me-text p {
-  font-size: 18px;
-}
-
-
-
-
-/*#buffer {
-  height: 30px;
-}
-
-#everydesign {
-  width: 60%;
-  padding-top: 10%;
-}
-
-#left-text {
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-#about-shell-odd {
-  flex-direction: column;
-}
-
-#photo-group1 {
-  padding-left: 15%;
-  padding-top: 0px;
-}
-
-#about-shell-even {
-  flex-direction: column-reverse;
-}
-
-#right-text {
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 16px;
-  line-height: 20px;
-  padding-top: 0px;
-}
-
-#photo-group2 {
-  width: 80%;
-  padding-top: 0px;
-  padding-left: 10%;
-}
-
-#yourstory {
-  width: 60%;
-  margin: 0 auto;
-  padding-left: 0px;
-  padding-bottom: 0px;
-}
-
-#last-paragraph {
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 16px;
-  line-height: 20px;
-  padding-top: 0px;
-}
-
-#sign {
-  padding-bottom: 0px;
-  width: 30%;
-  padding-left: 5%;
-}
-
-#photo-group4 {
-  padding-top: 0;
-}
-
-#talk {
-  padding-top: 0px;
-  height: 600px;
-}
-
-#pitch {
-  padding-top: 20%;
-}
-
-#about-me-section h1 {
-  font-size: 36px;
-}*/
-#talk {
-  height: 580px;
-}
-
-#pitch {
-  padding: 0;
-}
-
-#pitch h1 {
-  font-family: raleway;
-  font-weight: 200;
-  font-size: 28px;
-  text-align: center;
-}
-
-
-#pitch p {
-  font-size: 14px;
-  font-weight: 400;
-  text-align: left;
-  line-height: 20px;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-#pitch a {
-  font-size: 14px;
-}
-
-#contact-form {
-  margin-bottom: 10%;
-}
-
-
-#contact-form button {
-  width: 80px;
-  font-size: 12px;
-  padding: 0;
-}
-
-
-
-/*----------------------Pet Port Case Study (cs) ----------------*/
-
-
-
-  #pet-port-hero-cs {
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 600px;
-  }
-
-  #pet-port-hero-image-column-cs img {
-    height: 250px;
-    float: none;
-    padding-right: 0;
-    display: block;
-    margin: 0 auto;
-}
-
-  #petport-logo-cs {
-    width: 150px;
-    height: 40px;
-}
-
-#two-cs {
-  margin-bottom: 0;
-}
-
-#pet-port-second-cs {
-  flex:.75;
-  z-index: 1;
-}
-
-  #pet-port-description-cs {
-    padding: 0 3% 0 3%;
-}
-
-#pet-port-description-cs h1 {
-  font-size: 24px;
-}
-
-  #pet-port-description-cs h3 {
-  font-size: 18px;
-}
-
-  #pet-port-second-cs button {
-  width: 140px;
-  height: 25px;
-  font-size: 7px;
-}
-
-  #pet-port-button-cs {
-  padding-top: 100%;
-} 
-
-#iphone2 {
-  padding-top: 0;
-}
-
-#summary {
-  flex-direction: column-reverse;
-  height: auto;
-  margin: 0;
-  width: 100%;
-}
-
-#deliverables ul {
-  padding: 0;
-  margin-top: 5%;
-}
-
-#box {
-  height: 69px;
-  width: 40px;
-}
-
-#deliverables h3 {
-  font-size: 24px;
-}
-
-
-#deliverables li {
-  font-size: 18px;
-}
-
-#my-role {
-  border-right: none;
-}
-
-#tools-used {
-  border-right: none;
-}
-
-#my-role ul {
-  padding: 0;
-  margin: 0;
-}
-
-#girl {
-  height: 69px;
-  width: 40px;
-}
-
-#my-role h3 {
-  font-size: 24px;
-}
-
-#my-role li {
-  font-size: 18px;
-}
-
-#tools-used ul {
-  padding: 0;
-}
-
-#more-wrenches {
-  height: 69px;
-  width: 40px;
-}
-
-#tools-used li {
-  font-size: 18px;
-}
-
-#tools-used h3 {
-  font-size: 24px;
-}
-
-#bow {
-  height: 69px;
-  width: 40px;
-}
-
-.para {
-  width: auto;
-  font-size: 18px;
-  padding-left: 5%;
-}
-
-#challenge h4 {
-  font-size: 20px;
-}
-
-#challenge h3 {
-  font-size: 20px;
-}
-
-#challenge p {
-  font-size: 18px;
-  padding: 0 5% 0 5%;
-  text-align: left; 
-}
-
-#solution {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-#solution h4 {
-  font-size: 20px;
-}
-
-#solution h3 {
-  font-size: 20px;
-  padding: 0 5% 0 5%;
-}
-
-#solution p {
-  font-size: 18px;
-  padding: 10% 10% 0 5%;
-  text-align: left; 
-}
-
-#research-section {
-  height: auto;
-}
-
-#know-users {
-  padding-top: 10%;
-}
-
-#magnifying-glass {
-  height: 79px;
-  width: 40px;
-}
-
-#know-users h1 {
-  font-size: 36px;
-  margin: 0;
-  padding: 5% 0 5% 0;
-}
-
-#know-users h3 {
-  font-size: 20px;
-}
-
-#research-text p {
-  font-size: 18px;
-  padding: 0 10% 0 5%;
-  text-align: left; 
-}
-
-#questions-asked p {
-  font-size: 18px;
-  padding: 0 10% 0 5%;
-  text-align: left; 
-}
-
-#research-list li {
-  font-size: 18px;
-  list-style: circle;
-  color:#56bde8;
-  font-family: raleway;
-  font-weight: 400;
-  padding-right: 5%;
-}
-
-
-#statistics li {
-  font-size: 20px;
-  padding-right: 10%;
-}
-
-#bottom-line {
-  height: auto:;
-}
-
-#bottom-line p {
-  width: 80%;
-}
-
-#moneybag {
-  height: 79px;
-  width: 40px;
-}
-
-#bottom-line-text {
-  padding-bottom: 10%;
-}
-
-#bottom-line-text p {
-  font-size: 18px;
-}
-
-#icon {
-  height: 79px;
-  width: 60px;
-}
-
-#persona-text h4 {
-  font-size: 20px;
-}
-
-#persona-text h3 {
-  font-size: 24px;
-  padding: 0 10% 10% 10%;
-}
-
-#persona-text p {
-  font-size: 18px;
-  padding: 0 5% 0 5%;
-}
-
-#brand-paintbrush {
-  height: 79px;
-  width: 50px;
-}
-
-#brand-text h4 {
-  font-size: 20px;
-}
-
-#brand-text h3 {
-  font-size: 24px;
-  fot-weight: 600;
-}
-
-#brand-text p {
-  font-size: 18px;
-  text-align: left;
-  padding-left: 5%;
-  padding-right: 10%;
-}
-
-#brand {
-  text-decoration: underline;
-}
-
-#comp-analysis-section h4 {
-  font-size: 20px;
-}
-
-#comp-analysis h3 {
-  font-family: raleway;
-  font-size: 24px;
-}
-
-#swot-image {
-  padding-bottom: 5%;
-}
-
-.prev, .next {
-  padding: 0;
-}
-
-.para-c {
-  width: auto;
-  padding-left: 5%;
-}
-
-#brand-chart {
-  flex-direction: column;
-  width: 100%;
-  margin: 0;
-}
-
-#culture-group, #consumer-group, #voice-group, #benefit-group {
-  border-right: none;
-}
-
-#culture-group ul {
-  padding-left: 0;
-}
-
-#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
-  font-size: 20px;
-}
-
-#psychology-section p {
-  font-size: 18px;
-}
-
-#style-guide {
-  padding-top: 10%;
-  height: 75%;
-  width: 80%;
-}
-
-#scape {
-  padding-bottom: 10%;
-}
-
-#logo-sketch {
-  padding-bottom: 10%;
-  width: 75%
-}
-
-#user-flow h3 {
-  font-size: 24px;
-}
-
-#user-flow h1 {
-  font-size: 36px;
-}
-
-#flow-image {
-  width: 90%;
-  height: auto;
-}
-
-
-#wireframes h4 {
-  font-size: 20px;
-}
-
-#wireframes h3 {
-  font-size: 24px;
-}
-
-#wireframe-sketch {
-  width: 75%;
-  padding-bottom: 10%;
-}
-
-#coach-images {
-  display: block;
-  width: auto;
-  margin-left: 0;
-}
-
-#coach-cat {
-  padding: 5% 0 5% 0;
-}
-
-#sign-up-images {
-  display: block;
-  width: auto;
-  margin-left:0;
-}
-
-#sign-up2 {
-  padding: 5% 0 5% 0;
-}
-
-#search-images {
-  display: block;
-  width: auto;
-  margin-left: 0;
-}
-
-#er-search {
-  padding-bottom: 5%;
-}
-
-#filter-images {
-  display: block;
-  width: auto;
-  margin-left: 0;
-}
-
-#filter-iphone {
-  padding-top: 5%;
-}
-
-#welcome-images {
-  display: block;
-  width: auto;
-  margin-left: 0;
-}
-
-#welcome-iphone {
-  padding: 5% 0 10% 0;
-}
-
-#summary-section {
-  height: auto;
-}
-
-#lessons-learned h1 {
-  font-size: 36px;
-}
-
-#lessons-learned h3 {
-  font-size: 24px;
-}
-
-#pet-port-button {
-  padding: 60% 0 0 0;
-}
-
-#pet-port-button-vp {
-  padding-bottom: 20%;
-}
-
-#pet-port-button-vp button {
-  width: 200px;
-  font-size: 10px;
-}
-
-
-/*-------FOOTER SECTION ----*/
-
-#footer-section {
-    height: 100px;
-  }
-
-  #footer-nav {
-    flex: 6;
-  }
-  
-  #footer-links {
-    padding-top: 0%;
-
-  }
-  #footer-links ul  {
-    padding: 0;
-  }
-
-  #footer-empty1 {
-    flex:0;
-  }
-
-  #footer-empty2 {
-    flex:0;
-  }
-  
-  #footer-links > ul > li > a {
-    font-size: 12px;
-  }
-
-  #footer-links ul {
-    padding: 10px;
-    margin: 0;
-  }
-
-  #footer-nav ul {
-    padding-left:;
-  }
-
-  #copyright {
-    padding-left: 0;
-    padding-bottom: 2%;
-  }
-
-  #copyright p {
-    margin: 0;
-    /*padding-bottom: 5px;*/
-  }
-
-  .svg-inline--fa {
-    font-size: 20px;
-  }
-
-.fa {
-  font-size: 24px;
-}
-}
-
-
-
 @media (min-width: 350px) and (max-width: 370px) {
 
   #nav-section {
@@ -3549,7 +3587,8 @@ li {
   }
 
   #navbar-links ul>li {
-    padding: 0;
+    /*padding: 0;*/
+    padding: 5px;
   }
 
   #logo {
@@ -3581,18 +3620,18 @@ li {
   }
 
   #intro-text h1 {
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 10%;
+    font-family: raleway;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 20%;
+    padding-right: 17%;
     font-size: 16px;
     line-height: 24px;
-
   }
 
   #case-studies p {
@@ -3607,8 +3646,8 @@ li {
   }
 
   #pet-port-hero-image-column img {
-    height: 250px;
-    /*padding-top: 5%;*/
+    height: 275px;
+    /* padding-top: 5%; */
     float: none;
     padding-right: 0;
     display: block;
@@ -3636,13 +3675,14 @@ li {
 }
 
   #pet-port-description h3 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
+  font-size: 10px;
+  padding: 0;
 }
 
 #pet-port-button {
@@ -3651,18 +3691,20 @@ li {
 
 
 #why-me-headline h1 {
-  font-size: 20px;
+  font-family: raleway;
+  font-size: 24px;
   padding-top: 10%;
+  font-weight: 600;
 }
 
 #why-me {
-  height: 180px;
+  /*height: 180px;*/
   padding-bottom: 0;
 }
 
-#why-me-description {
+/*#why-me-description {
   padding-bottom: 10%;
-}
+}*/
 
 #why-me h2 {
   font-size: 12px;
@@ -3670,6 +3712,15 @@ li {
   margin: 0;
   line-height: 25px;
   padding-top: 5%;
+}
+
+
+#why-me p {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 5% 0 5%;
+  line-height: 24px;
 }
 
 #skills ul {
@@ -3687,9 +3738,9 @@ li {
   width: 35px
 }
 
-#toolbox {
+/*#toolbox {
   height: 320px;
-}
+}*/
 
 #tools ul {
   margin: 0;
@@ -3697,7 +3748,8 @@ li {
 }
 
 li {
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 #about-me-section {
@@ -3887,9 +3939,10 @@ li {
 }
 
   #pet-port-second-cs button {
-  width: 140px;
+  width: 100px;
   height: 25px;
-  font-size: 7px;
+  font-size: 9px;
+  padding: 0;
 }
 
   #pet-port-button-cs {
@@ -4278,7 +4331,7 @@ li {
 }
 
 #pet-port-button {
-  padding-top: 52%;
+  padding: 58% 0 10% 0;
 }
 
 #pet-port-button-vp {
@@ -4368,7 +4421,8 @@ li {
   }
 
   #navbar-links ul>li {
-    padding: 0;
+    /*padding: 0;*/
+    padding: 5px;
   }
 
   #logo {
@@ -4396,22 +4450,22 @@ li {
   #introduce-myself {
     margin-top: 70px;
     height: 350px;
-    background-image: none
+    background-image: none;
   }
 
   #intro-text h1 {
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 10%;
+    font-family: raleway;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 20%;
+    padding-right: 5%;
     font-size: 16px;
     line-height: 24px;
-
   }
 
   #case-studies p {
@@ -4422,12 +4476,12 @@ li {
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 400px;
+    height: 500px;
   }
 
   #pet-port-hero-image-column img {
-    height: 250px;
-    /*padding-top: 5%;*/
+    height: 360px;
+    /* padding-top: 5%; */
     float: none;
     padding-right: 0;
     display: block;
@@ -4455,859 +4509,36 @@ li {
 }
 
   #pet-port-description h3 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
-}
-
-#pet-port-button {
-  padding-top: 50%;
-}
-
-
-#why-me-headline h1 {
-  font-size: 20px;
-  padding-top: 10%;
-}
-
-#why-me {
-  height: 180px;
-  padding-bottom: 0;
-}
-
-#why-me-description {
-  padding-bottom: 10%;
-}
-
-#why-me h2 {
-  font-size: 12px;
-  font-weight: 400;
-  margin: 0;
-  line-height: 25px;
-  padding-top: 5%;
-}
-
-#skills ul {
-  margin: 0;
-  padding: 0;
-}
-
-#lightbulb {
-  height:59px;
-  width: 30px
-}
-
-#wrenches {
-  height:59px;
-  width: 35px
-}
-
-#toolbox {
-  height: 320px;
-}
-
-#tools ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  font-size: 12px;
-}
-
-#about-me-section {
-  margin-top: 50px;
-}
-
-#about-headline h1 {
-  font-size: 28px;
-  margin-left: 7%;
-  border-bottom: none;
-}
-
-#about-me-text {
-  margin: 0 5% 0 7%;
-}
-
-#about-me-text p {
-  font-size: 18px;
-}
-
-
-
-
-/*#buffer {
-  height: 30px;
-}
-
-#everydesign {
-  width: 60%;
-  padding-top: 10%;
-}
-
-#left-text {
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-#about-shell-odd {
-  flex-direction: column;
-}
-
-#photo-group1 {
-  padding-left: 15%;
-  padding-top: 0px;
-}
-
-#about-shell-even {
-  flex-direction: column-reverse;
-}
-
-#right-text {
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 16px;
-  line-height: 20px;
-  padding-top: 0px;
-}
-
-#photo-group2 {
-  width: 80%;
-  padding-top: 0px;
-  padding-left: 10%;
-}
-
-#yourstory {
-  width: 60%;
-  margin: 0 auto;
-  padding-left: 0px;
-  padding-bottom: 0px;
-}
-
-#last-paragraph {
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 16px;
-  line-height: 20px;
-  padding-top: 0px;
-}
-
-#sign {
-  padding-bottom: 0px;
-  width: 30%;
-  padding-left: 5%;
-}
-
-#photo-group4 {
-  padding-top: 0;
-}
-
-#talk {
-  padding-top: 0px;
-  height: 600px;
-}
-
-#pitch {
-  padding-top: 20%;
-}
-
-#about-me-section h1 {
-  font-size: 36px;
-}*/
-#talk {
-  height: 580px;
-}
-
-#pitch {
-  padding: 0;
-}
-
-#pitch h1 {
-  font-family: raleway;
-  font-weight: 200;
-  font-size: 28px;
-  text-align: center;
-}
-
-
-#pitch p {
-  font-size: 14px;
-  font-weight: 400;
-  text-align: center;
-  line-height: 20px;
-}
-
-#pitch a {
-  font-size: 14px;
-}
-
-#contact-form {
-  margin: 0 1% 10% 1%;
-}
-
-#contact-form button {
-  width: 80px;
-  font-size: 12px;
-  padding: 0;
-}
-
-
-
-/*----------------------Pet Port Case Study (cs) ----------------*/
-
-#petport-cs {
-  margin-top: 75px;
-}
-
-#pet-port-hero-cs {
-  flex-direction: column-reverse;
-  width: 100%;
-  height: 600px;
-}
-
-#pet-port-hero-image-column-cs img {
-  height: 250px;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-}
-
-#pet-port-hero-image-column-cs {
-  padding: 0% 0 15% 0;
-}
-
-  #petport-logo-cs {
-    width: 150px;
-    height: 40px;
-}
-
-#two-cs {
-  margin-bottom: 0;
-}
-
-#pet-port-second-cs {
-  flex:.75;
-  z-index: 1;
-}
-
-  #pet-port-description-cs {
-    padding: 0 3% 0 3%;
-}
-
-#pet-port-description-cs h1 {
-  font-size: 24px;
-}
-
-  #pet-port-description-cs h3 {
-  font-size: 18px;
-}
-
-  #pet-port-second-cs button {
-  width: 140px;
-  height: 25px;
-  font-size: 7px;
-}
-
-  #pet-port-button-cs {
-  padding-top: 90%;
-} 
-
-#iphone2 {
-  padding-top: 0;
-}
-
-#summary {
-  flex-direction: column-reverse;
-  height: auto;
-  margin: 0;
-  width: 100%;
-}
-
-#deliverables ul {
-  padding: 0;
-  margin-top: 5%;
-}
-
-#box {
-  height: 69px;
-  width: 40px;
-}
-
-#deliverables h3 {
-  font-size: 24px;
-}
-
-
-#deliverables li {
-  font-size: 18px;
-}
-
-#my-role {
-  border-right: none;
-}
-
-#tools-used {
-  border-right: none;
-}
-
-#my-role ul {
-  padding: 0;
-  margin: 0;
-}
-
-#girl {
-  height: 69px;
-  width: 40px;
-}
-
-#my-role h3 {
-  font-size: 24px;
-}
-
-#my-role li {
-  font-size: 18px;
-}
-
-#tools-used ul {
-  padding: 0;
-}
-
-#more-wrenches {
-  height: 69px;
-  width: 40px;
-}
-
-#tools-used li {
-  font-size: 18px;
-}
-
-#tools-used h3 {
-  font-size: 24px;
-}
-
-#bow {
-  height: 69px;
-  width: 40px;
-}
-
-.para {
-  width: auto;
-  font-size: 18px;
-  padding-left: 5%;
-}
-
-#challenge h4 {
-  font-size: 20px;
-}
-
-#challenge h3 {
-  font-size: 20px;
-}
-
-#challenge p {
-  font-size: 18px;
-  padding: 0 5% 0 5%;
-  text-align: left; 
-}
-
-#solution {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-#solution h4 {
-  font-size: 20px;
-}
-
-#solution h3 {
-  font-size: 20px;
-  padding: 0 5% 0 5%;
-}
-
-#solution p {
-  font-size: 18px;
-  padding: 10% 10% 0 5%;
-  text-align: left; 
-}
-
-#research-section {
-  height: auto;
-}
-
-#know-users {
-  padding-top: 10%;
-}
-
-#magnifying-glass {
-  height: 79px;
-  width: 40px;
-}
-
-#know-users h1 {
-  font-size: 36px;
-  margin: 0;
-  padding: 5% 0 5% 0;
-}
-
-#know-users h3 {
-  font-size: 20px;
-}
-
-#research-text p {
-  font-size: 18px;
-  padding: 0 10% 0 5%;
-  text-align: left; 
-}
-
-#questions-asked p {
-  font-size: 18px;
-  padding: 0 10% 0 5%;
-  text-align: left; 
-}
-
-#research-list li {
-  font-size: 18px;
-  list-style: circle;
-  color:#56bde8;
-  font-family: raleway;
-  font-weight: 400;
-  padding-right: 5%;
-}
-
-
-#statistics li {
-  font-size: 20px;
-  padding-right: 10%;
-}
-
-#bottom-line {
-  height: auto:;
-}
-
-#bottom-line p {
-  width: 80%;
-}
-
-#moneybag {
-  height: 79px;
-  width: 40px;
-}
-
-#bottom-line-text {
-  padding-bottom: 10%;
-}
-
-#bottom-line-text p {
-  font-size: 18px;
-}
-
-#icon {
-  height: 79px;
-  width: 60px;
-}
-
-#persona-text h4 {
-  font-size: 20px;
-}
-
-#persona-text h3 {
-  font-size: 24px;
-  padding: 0 10% 10% 10%;
-}
-
-#persona-text p {
-  font-size: 18px;
-  padding: 0 5% 0 5%;
-}
-
-#brand-paintbrush {
-  height: 79px;
-  width: 50px;
-}
-
-#brand-text h4 {
-  font-size: 20px;
-}
-
-#brand-text h3 {
-  font-size: 24px;
-  fot-weight: 600;
-}
-
-#brand-text p {
-  font-size: 18px;
-  text-align: left;
-  padding-left: 5%;
-  padding-right: 10%;
-}
-
-#brand {
-  text-decoration: underline;
-}
-
-#comp-analysis-section h4 {
-  font-size: 20px;
-}
-
-#comp-analysis h3 {
-  font-family: raleway;
-  font-size: 24px;
-}
-
-#swot-image {
-  padding-bottom: 5%;
-}
-
-.prev, .next {
-  padding: 0;
-}
-
-.prev {
-  right: 98%;
-}
-
-.para-c {
-  width: auto;
-  padding-left: 5%;
-}
-
-#brand-chart {
-  flex-direction: column;
-  width: 100%;
-  margin: 0;
-}
-
-#culture-group, #consumer-group, #voice-group, #benefit-group {
-  border-right: none;
-}
-
-#culture-group ul {
-  padding-left: 0;
-}
-
-#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
-  font-size: 20px;
-}
-
-#psychology-section p {
-  font-size: 18px;
-}
-
-#style-guide {
-  padding-top: 10%;
-  height: 75%;
-  width: 80%;
-}
-
-#scape {
-  padding-bottom: 10%;
-}
-
-#logo-sketch {
-  padding-bottom: 10%;
-  width: 75%
-}
-
-#user-flow h3 {
-  font-size: 24px;
-}
-
-#user-flow h1 {
-  font-size: 36px;
-}
-
-#flow-image {
-  width: 90%;
-  height: auto;
-}
-
-
-#wireframes h4 {
-  font-size: 20px;
-}
-
-#wireframes h3 {
-  font-size: 24px;
-}
-
-#wireframe-sketch {
-  width: 75%;
-  padding-bottom: 10%;
-}
-
-#coach-images {
-  display: block;
-  width: auto;
-  margin-left: 0;
-}
-
-#coach-cat {
-  padding: 5% 0 5% 0;
-}
-
-#sign-up-images {
-  display: block;
-  width: auto;
-  margin-left:0;
-}
-
-#sign-up2 {
-  padding: 5% 0 5% 0;
-}
-
-#search-images {
-  display: block;
-  width: auto;
-  margin-left: 0;
-}
-
-#er-search {
-  padding-bottom: 5%;
-}
-
-#filter-images {
-  display: block;
-  width: auto;
-  margin-left: 0;
-}
-
-#filter-iphone {
-  padding-top: 5%;
-}
-
-#welcome-images {
-  display: block;
-  width: auto;
-  margin-left: 0;
-}
-
-#welcome-iphone {
-  padding: 5% 0 10% 0;
-}
-
-#summary-section {
-  height: auto;
-}
-
-#lessons-learned h1 {
-  font-size: 36px;
-}
-
-#lessons-learned h3 {
-  font-size: 24px;
-}
-
-#pet-port-button-vp {
-  padding-bottom: 20%;
-}
-
-#pet-port-button-vp button {
-  width: 200px;
   font-size: 10px;
-}
-
-
-/*---------FOOTER SECTION ---------*/
-
-#footer-section {
-    height: 100px;
-  }
-
-  #footer-nav {
-    flex: 6;
-  }
-  
-  #footer-links {
-    padding-top: 0%;
-
-  }
-  #footer-links ul  {
-    padding: 0;
-  }
-
-  #footer-empty1 {
-    flex:0;
-  }
-
-  #footer-empty2 {
-    flex:0;
-  }
-  
-  #footer-links > ul > li > a {
-    font-size: 12px;
-  }
-
-  #footer-links ul {
-    padding: 10px;
-    margin: 0;
-  }
-
-  #footer-nav ul {
-    padding-left:;
-  }
-
-  #copyright {
-    padding-left: 0;
-    padding-bottom: 2%;
-  }
-
-  #copyright p {
-    margin: 0;
-    /*padding-bottom: 5px;*/
-  }
-
-  .svg-inline--fa {
-    font-size: 20px;
-  }
-
-.fa {
-  font-size: 24px;
-}
-}
-
-
-@media (min-width: 401px) and (max-width: 430px) {
-
- #nav-section {
-    height: 50px;
-  }
-
-/*  #navbar-links {
-    flex:4;
-    padding: 5% 0% 0% 0%;
-  }
-*/
-  #navbar-links ul {
-    margin: 0;
-    padding: 5px;
-  }
-
-  #navbar-links > ul > li > a {
-    font-size: 12px;
-  }
-
-  #navbar-links ul>li {
-    padding: 0;
-  }
-
-  #logo {
-    padding: 7px;
-  }
-
-  #logo img {
-    width:35px;
-    height: 35px;
-    padding: 0;
-  }
-
-  #background-image {
-    background-image: none;
-  }
-
-  #about-me-section {
-    margin-top: 55px;
-  }
-
-  #buffer {
-    height: 40px;
-  }
-
-  #introduce-myself {
-    margin-top: 70px;
-    height: 350px;
-    background-image: none;
-  }
-
-  #intro-text h1 {
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 10%;
-    padding-left: 5%;
-  }
-
-  #intro-text p {
-    padding-left: 5%;
-    padding-right: 30%;
-    font-size: 16px;
-    line-height: 24px;
-
-  }
-
-  #case-studies p {
-    font-size: 20px;
-    padding-top: 10%;
-}
-
-  #pet-port-hero {
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 400px;
-  }
-
-  #pet-port-hero-image-column img {
-    height: 250px;
-    /*padding-top: 5%;*/
-    float: none;
-    padding-right: 0;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 20%;
-}
-
-#pet-port-second {
-  z-index: 1;
-}
-
-#pet-port-second-cs {
-  z-index: 1;
-}
-
-
-  #petport-logo {
-    width: 150px;
-    height: 40px;
-}
-
-  #pet-port-description {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-  #pet-port-description h3 {
-  font-size: 20px;
-}
-
-#pet-port-second button {
-  width: 139px;
-  height: 25px;
-  font-size: 7px;
+  padding: 0;
 }
 
 #pet-port-button {
-  padding-top: 45%;
+  padding-top: 55%;
 }
 
 
 #why-me-headline h1 {
-  font-size: 20px;
+  font-family: raleway;
+  font-size: 28px;
   padding-top: 10%;
+  font-weight: 600;
 }
 
 #why-me {
-  height: 180px;
+  /*height: 180px;*/
   padding-bottom: 0;
 }
 
-#why-me-description {
+/*#why-me-description {
   padding-bottom: 10%;
-}
+}*/
 
 #why-me h2 {
   font-size: 12px;
@@ -5315,6 +4546,15 @@ li {
   margin: 0;
   line-height: 25px;
   padding-top: 5%;
+}
+
+
+#why-me p {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 5% 0 5%;
+  line-height: 24px;
 }
 
 #skills ul {
@@ -5332,9 +4572,9 @@ li {
   width: 35px
 }
 
-#toolbox {
-  height: auto;
-}
+/*#toolbox {
+  height: 320px;
+}*/
 
 #tools ul {
   margin: 0;
@@ -5342,8 +4582,8 @@ li {
 }
 
 li {
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 #about-me-section {
@@ -5466,13 +4706,16 @@ li {
 #pitch p {
   font-size: 14px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   line-height: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #pitch a {
   font-size: 14px;
 }
+
 
 #contact-form {
   margin: 0 1% 10% 1%;
@@ -5513,7 +4756,8 @@ li {
 }
 
 #pet-port-second-cs {
-  flex:.75;
+  flex:.55;
+  padding-top: 10%;
   z-index: 1;
 }
 
@@ -5529,14 +4773,11 @@ li {
   font-size: 18px;
 }
 
-#pet-port-hero-image-column-cs {
-  padding-bottom: 20%;
-}
-
   #pet-port-second-cs button {
-  width: 140px;
+  width: 100px;
   height: 25px;
-  font-size: 7px;
+  font-size: 9px;
+  padding: 0;
 }
 
   #pet-port-button-cs {
@@ -5844,7 +5085,7 @@ li {
 }
 
 #flow-image {
-  width: 99%;
+  width: 90%;
   height: auto;
 }
 
@@ -5925,7 +5166,7 @@ li {
 }
 
 #pet-port-button {
-  padding-top: 43%;
+  padding: 78% 0 10% 0;
 }
 
 #pet-port-button-vp {
@@ -5937,9 +5178,7 @@ li {
   font-size: 10px;
 }
 
-
-/*---------FOOTER SECTION ------*/
-
+/* -------FOOTER SECTION ---------*/
 #footer-section {
     height: 100px;
   }
@@ -5997,10 +5236,9 @@ li {
 }
 
 
+@media (min-width: 401px) and (max-width: 430px) {
 
-@media (min-width: 431px) and (max-width: 450px) {
-
-  #nav-section {
+ #nav-section {
     height: 50px;
   }
 
@@ -6019,11 +5257,12 @@ li {
   }
 
   #navbar-links ul>li {
-    padding: 0;
+    /*padding: 0;*/
+    padding: 5px;
   }
 
   #logo {
-    padding: 7px;
+    padding: 5px;
   }
 
   #logo img {
@@ -6051,18 +5290,18 @@ li {
   }
 
   #intro-text h1 {
-    font-size: 24px;
-    font-weight: 400;
-    padding-top: 10%;
+    font-family: raleway;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
+    padding-right: 5%;
     font-size: 16px;
     line-height: 24px;
-
   }
 
   #case-studies p {
@@ -6073,12 +5312,12 @@ li {
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 400px;
+    height: 500px;
   }
 
   #pet-port-hero-image-column img {
-    height: 250px;
-    /*padding-top: 5%;*/
+    height: 360px;
+    /* padding-top: 5%; */
     float: none;
     padding-right: 0;
     display: block;
@@ -6106,33 +5345,36 @@ li {
 }
 
   #pet-port-description h3 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
+  font-size: 10px;
+  padding: 0;
 }
 
 #pet-port-button {
-  padding-top: 40%;
+  padding-top: 55%;
 }
 
 
 #why-me-headline h1 {
-  font-size: 20px;
+  font-family: raleway;
+  font-size: 28px;
   padding-top: 10%;
+  font-weight: 600;
 }
 
 #why-me {
-  height: 180px;
+  /*height: 180px;*/
   padding-bottom: 0;
 }
 
-#why-me-description {
+/*#why-me-description {
   padding-bottom: 10%;
-}
+}*/
 
 #why-me h2 {
   font-size: 12px;
@@ -6140,6 +5382,15 @@ li {
   margin: 0;
   line-height: 25px;
   padding-top: 5%;
+}
+
+
+#why-me p {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 5% 0 5%;
+  line-height: 24px;
 }
 
 #skills ul {
@@ -6157,9 +5408,9 @@ li {
   width: 35px
 }
 
-#toolbox {
+/*#toolbox {
   height: 320px;
-}
+}*/
 
 #tools ul {
   margin: 0;
@@ -6167,7 +5418,8 @@ li {
 }
 
 li {
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 #about-me-section {
@@ -6290,13 +5542,16 @@ li {
 #pitch p {
   font-size: 14px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   line-height: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #pitch a {
   font-size: 14px;
 }
+
 
 #contact-form {
   margin: 0 1% 10% 1%;
@@ -6328,17 +5583,17 @@ li {
 }
 
   #petport-logo-cs {
-    width: 250px;
-    height: 65px;
+    width: 150px;
+    height: 40px;
 }
 
 #two-cs {
   margin-bottom: 0;
-  padding-left:0; 
 }
 
 #pet-port-second-cs {
-  flex:.75;
+  flex:.55;
+
   z-index: 1;
 }
 
@@ -6354,22 +5609,19 @@ li {
   font-size: 18px;
 }
 
-#pet-port-hero-image-column-cs {
-  padding-bottom: 20%;
-}
-
   #pet-port-second-cs button {
-  width: 140px;
+  width: 100px;
   height: 25px;
-  font-size: 7px;
+  font-size: 9px;
+  padding: 0;
 }
 
   #pet-port-button-cs {
-  padding-top: 65%;
+  padding-top: 75%;
 } 
 
 #iphone2 {
-  padding-top: 3%;
+  padding-top: 0;
 }
 
 #summary {
@@ -6750,7 +6002,7 @@ li {
 }
 
 #pet-port-button {
-  padding: 38% 0 0 0;
+  padding: 71% 0 10% 0;
 }
 
 #pet-port-button-vp {
@@ -6762,6 +6014,7 @@ li {
   font-size: 10px;
 }
 
+/* -------FOOTER SECTION ---------*/
 #footer-section {
     height: 100px;
   }
@@ -6818,9 +6071,11 @@ li {
 }
 }
 
-@media (min-width: 451px) and (max-width: 510px) {
 
-#nav-section {
+
+@media (min-width: 431px) and (max-width: 450px) {
+
+  #nav-section {
     height: 50px;
   }
 
@@ -6829,10 +6084,6 @@ li {
     padding: 5% 0% 0% 0%;
   }
 */
-#navbar-links {
-  padding-top: 2%;
-}
-
   #navbar-links ul {
     margin: 0;
     padding: 5px;
@@ -6843,11 +6094,12 @@ li {
   }
 
   #navbar-links ul>li {
-    padding: 0;
+    /*padding: 0;*/
+    padding: 5px;
   }
 
   #logo {
-    padding: 10px;
+    padding: 5px;
   }
 
   #logo img {
@@ -6875,18 +6127,18 @@ li {
   }
 
   #intro-text h1 {
-    font-size: 24px;
-    font-weight: 400;
-    padding-top: 10%;
+    font-family: raleway;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
+    padding-right: 5%;
     font-size: 16px;
     line-height: 24px;
-
   }
 
   #case-studies p {
@@ -6897,12 +6149,12 @@ li {
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 400px;
+    height: 500px;
   }
 
   #pet-port-hero-image-column img {
-    height: 250px;
-    /*padding-top: 5%;*/
+    height: 360px;
+    /* padding-top: 5%; */
     float: none;
     padding-right: 0;
     display: block;
@@ -6918,44 +6170,48 @@ li {
   z-index: 1;
 }
 
-#petport-logo {
-  width: 150px;
-  height: 40px;
+
+  #petport-logo {
+    width: 150px;
+    height: 40px;
 }
 
-#pet-port-description {
-  padding-top: 0;
-  padding-bottom: 0;
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-#pet-port-description h3 {
-  font-size: 20px;
+  #pet-port-description h3 {
+  font-size: 16px;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
+  font-size: 10px;
+  padding: 0;
 }
 
 #pet-port-button {
-  padding-top: 35%;
+  padding-top: 55%;
 }
 
 
 #why-me-headline h1 {
-  font-size: 20px;
+  font-family: raleway;
+  font-size: 28px;
   padding-top: 10%;
+  font-weight: 600;
 }
 
 #why-me {
-  height: 180px;
+  /*height: 180px;*/
   padding-bottom: 0;
 }
 
-#why-me-description {
+/*#why-me-description {
   padding-bottom: 10%;
-}
+}*/
 
 #why-me h2 {
   font-size: 12px;
@@ -6963,6 +6219,15 @@ li {
   margin: 0;
   line-height: 25px;
   padding-top: 5%;
+}
+
+
+#why-me p {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 5% 0 5%;
+  line-height: 24px;
 }
 
 #skills ul {
@@ -6980,9 +6245,9 @@ li {
   width: 35px
 }
 
-#toolbox {
+/*#toolbox {
   height: 320px;
-}
+}*/
 
 #tools ul {
   margin: 0;
@@ -6990,11 +6255,12 @@ li {
 }
 
 li {
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 #about-me-section {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 #about-headline h1 {
@@ -7113,13 +6379,16 @@ li {
 #pitch p {
   font-size: 14px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   line-height: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #pitch a {
   font-size: 14px;
 }
+
 
 #contact-form {
   margin: 0 1% 10% 1%;
@@ -7131,29 +6400,28 @@ li {
   padding: 0;
 }
 
+
 /*----------------------Pet Port Case Study (cs) ----------------*/
 
-#petport-cs {
-  margin-top: 75px;
+
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
 }
 
-#pet-port-hero-cs {
-  flex-direction: column-reverse;
-  width: 100%;
-  height: 600px;
-}
-
-#pet-port-hero-image-column-cs img {
-  height: 250px;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-}
-
-#petport-logo-cs {
-  width: 250px;
-  height: 65px;
+  #petport-logo-cs {
+    width: 150px;
+    height: 40px;
 }
 
 #two-cs {
@@ -7161,7 +6429,7 @@ li {
 }
 
 #pet-port-second-cs {
-  flex:.75;
+  flex:.55;
   z-index: 1;
 }
 
@@ -7177,22 +6445,19 @@ li {
   font-size: 18px;
 }
 
-#pet-port-hero-image-column-cs {
-  padding-bottom: 20%;
-}
-
   #pet-port-second-cs button {
   width: 140px;
   height: 25px;
-  font-size: 7px;
+  font-size: 9px;
+  padding: 0;
 }
 
   #pet-port-button-cs {
-  padding-top: 63%;
+  padding-top: 70%;
 } 
 
 #iphone2 {
-  padding-top: 3%;
+  padding-top: 0;
 }
 
 #summary {
@@ -7573,7 +6838,7 @@ li {
 }
 
 #pet-port-button {
-  padding: 35% 0 0 0;
+  padding: 65% 0 10% 0;
 }
 
 #pet-port-button-vp {
@@ -7585,7 +6850,843 @@ li {
   font-size: 10px;
 }
 
+/* -------FOOTER SECTION ---------*/
+#footer-section {
+    height: 100px;
+  }
 
+  #footer-nav {
+    flex: 6;
+  }
+  
+  #footer-links {
+    padding-top: 0%;
+
+  }
+  #footer-links ul  {
+    padding: 0;
+  }
+
+  #footer-empty1 {
+    flex:0;
+  }
+
+  #footer-empty2 {
+    flex:0;
+  }
+  
+  #footer-links > ul > li > a {
+    font-size: 12px;
+  }
+
+  #footer-links ul {
+    padding: 10px;
+    margin: 0;
+  }
+
+  #footer-nav ul {
+    padding-left:;
+  }
+
+  #copyright {
+    padding-left: 0;
+    padding-bottom: 2%;
+  }
+
+  #copyright p {
+    margin: 0;
+    /*padding-bottom: 5px;*/
+  }
+
+  .svg-inline--fa {
+    font-size: 20px;
+  }
+
+.fa {
+  font-size: 24px;
+}
+}
+
+
+
+@media (min-width: 451px) and (max-width: 510px) {
+
+#nav-section {
+    height: 50px;
+  }
+
+/*  #navbar-links {
+    flex:4;
+    padding: 5% 0% 0% 0%;
+  }
+*/
+  #navbar-links ul {
+    margin: 0;
+    padding: 5px;
+  }
+
+  #navbar-links > ul > li > a {
+    font-size: 12px;
+  }
+
+  #navbar-links ul>li {
+    /*padding: 0;*/
+    padding: 5px;
+  }
+
+  #logo {
+    padding: 5px;
+  }
+
+  #logo img {
+    width:35px;
+    height: 35px;
+    padding: 0;
+  }
+
+  #background-image {
+    background-image: none;
+  }
+
+  #about-me-section {
+    margin-top: 55px;
+  }
+
+  #buffer {
+    height: 40px;
+  }
+
+  #introduce-myself {
+    margin-top: 70px;
+    height: 350px;
+    background-image: none;
+  }
+
+  #intro-text h1 {
+    font-family: raleway;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20%;
+    padding-left: 5%;
+  }
+
+  #intro-text p {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #case-studies p {
+    font-size: 20px;
+    padding-top: 10%;
+}
+
+  #pet-port-hero {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 500px;
+  }
+
+  #pet-port-hero-image-column img {
+    height: 360px;
+    /* padding-top: 5%; */
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
+
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
+}
+
+
+  #petport-logo {
+    width: 150px;
+    height: 40px;
+}
+
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+  #pet-port-description h3 {
+  font-size: 16px;
+}
+
+#pet-port-second button {
+  width: 139px;
+  height: 25px;
+  font-size: 10px;
+  padding: 0;
+}
+
+#pet-port-button {
+  padding-top: 55%;
+}
+
+
+#why-me-headline h1 {
+  font-family: raleway;
+  font-size: 28px;
+  padding-top: 10%;
+  font-weight: 600;
+}
+
+#why-me {
+  /*height: 180px;*/
+  padding-bottom: 0;
+}
+
+/*#why-me-description {
+  padding-bottom: 10%;
+}*/
+
+#why-me h2 {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 25px;
+  padding-top: 5%;
+}
+
+
+#why-me p {
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 5% 0 5%;
+  line-height: 24px;
+}
+
+#skills ul {
+  margin: 0;
+  padding: 0;
+}
+
+#lightbulb {
+  height:59px;
+  width: 30px
+}
+
+#wrenches {
+  height:59px;
+  width: 35px
+}
+
+/*#toolbox {
+  height: 320px;
+}*/
+
+#tools ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#about-me-section {
+  margin-top: 50px;
+}
+
+#about-headline h1 {
+  font-size: 28px;
+  margin-left: 7%;
+  border-bottom: none;
+}
+
+#about-me-text {
+  margin: 0 5% 0 7%;
+}
+
+#about-me-text p {
+  font-size: 18px;
+}
+
+
+
+
+/*#buffer {
+  height: 30px;
+}
+
+#everydesign {
+  width: 60%;
+  padding-top: 10%;
+}
+
+#left-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#about-shell-odd {
+  flex-direction: column;
+}
+
+#photo-group1 {
+  padding-left: 15%;
+  padding-top: 0px;
+}
+
+#about-shell-even {
+  flex-direction: column-reverse;
+}
+
+#right-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 0px;
+}
+
+#photo-group2 {
+  width: 80%;
+  padding-top: 0px;
+  padding-left: 10%;
+}
+
+#yourstory {
+  width: 60%;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+#last-paragraph {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 0px;
+}
+
+#sign {
+  padding-bottom: 0px;
+  width: 30%;
+  padding-left: 5%;
+}
+
+#photo-group4 {
+  padding-top: 0;
+}
+
+#talk {
+  padding-top: 0px;
+  height: 600px;
+}
+
+#pitch {
+  padding-top: 20%;
+}
+
+#about-me-section h1 {
+  font-size: 36px;
+}*/
+#talk {
+  height: 580px;
+}
+
+#pitch {
+  padding: 0;
+}
+
+#pitch h1 {
+  font-family: raleway;
+  font-weight: 200;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+#pitch p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#pitch a {
+  font-size: 14px;
+}
+
+
+#contact-form {
+  margin: 0 1% 10% 1%;
+}
+
+#contact-form button {
+  width: 80px;
+  font-size: 12px;
+  padding: 0;
+}
+
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+  #petport-logo-cs {
+    width: 150px;
+    height: 40px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+}
+
+#pet-port-second-cs {
+  flex:.55;
+  z-index: 1;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
+}
+
+#pet-port-description-cs h1 {
+  font-size: 24px;
+}
+
+  #pet-port-description-cs h3 {
+  font-size: 18px;
+}
+
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 9px;
+  padding: 0;
+}
+
+  #pet-port-button-cs {
+  padding-top: 65%;
+} 
+
+#iphone2 {
+  padding-top: 0;
+}
+
+#summary {
+  flex-direction: column-reverse;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: none;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding: 0;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
+}
+
+.para {
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 18px;
+  padding: 10% 10% 0 5%;
+  text-align: left; 
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 18px;
+  list-style: circle;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 18px;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
+  padding: 0 10% 10% 10%;
+}
+
+#persona-text p {
+  font-size: 18px;
+  padding: 0 5% 0 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
+}
+
+#brand-chart {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
+  padding-bottom: 10%;
+}
+
+#coach-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
+}
+
+#sign-up-images {
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
+}
+
+#search-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
+}
+
+#filter-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
+}
+
+#welcome-images {
+  display: block;
+  width: auto;
+  margin-left: 0;
+}
+
+#welcome-iphone {
+  padding: 5% 0 10% 0;
+}
+
+#summary-section {
+  height: auto;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+#pet-port-button {
+  padding: 61% 0 10% 0;
+}
+
+#pet-port-button-vp {
+  padding-bottom: 20%;
+}
+
+#pet-port-button-vp button {
+  width: 200px;
+  font-size: 10px;
+}
+
+/* -------FOOTER SECTION ---------*/
 #footer-section {
     height: 100px;
   }
@@ -7653,30 +7754,27 @@ li {
     padding: 5% 0% 0% 0%;
   }
 */
-#navbar-links {
-  padding-top: 3%;
-}
-
   #navbar-links ul {
     margin: 0;
     padding: 5px;
   }
 
   #navbar-links > ul > li > a {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #navbar-links ul>li {
+    /*padding: 0;*/
     padding: 5px;
   }
 
   #logo {
-    padding: 10px;
+    padding: 5px;
   }
 
   #logo img {
-    width:40px;
-    height: 40px;
+    width:35px;
+    height: 35px;
     padding: 0;
   }
 
@@ -7699,18 +7797,22 @@ li {
   }
 
   #intro-text h1 {
-    font-size: 24px;
-    font-weight: 400;
-    padding-top: 10%;
+    font-family: raleway;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 20%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
-    font-size: 16px;
+    padding-right: 8%;
+    font-size: 18px;
     line-height: 24px;
+  }
 
+  #view-work {
+    font-size: 14px;
   }
 
   #case-studies p {
@@ -7721,39 +7823,31 @@ li {
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 600px;
+    height: 550px;
   }
-
-  #pet-port-hero-image-column {
-    flex:6;
-  }
-
-  #pet-port-second {
-  z-index: 1;
-  }
-
-  #pet-port-second-cs {
-  z-index: 1;
-  }
-
 
   #pet-port-hero-image-column img {
-    height: 350px;
-    /*padding-top: 5%;*/
+    height: 400px;
+    /* padding-top: 5%; */
     float: none;
     padding-right: 0;
     display: block;
     margin: 0 auto;
-    /*padding-bottom: 20%;*/
+    padding-bottom: 20%;
 }
 
-  #iphone1 {
-    padding-top: 20%;
-  }
+#pet-port-second {
+  z-index: 1;
+}
+
+#pet-port-second-cs {
+  z-index: 1;
+}
+
 
   #petport-logo {
-    width: 150px;
-    height: 40px;
+    width: 175px;
+    height: 50px;
 }
 
   #pet-port-description {
@@ -7762,37 +7856,36 @@ li {
 }
 
   #pet-port-description h3 {
-  font-size: 20px;
-}
-
-#pet-port-second {
-  padding-top: 15%;
+  font-size: 18px;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
+  font-size: 10px;
+  padding: 0;
 }
 
 #pet-port-button {
-  padding-top: 60%;
+  padding-top: 55%;
 }
 
 
 #why-me-headline h1 {
-  font-size: 20px;
+  font-family: raleway;
+  font-size: 32px;
   padding-top: 10%;
+  font-weight: 600;
 }
 
 #why-me {
-  height: 180px;
+  /*height: 180px;*/
   padding-bottom: 0;
 }
 
-#why-me-description {
+/*#why-me-description {
   padding-bottom: 10%;
-}
+}*/
 
 #why-me h2 {
   font-size: 12px;
@@ -7800,6 +7893,15 @@ li {
   margin: 0;
   line-height: 25px;
   padding-top: 5%;
+}
+
+
+#why-me p {
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0 5% 0 5%;
+  line-height: 24px;
 }
 
 #skills ul {
@@ -7817,9 +7919,9 @@ li {
   width: 35px
 }
 
-#toolbox {
+/*#toolbox {
   height: 320px;
-}
+}*/
 
 #tools ul {
   margin: 0;
@@ -7827,17 +7929,18 @@ li {
 }
 
 li {
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 #about-me-section {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 #about-headline h1 {
   font-size: 28px;
   margin-left: 7%;
-  
+  border-bottom: none;
 }
 
 #about-me-text {
@@ -7932,7 +8035,7 @@ li {
   font-size: 36px;
 }*/
 #talk {
-  height: 550px;
+  height: 580px;
 }
 
 #pitch {
@@ -7950,13 +8053,16 @@ li {
 #pitch p {
   font-size: 14px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   line-height: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #pitch a {
   font-size: 14px;
 }
+
 
 #contact-form {
   margin: 0 1% 10% 1%;
@@ -7968,29 +8074,28 @@ li {
   padding: 0;
 }
 
+
 /*----------------------Pet Port Case Study (cs) ----------------*/
 
-#petport-cs {
-  margin-top: 75px;
+
+
+  #pet-port-hero-cs {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }
+
+  #pet-port-hero-image-column-cs img {
+    height: 250px;
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
 }
 
-#pet-port-hero-cs {
-  flex-direction: column-reverse;
-  width: 100%;
-  height: 600px;
-}
-
-#pet-port-hero-image-column-cs img {
-  height: 250px;
-  float: none;
-  padding-right: 0;
-  display: block;
-  margin: 0 auto;
-}
-
-#petport-logo-cs {
-  width: 250px;
-  height: 65px;
+  #petport-logo-cs {
+    width: 175px;
+    height: 50px;
 }
 
 #two-cs {
@@ -7998,7 +8103,7 @@ li {
 }
 
 #pet-port-second-cs {
-  flex:.75;
+  flex:.55;
   z-index: 1;
 }
 
@@ -8014,10 +8119,6 @@ li {
   font-size: 18px;
 }
 
-#pet-port-hero-image-column-cs {
-  padding-bottom: 20%;
-}
-
   #pet-port-second-cs button {
   width: 140px;
   height: 25px;
@@ -8025,11 +8126,11 @@ li {
 }
 
   #pet-port-button-cs {
-  padding-top: 55%;
+  padding-top: 60%;
 } 
 
 #iphone2 {
-  padding-top: 3%;
+  padding-top: 0;
 }
 
 #summary {
@@ -8409,6 +8510,10 @@ li {
   font-size: 24px;
 }
 
+#pet-port-button {
+  padding: 57% 0 10% 0;
+}
+
 #pet-port-button-vp {
   padding-bottom: 20%;
 }
@@ -8418,7 +8523,7 @@ li {
   font-size: 10px;
 }
 
-
+/* -------FOOTER SECTION ---------*/
 #footer-section {
     height: 100px;
   }
@@ -8475,6 +8580,7 @@ li {
 }
 }
 
+
 @media (min-width: 551px) and (max-width: 650px){
 
 #nav-section {
@@ -8486,30 +8592,27 @@ li {
     padding: 5% 0% 0% 0%;
   }
 */
-#navbar-links {
-  padding-top: 3%;
-}
-
   #navbar-links ul {
     margin: 0;
     padding: 5px;
   }
 
   #navbar-links > ul > li > a {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #navbar-links ul>li {
+    /*padding: 0;*/
     padding: 5px;
   }
 
   #logo {
-    padding: 10px;
+    padding: 5px;
   }
 
   #logo img {
-    width:40px;
-    height: 40px;
+    width:35px;
+    height: 35px;
     padding: 0;
   }
 
@@ -8521,13 +8624,8 @@ li {
     margin-top: 55px;
   }
 
-  #view-work {
-    font-weight: 200;
-  }
-
   #buffer {
-    height: 60px;
-    margin-top:75px;
+    height: 40px;
   }
 
   #introduce-myself {
@@ -8537,17 +8635,22 @@ li {
   }
 
   #intro-text h1 {
-    font-size: 28px;
-    font-weight: 200;
-    padding-top: 10%;
+    font-family: raleway;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 20%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 37%;
+    padding-right: 8%;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  #view-work {
+    font-size: 14px;
   }
 
   #case-studies p {
@@ -8558,10 +8661,20 @@ li {
   #pet-port-hero {
     flex-direction: column-reverse;
     width: 100%;
-    height: 600px;
+    height: 550px;
   }
 
-  #pet-port-second {
+  #pet-port-hero-image-column img {
+    height: 400px;
+    /* padding-top: 5%; */
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
+
+#pet-port-second {
   z-index: 1;
 }
 
@@ -8570,27 +8683,9 @@ li {
 }
 
 
-  #pet-port-hero-image-column {
-    flex:6;
-  }
-
-  #pet-port-hero-image-column img {
-    height: 350px;
-    /*padding-top: 5%;*/
-    float: none;
-    padding-right: 0;
-    display: block;
-    margin: 0 auto;
-    /*padding-bottom: 20%;*/
-}
-
-  #iphone1 {
-    padding-top: 15%;
-  }
-
   #petport-logo {
-    width: 150px;
-    height: 40px;
+    width: 175px;
+    height: 50px;
 }
 
   #pet-port-description {
@@ -8599,37 +8694,36 @@ li {
 }
 
   #pet-port-description h3 {
-  font-size: 20px;
-}
-
-#pet-port-second {
-  padding-top: 10%;
+  font-size: 18px;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
+  font-size: 10px;
+  padding: 0;
 }
 
 #pet-port-button {
-  padding-top: 57%;
+  padding-top: 55%;
 }
 
 
 #why-me-headline h1 {
-  font-size: 20px;
-  padding-top: 5%;
+  font-family: raleway;
+  font-size: 32px;
+  padding-top: 10%;
+  font-weight: 600;
 }
 
 #why-me {
-  height: 180px;
+  /*height: 180px;*/
   padding-bottom: 0;
 }
 
-#why-me-description {
+/*#why-me-description {
   padding-bottom: 10%;
-}
+}*/
 
 #why-me h2 {
   font-size: 12px;
@@ -8637,6 +8731,15 @@ li {
   margin: 0;
   line-height: 25px;
   padding-top: 5%;
+}
+
+
+#why-me p {
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0 5% 0 5%;
+  line-height: 24px;
 }
 
 #skills ul {
@@ -8654,9 +8757,9 @@ li {
   width: 35px
 }
 
-#toolbox {
+/*#toolbox {
   height: 320px;
-}
+}*/
 
 #tools ul {
   margin: 0;
@@ -8664,16 +8767,18 @@ li {
 }
 
 li {
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 #about-me-section {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 #about-headline h1 {
-  font-size: 32px;
+  font-size: 28px;
   margin-left: 7%;
+  border-bottom: none;
 }
 
 #about-me-text {
@@ -8681,7 +8786,7 @@ li {
 }
 
 #about-me-text p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
@@ -8768,7 +8873,7 @@ li {
   font-size: 36px;
 }*/
 #talk {
-  height: 550px;
+  height: 580px;
 }
 
 #pitch {
@@ -8778,21 +8883,24 @@ li {
 #pitch h1 {
   font-family: raleway;
   font-weight: 200;
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
 }
 
 
 #pitch p {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   line-height: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #pitch a {
-  font-size: 18px;
+  font-size: 14px;
 }
+
 
 #contact-form {
   margin: 0 1% 10% 1%;
@@ -8804,20 +8912,19 @@ li {
   padding: 0;
 }
 
+
 /*----------------------Pet Port Case Study (cs) ----------------*/
 
-#petport-cs {
-  margin-top: 75px;
-}
+
 
   #pet-port-hero-cs {
     flex-direction: column-reverse;
     width: 100%;
-    height: 700px;
+    height: 600px;
   }
 
   #pet-port-hero-image-column-cs img {
-    height: 300px;
+    height: 250px;
     float: none;
     padding-right: 0;
     display: block;
@@ -8825,20 +8932,17 @@ li {
 }
 
   #petport-logo-cs {
-    width: 250px;
-    height: 65px;
+    width: 175px;
+    height: 50px;
 }
 
 #two-cs {
   margin-bottom: 0;
-  padding-left: 0;
-  padding-bottom: 5%;
 }
 
 #pet-port-second-cs {
-  flex:.75;
+  flex:.55;
   z-index: 1;
-  padding-top: 10%;
 }
 
   #pet-port-description-cs {
@@ -8846,15 +8950,11 @@ li {
 }
 
 #pet-port-description-cs h1 {
-  font-size: 36px;
+  font-size: 24px;
 }
 
-#pet-port-description-cs h3 {
+  #pet-port-description-cs h3 {
   font-size: 18px;
-}
-
-#pet-port-hero-image-column-cs {
-  padding-bottom: 10%;
 }
 
   #pet-port-second-cs button {
@@ -8864,7 +8964,7 @@ li {
 }
 
   #pet-port-button-cs {
-  padding-top: 58%;
+  padding-top: 55%;
 } 
 
 #iphone2 {
@@ -9248,6 +9348,10 @@ li {
   font-size: 24px;
 }
 
+#pet-port-button {
+  padding: 51% 0 10% 0;
+}
+
 #pet-port-button-vp {
   padding-bottom: 20%;
 }
@@ -9257,6 +9361,7 @@ li {
   font-size: 10px;
 }
 
+/* -------FOOTER SECTION ---------*/
 #footer-section {
     height: 100px;
   }
@@ -9317,7 +9422,7 @@ li {
 @media (min-width: 651px) and (max-width: 750px){
 
 #nav-section {
-    height: 50px;
+    height: 70px;
   }
 
 /*  #navbar-links {
@@ -9326,7 +9431,7 @@ li {
   }
 */
 #navbar-links {
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
   #navbar-links ul {
@@ -9335,7 +9440,7 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #navbar-links ul>li {
@@ -9343,7 +9448,7 @@ li {
   }
 
   #logo {
-    padding: 10px;
+    padding: 12px;
   }
 
   #logo img {
@@ -9361,6 +9466,7 @@ li {
   }
 
   #view-work {
+    font-size: 14px;
     font-weight: 200;
   }
 
@@ -9376,20 +9482,22 @@ li {
   }
 
   #intro-text h1 {
+    font-family: raleway;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 600;
     padding-top: 10%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 0%;
+    padding-right: 20%;
     font-size: 20px;
     line-height: 24px;
   }
 
   #case-studies p {
+    font-family: raleway;
     font-size: 20px;
     padding-top: 10%;
 }
@@ -9435,13 +9543,14 @@ li {
 }
 
 #pet-port-second {
-  padding-top: 15%;
+  padding-top: 11%;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
+  font-size: 10px;
+  padding: 0;
 }
 
 #pet-port-button {
@@ -9451,6 +9560,7 @@ li {
 
 #why-me-headline h1 {
   font-size: 36px;
+  font-weight: 600;
   padding-top: 5%;
 }
 
@@ -9471,6 +9581,14 @@ li {
   padding-top: 5%;
 }
 
+#why-me p {
+  font-family: raleway;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 10% 0 10%;
+    line-height: 24px;
+}
+
 #skills ul {
   margin: 0;
   padding: 0;
@@ -9487,7 +9605,8 @@ li {
 }
 
 #toolbox {
-  height: 380px;
+  height: auto;
+  padding-top: 20%;
 }
 
 #tools ul {
@@ -9496,7 +9615,7 @@ li {
 }
 
 li {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 #about-me-section {
@@ -9982,6 +10101,7 @@ li {
 }
 
 #culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-family: raleway;
   font-size: 20px;
 }
 
@@ -10104,7 +10224,7 @@ li {
 
 
 #footer-section {
-    height: 100px;
+    height: auto;
   }
 
   #footer-nav {
@@ -10161,8 +10281,9 @@ li {
 
 @media (min-width: 751px) and (max-width: 800px){
 
+
 #nav-section {
-    height: 50px;
+    height: 70px;
   }
 
 /*  #navbar-links {
@@ -10171,7 +10292,7 @@ li {
   }
 */
 #navbar-links {
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
   #navbar-links ul {
@@ -10188,7 +10309,7 @@ li {
   }
 
   #logo {
-    padding: 10px;
+    padding: 12px;
   }
 
   #logo img {
@@ -10206,6 +10327,7 @@ li {
   }
 
   #view-work {
+    font-size: 14px;
     font-weight: 200;
   }
 
@@ -10221,20 +10343,22 @@ li {
   }
 
   #intro-text h1 {
+    font-family: raleway;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 600;
     padding-top: 10%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 0%;
+    padding-right: 20%;
     font-size: 20px;
     line-height: 24px;
   }
 
   #case-studies p {
+    font-family: raleway;
     font-size: 20px;
     padding-top: 10%;
 }
@@ -10259,15 +10383,6 @@ li {
     /*padding-bottom: 20%;*/
 }
 
-#pet-port-second {
-  z-index: 1;
-}
-
-#pet-port-second-cs {
-  z-index: 1;
-}
-
-
   #iphone1 {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -10289,13 +10404,14 @@ li {
 }
 
 #pet-port-second {
-  padding-top: 10%;
+  padding-top: 11%;
 }
 
 #pet-port-second button {
   width: 139px;
   height: 25px;
-  font-size: 7px;
+  font-size: 10px;
+  padding: 0;
 }
 
 #pet-port-button {
@@ -10305,6 +10421,7 @@ li {
 
 #why-me-headline h1 {
   font-size: 36px;
+  font-weight: 600;
   padding-top: 5%;
 }
 
@@ -10325,6 +10442,14 @@ li {
   padding-top: 5%;
 }
 
+#why-me p {
+  font-family: raleway;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 10% 0 10%;
+    line-height: 24px;
+}
+
 #skills ul {
   margin: 0;
   padding: 0;
@@ -10341,7 +10466,8 @@ li {
 }
 
 #toolbox {
-  height: 380px;
+  height: auto;
+  padding-top: 20%;
 }
 
 #tools ul {
@@ -10350,7 +10476,7 @@ li {
 }
 
 li {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 #about-me-section {
@@ -10491,107 +10617,475 @@ li {
 }
 
 
-/*---------------------PET PORT CS -------------*/
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+
 
 #petport-cs {
   margin-top: 75px;
 }
 
 #pet-port-hero-cs {
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  height: auto;
+  padding-bottom: 4%;
 }
 
-#pet-port-hero-image-column-cs {
-  padding: 0 0 0 0;
+#pet-port-image-column-cs {
+  padding-left: 5%;
+}
+
+#pet-port-hero-image-column-cs img {
+  height: 300px;
+  float: none;
+  padding-right: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+#petport-logo-cs {
+  width: 250px;
+  height: 65px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 5%;
+}
+
+#pet-port-second-cs {
+  flex: 2;
+  z-index: 1;
+  padding-top: 10%;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
 }
 
 #pet-port-description-cs h1 {
   font-size: 36px;
-  margin-top: 3%;
-  margin-bottom: 3%;
 }
 
-#two-cs {
-  margin: 0;
+#pet-port-description-cs h3 {
+  font-size: 18px;
 }
 
-#pet-port-button-cs {
-  padding-top: 10%;
-}
-
-#pet-port-second-cs {
-  padding-top: 10%;
+#pet-port-hero-image-column-cs {
+  padding: 5% 0 3% 0;
 }
 
 #pet-port-hero-image-column-cs img {
-  float: none;
+  height: 350px;
 }
 
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+#pet-port-button-cs {
+  padding-top: 0%;
+} 
+
 #iphone2 {
-  padding-top: 10%;
+  padding-top: 0;
 }
 
 #summary {
-  width: 90%;
-  margin: 10% 10% 10% 0;
+  width: 100%;
+  margin: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: 1px solid #333333;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-right: 1px solid #333333;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#deliverables ul {
+  margin: 0;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
 }
 
 .para {
-  width: 70%;
+  width: 60%;
+  font-size: 20px;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 20px;
+  /*padding: 0 5% 0 5%;*/
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 20px;
+  text-align: left; 
+  padding-top: 4%;
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 20px;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 20px;
+  list-style: disc;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 24px;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 24px;
+  padding-bottom: 0;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
 }
 
 #persona-text p {
-  padding-bottom: 8%;
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 20px;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
 }
 
 #brand-chart {
   width: 100%;
-  padding: 5% 5% 10% 5%;
+  margin: 0;
 }
 
-#style-scape {
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-family: raleway;
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
   padding-bottom: 10%;
 }
 
 #coach-images {
-  width: 100%;
+  display: block;
+  width: auto;
   margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
 }
 
 #sign-up-images {
-  width: 100%;
-  margin-left: 0;
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
 }
 
 #search-images {
-  width: 100%;
+  display: block;
+  width: auto;
   margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
 }
 
 #filter-images {
-  width: 100%;
+  display: block;
+  width: auto;
   margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
 }
 
 #welcome-images {
-  width: 100%;
+  display: block;
+  width: auto;
   margin-left: 0;
 }
 
-#pet-port-button-cs {
-  padding-top: 10%;
+#welcome-iphone {
+  padding: 5% 0 10% 0;
 }
- #brand-chart {
-  margin-left: 0;
- }
 
-.prev {
-  right: 95%;
+#summary-section {
+  height: auto;
+  padding-bottom: 10%;
 }
+
+#summary-list {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+
+
 
 #footer-section {
-    height: 100px;
+    height: auto;
   }
 
   #footer-nav {
@@ -10649,8 +11143,9 @@ li {
 
 @media (min-width: 801px) and (max-width: 1000px){
 
+
 #nav-section {
-    height: 50px;
+    height: 70px;
   }
 
 /*  #navbar-links {
@@ -10676,7 +11171,7 @@ li {
   }
 
   #logo {
-    padding: 10px;
+    padding: 12px;
   }
 
   #logo img {
@@ -10694,6 +11189,7 @@ li {
   }
 
   #view-work {
+    font-size: 14px;
     font-weight: 200;
   }
 
@@ -10705,39 +11201,91 @@ li {
   #introduce-myself {
     margin-top: 75px;
     height: 350px;
-    
     background-image: none;
   }
 
   #intro-text h1 {
-    font-size: 36px;
-    font-weight: 200;
+    font-family: raleway;
+    font-size: 42px;
+    font-weight: 600;
     padding-top: 10%;
     padding-left: 5%;
   }
 
   #intro-text p {
     padding-left: 5%;
-    padding-right: 0%;
-    font-size: 20px;
-    line-height: 24px;
+    padding-right: 20%;
+    font-size: 22px;
+    line-height: 30px;
   }
 
   #case-studies p {
+    font-family: raleway;
     font-size: 20px;
     padding-top: 10%;
 }
 
-#pet-port-second {
-  z-index: 1;
+  /*#pet-port-hero {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 600px;
+  }*/
+
+  #pet-port-hero-image-column {
+    flex:6;
+    padding-left: 10%;
+  }
+
+  #pet-port-hero-image-column img {
+    height: 350px;
+    /*padding-top: 5%;*/
+    float: none;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    /*padding-bottom: 20%;*/
 }
 
-#pet-port-second-cs {
-  z-index: 1;
+  #iphone1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #petport-logo {
+    width: 175px;
+    height: 50px;
 }
+
+  #pet-port-description {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+  #pet-port-description h3 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#pet-port-second {
+  padding-top: 11%;
+  padding-right: 10%;
+}
+
+#pet-port-second button {
+  width: 139px;
+  height: 25px;
+  font-size: 10px;
+  padding: 0;
+}
+
+#pet-port-button {
+  padding-top: 20%;
+}
+
 
 #why-me-headline h1 {
   font-size: 36px;
+  font-weight: 600;
   padding-top: 5%;
 }
 
@@ -10758,6 +11306,14 @@ li {
   padding-top: 5%;
 }
 
+#why-me p {
+  font-family: raleway;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 10% 0 10%;
+    line-height: 24px;
+}
+
 #skills ul {
   margin: 0;
   padding: 0;
@@ -10774,7 +11330,8 @@ li {
 }
 
 #toolbox {
-  height: 380px;
+  height: auto;
+  padding-top: 20%;
 }
 
 #tools ul {
@@ -10783,7 +11340,7 @@ li {
 }
 
 li {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 #about-me-section {
@@ -10792,12 +11349,11 @@ li {
 
 #about-headline h1 {
   font-size: 32px;
-  margin-left: 5%;
-  width: 90%;
+  margin-left: 7%;
 }
 
 #about-me-text {
-  margin: 0 5% 0 5%;
+  margin: 0 7% 0 7%;
 }
 
 #about-me-text p {
@@ -10924,108 +11480,476 @@ li {
   padding: 0;
 }
 
-.prev {
-  right: 96%;
-}
 
-/*---------------------PET PORT CS -------------*/
+
+/*----------------------Pet Port Case Study (cs) ----------------*/
+
+
 
 #petport-cs {
-  margin-top: 75px;
+  margin-top: 100px;
 }
 
 #pet-port-hero-cs {
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  height: auto;
+  padding-bottom: 4%;
 }
 
-#pet-port-hero-image-column-cs {
-  padding: 0 0 0 0;
+#pet-port-image-column-cs {
+  padding-left: 5%;
+}
+
+#pet-port-hero-image-column-cs img {
+  height: 300px;
+  float: none;
+  padding-right: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+#petport-logo-cs {
+  width: 250px;
+  height: 65px;
+}
+
+#two-cs {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 5%;
+}
+
+#pet-port-second-cs {
+  flex: 2;
+  z-index: 1;
+  padding-top: 10%;
+}
+
+  #pet-port-description-cs {
+    padding: 0 3% 0 3%;
 }
 
 #pet-port-description-cs h1 {
   font-size: 36px;
-  margin-top: 3%;
-  margin-bottom: 3%;
 }
 
-#two-cs {
-  margin: 0;
+#pet-port-description-cs h3 {
+  font-size: 18px;
 }
 
-#pet-port-button-cs {
-  padding-top: 10%;
-}
-
-#pet-port-second-cs {
-  padding-top: 10%;
+#pet-port-hero-image-column-cs {
+  padding: 5% 0 3% 0;
 }
 
 #pet-port-hero-image-column-cs img {
-  float: none;
+  height: 350px;
 }
 
+  #pet-port-second-cs button {
+  width: 140px;
+  height: 25px;
+  font-size: 7px;
+}
+
+#pet-port-button-cs {
+  padding-top: 0%;
+} 
+
 #iphone2 {
-  padding-top: 10%;
+  padding-top: 0;
 }
 
 #summary {
-  width: 90%;
-  margin: 10% 10% 10% 0;
+  width: 100%;
+  margin: 0;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#deliverables ul {
+  padding: 0;
+  margin-top: 5%;
+}
+
+#box {
+  height: 69px;
+  width: 40px;
+}
+
+#deliverables h3 {
+  font-size: 24px;
+}
+
+
+#deliverables li {
+  font-size: 18px;
+}
+
+#my-role {
+  border-right: 1px solid #333333;
+}
+
+#tools-used {
+  border-right: none;
+}
+
+#my-role ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+#girl {
+  height: 69px;
+  width: 40px;
+}
+
+#my-role h3 {
+  font-size: 24px;
+}
+
+#my-role li {
+  font-size: 18px;
+}
+
+#tools-used ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-right: 1px solid #333333;
+}
+
+#more-wrenches {
+  height: 69px;
+  width: 40px;
+}
+
+#tools-used li {
+  font-size: 18px;
+}
+
+#tools-used h3 {
+  font-size: 24px;
+}
+
+#deliverables ul {
+  margin: 0;
+}
+
+#bow {
+  height: 69px;
+  width: 40px;
 }
 
 .para {
-  width: 70%;
+  width: 60%;
+  font-size: 20px;
+}
+
+#challenge h4 {
+  font-size: 20px;
+}
+
+#challenge h3 {
+  font-size: 20px;
+}
+
+#challenge p {
+  font-size: 20px;
+  /*padding: 0 5% 0 5%;*/
+  text-align: left; 
+}
+
+#solution {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#solution h4 {
+  font-size: 20px;
+}
+
+#solution h3 {
+  font-size: 20px;
+  padding: 0 5% 0 5%;
+}
+
+#solution p {
+  font-size: 20px;
+  text-align: left; 
+  padding-top: 4%;
+}
+
+#research-section {
+  height: auto;
+}
+
+#know-users {
+  padding-top: 10%;
+}
+
+#magnifying-glass {
+  height: 79px;
+  width: 40px;
+}
+
+#know-users h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 5% 0 5% 0;
+}
+
+#know-users h3 {
+  font-size: 20px;
+}
+
+#research-text p {
+  font-size: 20px;
+  text-align: left; 
+}
+
+#questions-asked p {
+  font-size: 18px;
+  padding: 0 10% 0 5%;
+  text-align: left; 
+}
+
+#research-list li {
+  font-size: 20px;
+  list-style: disc;
+  color:#56bde8;
+  font-family: raleway;
+  font-weight: 400;
+  padding-right: 5%;
+}
+
+
+#statistics li {
+  font-size: 24px;
+}
+
+#bottom-line {
+  height: auto:;
+}
+
+#bottom-line p {
+  width: 80%;
+}
+
+#moneybag {
+  height: 79px;
+  width: 40px;
+}
+
+#bottom-line-text {
+  padding-bottom: 10%;
+}
+
+#bottom-line-text p {
+  font-size: 24px;
+  padding-bottom: 0;
+}
+
+#icon {
+  height: 79px;
+  width: 60px;
+}
+
+#persona-text h4 {
+  font-size: 20px;
+}
+
+#persona-text h3 {
+  font-size: 24px;
 }
 
 #persona-text p {
-  padding-bottom: 8%;
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+
+#brand-paintbrush {
+  height: 79px;
+  width: 50px;
+}
+
+#brand-text h4 {
+  font-size: 20px;
+}
+
+#brand-text h3 {
+  font-size: 24px;
+  fot-weight: 600;
+}
+
+#brand-text p {
+  font-size: 20px;
+}
+
+#brand {
+  text-decoration: underline;
+}
+
+#comp-analysis-section h4 {
+  font-size: 20px;
+}
+
+#comp-analysis h3 {
+  font-family: raleway;
+  font-size: 24px;
+}
+
+#swot-image {
+  padding-bottom: 5%;
+}
+
+.prev, .next {
+  padding: 0;
+}
+
+.para-c {
+  width: auto;
+  padding-left: 5%;
 }
 
 #brand-chart {
   width: 100%;
-  padding: 5% 5% 10% 5%;
+  margin: 0;
 }
 
-#style-scape {
+#culture-group, #consumer-group, #voice-group, #benefit-group {
+  border-right: none;
+}
+
+#culture-group ul {
+  padding-left: 0;
+}
+
+#culture-group li, #consumer-group li, #voice-group li, #benefit-group li {
+  font-family: raleway;
+  font-size: 20px;
+}
+
+#psychology-section p {
+  font-size: 18px;
+}
+
+#style-guide {
+  padding-top: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+#scape {
+  padding-bottom: 10%;
+}
+
+#logo-sketch {
+  padding-bottom: 10%;
+  width: 75%
+}
+
+#user-flow h3 {
+  font-size: 24px;
+}
+
+#user-flow h1 {
+  font-size: 36px;
+}
+
+#flow-image {
+  width: 90%;
+  height: auto;
+}
+
+
+#wireframes h4 {
+  font-size: 20px;
+}
+
+#wireframes h3 {
+  font-size: 24px;
+}
+
+#wireframe-sketch {
+  width: 75%;
   padding-bottom: 10%;
 }
 
 #coach-images {
-  width: 100%;
+  display: block;
+  width: auto;
   margin-left: 0;
+}
+
+#coach-cat {
+  padding: 5% 0 5% 0;
 }
 
 #sign-up-images {
-  width: 100%;
-  margin-left: 0;
+  display: block;
+  width: auto;
+  margin-left:0;
+}
+
+#sign-up2 {
+  padding: 5% 0 5% 0;
 }
 
 #search-images {
-  width: 100%;
+  display: block;
+  width: auto;
   margin-left: 0;
+}
+
+#er-search {
+  padding-bottom: 5%;
 }
 
 #filter-images {
-  width: 100%;
+  display: block;
+  width: auto;
   margin-left: 0;
+}
+
+#filter-iphone {
+  padding-top: 5%;
 }
 
 #welcome-images {
-  width: 100%;
+  display: block;
+  width: auto;
   margin-left: 0;
 }
 
-#pet-port-button-cs {
-  padding-top: 10%;
+#welcome-iphone {
+  padding: 5% 0 10% 0;
 }
- #brand-chart {
-  margin-left: 0;
- }
+
+#summary-section {
+  height: auto;
+  padding-bottom: 10%;
+}
+
+#summary-list {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#lessons-learned h1 {
+  font-size: 36px;
+}
+
+#lessons-learned h3 {
+  font-size: 24px;
+}
+
+
 
 
 #footer-section {
-    height: 100px;
+    height: auto;
   }
 
   #footer-nav {
@@ -11080,17 +12004,10 @@ li {
 }
 }
 
+
 @media (min-width: 1001px) and (max-width: 1200px) {
 
-  #nav-section {
-    height: 75px;
-  }
 
-/*  #navbar-links {
-    flex:4;
-    padding: 5% 0% 0% 0%;
-  }
-*/
 #navbar-links {
   padding-top: 3%;
 }
@@ -11101,18 +12018,9 @@ li {
   }
 
   #navbar-links > ul > li > a {
-    font-size: 18px;
+    font-size: 22px;
   }
 
-  #navbar-links ul>li {
-    padding: 5px;
-  }
-
-  #logo img {
-    width:45px;
-    height: 45px;
-    padding: 0;
-  }
 
   #pet-port-hero-image-column-cs {
     padding: 4% 0 0 0;
@@ -11127,8 +12035,33 @@ li {
     width: 85%;
   }
 
-#talk {
+  #intro-text p {
+    padding-right: 14%;
+  }
+
+  #view-work {
+    font-size: 20px;
+  }
+
+  #why-me p {
+    font-family: raleway;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 5% 5% 0 5%;
+    line-height: 1.8em;
+    letter-spacing: 0.59;
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #talk {
   height: auto;
+}
+
+#pet-port-second {
+  padding-top: 8%;
 }
 
   #contact-form {
@@ -11138,9 +12071,36 @@ li {
 .prev {
   right: 96%;
 }
-  
 }
 
+
+@media (min-width: 1201px){
+
+  #view-work {
+    font-size: 24px;
+  }
+
+  #intro-text p {
+    padding-right: 30%;
+  }
+
+#why-me p {
+    font-family: raleway;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 5% 5% 0 5%;
+    line-height: 1.8em;
+    letter-spacing: 0.59;
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+
+
+}
 
 
 

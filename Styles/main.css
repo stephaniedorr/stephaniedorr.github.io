@@ -348,7 +348,7 @@ button:hover  {
   text-transform: uppercase;
 }
 
-/* -----END PET PORT HERO SECTION (MAIN OA)-----*/
+/* -----END PET PORT HERO SECTION (MAIN PAGE)-----*/
 
 
 /* -----PET PORT HERO SECTION (Case Study)-----*/
@@ -505,7 +505,6 @@ button:hover  {
 
 
 
-
 #why-me {
   display: flex;
   flex-direction: column;
@@ -516,7 +515,7 @@ button:hover  {
 
 #why-me-headline {
   flex: 1;
-  margin-top: 15%;
+  /*margin-top: 15%;*/
 }
 
 #why-me-description {
